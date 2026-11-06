@@ -25,7 +25,8 @@
 
   <!-- What it picks from: the catalogs and PotP's icons, shipped beside the exe as its own files -->
   <ItemGroup>
-    <None Include="..\..\catalog\*.json" Link="catalog\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\catalog\*.json" Link="catalog\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="Always" ExcludeFromSingleFile="true" />
   </ItemGroup>
 
 </Project>

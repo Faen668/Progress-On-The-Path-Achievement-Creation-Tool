@@ -10,6 +10,12 @@ PotP's banner at the top of the screen, and give their rewards.
 
 ![The main window: the pack's achievements, the one being edited, and a preview of it in the overlay](docs/screenshots/main.png)
 
+## Download
+
+Get the latest from the [Releases page](https://github.com/Faen668/Progress-On-The-Path-Achievement-Creation-Tool/releases):
+unzip it anywhere and run `PotPAchievementTool.exe`. It needs Windows 10 or 11 (64-bit), and nothing else to install.
+Keep the `catalog` folder beside the exe: it's what the tool picks from.
+
 ## What it does
 
 - **Every condition picked from a list.** Quests by their title, Progress on the Path's entries and sections, facts
@@ -82,7 +88,13 @@ dotnet build src/AchievementCreationTool/AchievementCreationTool.csproj -c Relea
 ```
 
 The exe is `src/AchievementCreationTool/bin/Release/net9.0-windows/PotPAchievementTool.exe`, with the catalog beside
-it in `catalog\`. To run, it needs the .NET 9 Desktop Runtime.
+it in `catalog\`. To run, that build needs the .NET 9 Desktop Runtime.
+
+A release is published self-contained, as one exe that needs no runtime installed:
+
+```
+dotnet publish src/AchievementCreationTool/AchievementCreationTool.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -p:EnableCompressionInSingleFile=true -p:DebugType=none -o publish/PotPAchievementTool
+```
 
 Two switches for testing:
 
