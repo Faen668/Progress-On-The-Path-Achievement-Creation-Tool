@@ -13,8 +13,8 @@ PotP's banner at the top of the screen, and give their rewards.
 ## Download
 
 Get the latest from the [Releases page](https://github.com/Faen668/Progress-On-The-Path-Achievement-Creation-Tool/releases):
-unzip it anywhere and run `PotPAchievementTool.exe`. It needs Windows 10 or 11 (64-bit), and nothing else to install.
-Keep the `catalog` folder beside the exe: it's what the tool picks from.
+unzip it anywhere and run `PotPAchievementTool.exe`. It's one file, with everything it needs inside it. It needs
+Windows 10 or 11 (64-bit), and nothing else to install.
 
 ## What it does
 
@@ -87,8 +87,8 @@ Windows, with the [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
 dotnet build src/AchievementCreationTool/AchievementCreationTool.csproj -c Release
 ```
 
-The exe is `src/AchievementCreationTool/bin/Release/net9.0-windows/PotPAchievementTool.exe`, with the catalog beside
-it in `catalog\`. To run, that build needs the .NET 9 Desktop Runtime.
+The exe is `src/AchievementCreationTool/bin/Release/net9.0-windows/PotPAchievementTool.exe`, with the catalog built
+into it. To run, that build needs the .NET 9 Desktop Runtime.
 
 A release is published self-contained, as one exe that needs no runtime installed:
 
@@ -103,7 +103,8 @@ Two switches for testing:
 
 ## The catalog
 
-`catalog\` holds everything the tool picks from, so it runs on its own, without the game's files or REDkit:
+`catalog\` holds everything the tool picks from. It's built into the exe, so the tool runs on its own, without the
+game's files or REDkit, and nothing beside it can go missing or be changed by accident:
 
 | File | What's in it |
 |---|---|
@@ -117,7 +118,8 @@ Two switches for testing:
 | `icons.json` | Progress on the Path's achievement icons |
 
 They're made from REDkit's copy of the game's files by Progress on the Path's
-`overlay/tools/gen_achievement_catalog.py`, with W3 Mod Workbench decoding the quest and journal files.
+`overlay/tools/gen_achievement_catalog.py`, with W3 Mod Workbench decoding the quest and journal files. To update the
+catalog, run that again with `--out` at this repository's `catalog` folder, and build the tool.
 
 ## Credits
 

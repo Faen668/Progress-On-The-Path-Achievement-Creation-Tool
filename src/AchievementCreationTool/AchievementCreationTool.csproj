@@ -19,14 +19,14 @@
     <Authors>Faen90</Authors>
     <Company>Faen90</Company>
     <Copyright>Copyright © 2026 Faen90</Copyright>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
-  <!-- What it picks from: the catalogs and PotP's icons, shipped beside the exe as its own files -->
+  <!-- What it picks from: the catalog and PotP's icons, baked into the exe (catalog/<file>.json), so the tool is one file.
+       A published exe compresses them with the rest. -->
   <ItemGroup>
-    <None Include="..\..\catalog\*.json" Link="catalog\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest"
-          CopyToPublishDirectory="Always" ExcludeFromSingleFile="true" />
+    <EmbeddedResource Include="..\..\catalog\*.json" LogicalName="catalog/%(Filename)%(Extension)" />
   </ItemGroup>
 
 </Project>

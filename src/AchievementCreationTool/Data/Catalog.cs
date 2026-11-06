@@ -6,7 +6,7 @@ using System.Windows.Media;
 namespace AchievementCreationTool.Data;
 
 // What the catalog files hold: made from the game's files by Progress on the Path's
-// overlay/tools/gen_achievement_catalog.py, and shipped beside the exe in catalog\.
+// overlay/tools/gen_achievement_catalog.py, and baked into the exe as resources named catalog/<file>.json.
 
 public sealed record QuestInfo(string Journal, string Title, string Type, int World, string Guid, string Dlc, string File);
 public sealed record FactInfo(string Name, [property: JsonPropertyName("set_in")] string[] SetIn, [property: JsonPropertyName("checked_in")] string[] CheckedIn);
@@ -31,7 +31,6 @@ public sealed class Catalog
     public PotpLists Potp { get; private set; } = new([], []);
     public VanillaAchievement[] Achievements { get; private set; } = [];
     public IconInfo[] Icons { get; private set; } = [];
-    public string Folder { get; private set; } = "";
     public string? Problem { get; private set; }
 
     Dictionary<string, QuestInfo> questByJournal = new();
@@ -45,22 +44,22 @@ public sealed class Catalog
 
     static readonly JsonSerializerOptions Options = new() { PropertyNameCaseInsensitive = true };
 
-    public static void Load(string folder)
+    public static void Load()
     {
-        var c = new Catalog { Folder = folder };
+        var c = new Catalog();
         try
         {
-            c.Quests = Read<QuestInfo[]>(folder, "quests");
-            c.Facts = Read<FactInfo[]>(folder, "facts");
-            c.Items = Read<ItemInfo[]>(folder, "items");
-            c.Kills = Read<KillInfo[]>(folder, "kills");
-            c.Potp = Read<PotpLists>(folder, "potp");
-            c.Achievements = Read<VanillaAchievement[]>(folder, "achievements");
-            c.Icons = Read<IconInfo[]>(folder, "icons");
+            c.Quests = Read<QuestInfo[]>("quests");
+            c.Facts = Read<FactInfo[]>("facts");
+            c.Items = Read<ItemInfo[]>("items");
+            c.Kills = Read<KillInfo[]>("kills");
+            c.Potp = Read<PotpLists>("potp");
+            c.Achievements = Read<VanillaAchievement[]>("achievements");
+            c.Icons = Read<IconInfo[]>("icons");
         }
         catch (Exception e)
         {
-            c.Problem = $"The catalog in {folder} couldn't be read: {e.Message}";
+            c.Problem = $"The catalog built into the tool couldn't be read: {e.Message}";
         }
         c.questByJournal = c.Quests.GroupBy(q => q.Journal).ToDictionary(g => g.Key, g => g.First());
         c.factByName = c.Facts.GroupBy(f => f.Name).ToDictionary(g => g.Key, g => g.First());
@@ -82,9 +81,11 @@ public sealed class Catalog
         Current = c;
     }
 
-    static T Read<T>(string folder, string name)
+    // From the exe itself: the catalog is baked in, so nothing can go missing or be changed beside it
+    static T Read<T>(string name)
     {
-        using var stream = File.OpenRead(Path.Combine(folder, name + ".json"));
+        using var stream = typeof(Catalog).Assembly.GetManifestResourceStream("catalog/" + name + ".json")
+            ?? throw new FileNotFoundException(name + ".json isn't in the tool");
         return JsonSerializer.Deserialize<T>(stream, Options) ?? throw new InvalidDataException(name + ".json is empty");
     }
 
@@ -109,10 +110,9 @@ public sealed class Catalog
 
     public static Task<BlockFile[]> QuestBlocks()
     {
-        var folder = Current.Folder;
         return blocks ??= Task.Run(() =>
         {
-            var files = Read<BlockFile[]>(folder, "quest_blocks");
+            var files = Read<BlockFile[]>("quest_blocks");
             var index = new Dictionary<string, (BlockFile, BlockInfo)>(StringComparer.OrdinalIgnoreCase);
             foreach (var f in files)
                 foreach (var b in f.Blocks)

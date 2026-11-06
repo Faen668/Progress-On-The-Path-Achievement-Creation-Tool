@@ -14,7 +14,7 @@ public partial class App : Application
     protected override void OnStartup(StartupEventArgs e)
     {
         base.OnStartup(e);
-        Catalog.Load(Path.Combine(AppContext.BaseDirectory, "catalog"));
+        Catalog.Load();
 
         // Every window, the main one and each dialog, fits on the screen it opens on
         EventManager.RegisterClassHandler(typeof(Window), FrameworkElement.LoadedEvent, new RoutedEventHandler((sender, _) =>
@@ -59,7 +59,7 @@ public partial class App : Application
         else if (AppSettings.Current.LastPack is { } last && File.Exists(last))
             main.OpenFile(last);
         if (Catalog.Current.Problem is { } problem)
-            MessageBox.Show(main, problem + "\n\nThe pickers will be empty. Reinstall the tool to put the catalog back.", "Achievement Creation Tool", MessageBoxButton.OK, MessageBoxImage.Warning);
+            MessageBox.Show(main, problem + "\n\nThe pickers will be empty. Download the tool again to put it right.", "Achievement Creation Tool", MessageBoxButton.OK, MessageBoxImage.Warning);
     }
 
     // ------------------------------------------------------------------ pictures of every window
