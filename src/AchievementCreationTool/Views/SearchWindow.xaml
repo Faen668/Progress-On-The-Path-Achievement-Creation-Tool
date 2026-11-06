@@ -1,0 +1,27 @@
+<Window x:Class="AchievementCreationTool.Views.SearchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:AchievementCreationTool.Controls"
+        Title="{Binding Heading}" Width="720" Height="620" WindowStartupLocation="CenterOwner"
+        Background="{StaticResource Panel}" Foreground="{StaticResource Ink}" ShowInTaskbar="False">
+    <DockPanel Margin="20">
+        <TextBlock DockPanel.Dock="Top" Text="{Binding Heading}" FontSize="17" FontWeight="SemiBold" Margin="0,0,0,12" />
+        <TextBox DockPanel.Dock="Top" x:Name="Search" Text="{Binding Query, UpdateSourceTrigger=PropertyChanged}" c:Placeholder.Text="{Binding Hint}" />
+        <TextBlock DockPanel.Dock="Top" Text="{Binding CountLine}" Style="{StaticResource Hint}" Margin="0,6,0,8" />
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="Cancel" IsCancel="True" Margin="0,0,8,0" MinWidth="90" />
+            <Button Content="Choose" IsDefault="True" Style="{StaticResource Primary}" MinWidth="90" Click="OnChoose" />
+        </StackPanel>
+        <ListBox x:Name="Results" ItemsSource="{Binding Rows}" MouseDoubleClick="OnChoose" VirtualizingPanel.IsVirtualizing="True"
+                 ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="0,3">
+                        <TextBlock Text="{Binding Title}" FontWeight="SemiBold" />
+                        <TextBlock Text="{Binding Sub}" FontSize="12" Foreground="{StaticResource Muted}" TextTrimming="CharacterEllipsis" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </DockPanel>
+</Window>

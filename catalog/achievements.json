@@ -1,0 +1,626 @@
+[
+ {
+  "name": "EA_FoundYennefer",
+  "store": "LILAC",
+  "group": "base",
+  "hidden": true,
+  "title": "Lilac and Gooseberries",
+  "description": "Find Yennefer of Vengerberg."
+ },
+ {
+  "name": "EA_FreedDandelion",
+  "store": "FRIEND_IN_NEED",
+  "group": "base",
+  "hidden": true,
+  "title": "A Friend in Need",
+  "description": "Find and free Dandelion."
+ },
+ {
+  "name": "EA_YenGetInfoAboutCiri",
+  "store": "NECROMANCER",
+  "group": "base",
+  "hidden": true,
+  "title": "Necromancer",
+  "description": "Help Yennefer extract information from Skjall's body."
+ },
+ {
+  "name": "EA_FindBaronsFamily",
+  "store": "FAMILY_COUNSELOR",
+  "group": "base",
+  "hidden": true,
+  "title": "Family Counselor",
+  "description": "Find the baron's wife and daughter."
+ },
+ {
+  "name": "EA_FindCiri",
+  "store": "SOMETHING_MORE",
+  "group": "base",
+  "hidden": true,
+  "title": "Something More",
+  "description": "Find Ciri."
+ },
+ {
+  "name": "EA_ConvinceGeelsToBetrayEredin",
+  "store": "XENONAUT",
+  "group": "base",
+  "hidden": true,
+  "title": "Xenonaut",
+  "description": "Visit Tir ná Lia and convince Ge'els to betray Eredin."
+ },
+ {
+  "name": "EA_DefeatEredin",
+  "store": "THE_KING",
+  "group": "base",
+  "hidden": true,
+  "title": "The King is Dead",
+  "description": "Defeat Eredin."
+ },
+ {
+  "name": "EA_FinishTheGameEasy",
+  "store": "PASSED_THE_TRIAL",
+  "group": "base",
+  "hidden": false,
+  "title": "Passed the Trial",
+  "description": "Finish the game on any difficulty."
+ },
+ {
+  "name": "EA_FinishTheGameNormal",
+  "store": "RAN_THE_GAUNTLET",
+  "group": "base",
+  "hidden": false,
+  "title": "Ran the Gauntlet",
+  "description": "Finish the game on the \"Blood and Broken Bones!\" or \"Death March!\" difficulty levels."
+ },
+ {
+  "name": "EA_FinishTheGameHard",
+  "store": "WALKED_THE_PATH",
+  "group": "base",
+  "hidden": false,
+  "title": "Walked the Path",
+  "description": "Finish the game on the \"Death March!\" difficulty level."
+ },
+ {
+  "name": "EA_CompleteWitcherContracts",
+  "store": "THE_PROFESSIONAL",
+  "group": "base",
+  "hidden": true,
+  "title": "Geralt: The Professional",
+  "description": "Complete all witcher contracts."
+ },
+ {
+  "name": "EA_CompleteSkelligeRaceForCrown",
+  "store": "MAKER",
+  "group": "base",
+  "hidden": true,
+  "title": "Kingmaker",
+  "description": "Complete the subplot about choosing Skellige's ruler."
+ },
+ {
+  "name": "EA_CompleteWar",
+  "store": "ASSASSIN",
+  "group": "base",
+  "hidden": true,
+  "title": "Assassin of Kings",
+  "description": "Take part in the assassination of King Radovid."
+ },
+ {
+  "name": "EA_CompleteKeiraMetz",
+  "store": "FRIENDS_WITH_BENEFITS",
+  "group": "base",
+  "hidden": true,
+  "title": "Friends With Benefits",
+  "description": "Complete the subplot involving Keira Metz."
+ },
+ {
+  "name": "EA_GetAllForKaerMorhenBattle",
+  "store": "FULL_CREW",
+  "group": "base",
+  "hidden": true,
+  "title": "Full Crew",
+  "description": "Bring all possible allies to Kaer Morhen for the battle against the Hunt."
+ },
+ {
+  "name": "EA_Dendrology",
+  "store": "DENDROLOGIST",
+  "group": "base",
+  "hidden": false,
+  "title": "Dendrologist",
+  "description": "Acquire all the Abilities in one tree."
+ },
+ {
+  "name": "EA_EnemyOfMyFriend",
+  "store": "ENEMY_OF_MY_ENEMY",
+  "group": "base",
+  "hidden": false,
+  "title": "The Enemy of My Enemy",
+  "description": "Use the Axii Sign to force one opponent to kill another. Do this 20 times."
+ },
+ {
+  "name": "EA_FusSthSth",
+  "store": "HUMPTY_DUMPTY",
+  "group": "base",
+  "hidden": false,
+  "title": "Humpty Dumpty",
+  "description": "Kill 10 opponents by knocking them off somewhere high with the Aard Sign."
+ },
+ {
+  "name": "EA_EnvironmentUnfriendly",
+  "store": "ENVIRONMENTALLY_UNFRIENDLY",
+  "group": "base",
+  "hidden": false,
+  "title": "Environmentally Unfriendly",
+  "description": "Kill 50 opponents using the environment (e.g. swamp gas, insects or objects)."
+ },
+ {
+  "name": "EA_TrainedInKaerMorhen",
+  "store": "KAER_MORHEN_TRAINED",
+  "group": "base",
+  "hidden": false,
+  "title": "Kaer Morhen Trained",
+  "description": "Perform 10 effective counterattacks in a row without getting hit or parrying."
+ },
+ {
+  "name": "EA_Finesse",
+  "store": "CANT_TOUCH_THIS",
+  "group": "base",
+  "hidden": false,
+  "title": "Can't Touch This!",
+  "description": "Kill 5 foes in a fight without taking damage (except for Toxicity) and without using the Quen Sign."
+ },
+ {
+  "name": "EA_TheEvilestThing",
+  "store": "THE_EVILEST_THING",
+  "group": "base",
+  "hidden": false,
+  "title": "That Is the Evilest Thing",
+  "description": "Ignite the gas produced by a Dragon's Dream bomb using a burning opponent. Do this 10 times."
+ },
+ {
+  "name": "EA_TrialOfGrasses",
+  "store": "MUTANT",
+  "group": "base",
+  "hidden": false,
+  "title": "Mutant",
+  "description": "Fill all mutagen slots."
+ },
+ {
+  "name": "EA_Swank",
+  "store": "BUTCHER_OF_BLAVIKEN",
+  "group": "base",
+  "hidden": false,
+  "title": "Butcher of Blaviken",
+  "description": "Kill at least 5 opponents in under 10 seconds."
+ },
+ {
+  "name": "EA_Cerberus",
+  "store": "TRIPLE_THREAT",
+  "group": "base",
+  "hidden": true,
+  "title": "Triple Threat",
+  "description": "Kill 3 opponents in one fight using 3 different methods (swords, bombs, crossbow, Signs, etc.)."
+ },
+ {
+  "name": "EA_Brawler",
+  "store": "BRAWLER",
+  "group": "base",
+  "hidden": false,
+  "title": "Brawler",
+  "description": "Defeat Olaf, the Skellige champion of unarmed combat."
+ },
+ {
+  "name": "EA_Rage",
+  "store": "OVERKILL",
+  "group": "base",
+  "hidden": false,
+  "title": "Overkill",
+  "description": "Make an opponent suffer from bleeding, poisoning and burning simultaneously. Do this 10 times."
+ },
+ {
+  "name": "EA_TechnoProgress",
+  "store": "MASTER_MARKSMAN",
+  "group": "base",
+  "hidden": false,
+  "title": "Master Marksman",
+  "description": "Kill 50 human and nonhuman opponents by striking them in the head with a crossbow bolt."
+ },
+ {
+  "name": "EA_LearningTheRopes",
+  "store": "WHAT_WAS_THAT",
+  "group": "base",
+  "hidden": true,
+  "title": "What Was That?",
+  "description": "Attack, counter, cast a Sign and throw a bomb (in any order) in under 4 seconds."
+ },
+ {
+  "name": "EA_FundamentalsFirst",
+  "store": "EVEN_ODDS",
+  "group": "base",
+  "hidden": false,
+  "title": "Even Odds",
+  "description": "Kill 2 monsters you have a contract on without using Signs, potions, mutagens, oils or bombs."
+ },
+ {
+  "name": "EA_Explorer",
+  "store": "GLOBETROTTER",
+  "group": "base",
+  "hidden": false,
+  "title": "Globetrotter",
+  "description": "Discover 100 fast travel points."
+ },
+ {
+  "name": "EA_PestControl",
+  "store": "PEST_CONTROL",
+  "group": "base",
+  "hidden": false,
+  "title": "Pest Control",
+  "description": "Destroy all monster nests in the Velen / Novigrad region, or in Skellige."
+ },
+ {
+  "name": "EA_GwintCollector",
+  "store": "CARD_COLLECTOR",
+  "group": "base",
+  "hidden": false,
+  "title": "Card Collector",
+  "description": "Acquire all gwent cards available in the base version of the game."
+ },
+ {
+  "name": "EA_GwintMaster",
+  "store": "GWENT_MASTER",
+  "group": "base",
+  "hidden": false,
+  "title": "Gwent Master",
+  "description": "Defeat Tybalt and win the gwent tournament held at the Passiflora."
+ },
+ {
+  "name": "EA_BreakingBad",
+  "store": "LETS_COOK",
+  "group": "base",
+  "hidden": false,
+  "title": "Let's Cook!",
+  "description": "Learn 12 potion formulae."
+ },
+ {
+  "name": "EA_Bombardier",
+  "store": "BOMBARDIER",
+  "group": "base",
+  "hidden": false,
+  "title": "Bombardier",
+  "description": "Collect the formulae for 6 different bomb types."
+ },
+ {
+  "name": "EA_Bookworm",
+  "store": "BOOKWORM",
+  "group": "base",
+  "hidden": false,
+  "title": "Bookworm",
+  "description": "Read 30 books, journals or other documents."
+ },
+ {
+  "name": "EA_FullyArmed",
+  "store": "ARMED_AND_DANGEROUS",
+  "group": "base",
+  "hidden": false,
+  "title": "Armed and Dangerous",
+  "description": "Find and equip all the elements of one set of witcher gear."
+ },
+ {
+  "name": "EA_PowerOverwhelming",
+  "store": "POWER_OVERWHELMING",
+  "group": "base",
+  "hidden": false,
+  "title": "Power Overwhelming",
+  "description": "Have all possible Place of Power bonuses active at the same time."
+ },
+ {
+  "name": "EA_BrawlMaster",
+  "store": "BRAWL_MASTER",
+  "group": "base",
+  "hidden": false,
+  "title": "Brawl Master",
+  "description": "Complete all fistfighting quests in Velen, Skellige and Novigrad."
+ },
+ {
+  "name": "EA_NeedForSpeed",
+  "store": "FAST_AND_FURIOUS",
+  "group": "base",
+  "hidden": false,
+  "title": "Fast and Furious",
+  "description": "Win all the horse races in the game."
+ },
+ {
+  "name": "EA_Immortal",
+  "store": "MUNCHKIN",
+  "group": "base",
+  "hidden": false,
+  "title": "Munchkin",
+  "description": "Reach character development level 35."
+ },
+ {
+  "name": "EA_FireInTheHole",
+  "store": "FIRE_IN_THE_HOLE",
+  "group": "base",
+  "hidden": false,
+  "title": "Fire in the Hole",
+  "description": "Destroy 10 monster nests using bombs."
+ },
+ {
+  "name": "EA_FistOfTheSouthStar",
+  "store": "FIST_OF_THE_SOUTH_STAR",
+  "group": "base",
+  "hidden": false,
+  "title": "Fist of the South Star",
+  "description": "Defeat an opponent in a fistfight without taking any damage."
+ },
+ {
+  "name": "EA_GeraltandFriends",
+  "store": "GERALT_AND_FRIENDS",
+  "group": "base",
+  "hidden": false,
+  "title": "Geralt and Friends",
+  "description": "Win a round of gwent using only neutral cards."
+ },
+ {
+  "name": "EA_Allin",
+  "store": "ALL_IN",
+  "group": "base",
+  "hidden": false,
+  "title": "All In",
+  "description": "Play three hero cards in one round of gwent and win the match."
+ },
+ {
+  "name": "EA_MonsterHuntFogling",
+  "store": "SHRIEKER",
+  "group": "base",
+  "hidden": false,
+  "title": "Shrieker",
+  "description": "Complete the contract on the shrieker."
+ },
+ {
+  "name": "EA_MonsterHuntEkimma",
+  "store": "FEARLESS_VAMPIRE_SLAYER",
+  "group": "base",
+  "hidden": false,
+  "title": "Fearless Vampire Slayer",
+  "description": "Complete the contract on Sarasti."
+ },
+ {
+  "name": "EA_MonsterHuntLamia",
+  "store": "WOODLAND_SPIRIT",
+  "group": "base",
+  "hidden": false,
+  "title": "Woodland Spirit",
+  "description": "Complete the contract on the Woodland Spirit."
+ },
+ {
+  "name": "EA_MonsterHuntFiend",
+  "store": "FIEND_OR_FOE",
+  "group": "base",
+  "hidden": false,
+  "title": "Fiend or Foe?",
+  "description": "Complete the contract on Morvudd."
+ },
+ {
+  "name": "EA_MonsterHuntDao",
+  "store": "ASHES_TO_ASHES",
+  "group": "base",
+  "hidden": false,
+  "title": "Ashes to Ashes",
+  "description": "Complete the contract on Therazane."
+ },
+ {
+  "name": "EA_MonsterHuntDoppler",
+  "store": "THE_DOPPLER_EFFECT",
+  "group": "base",
+  "hidden": false,
+  "title": "The Doppler Effect",
+  "description": "Resolve the doppler problem in Novigrad."
+ },
+ {
+  "name": "EA_ToadPrince",
+  "store": "EP1_1",
+  "group": "hos",
+  "hidden": true,
+  "title": "I'm Not Kissing That",
+  "description": "Kill the prince cursed into a toad."
+ },
+ {
+  "name": "EA_PartyAnimal",
+  "store": "EP1_2",
+  "group": "hos",
+  "hidden": true,
+  "title": "Let the Good Times Roll!",
+  "description": "Participate in all the activities at the wedding."
+ },
+ {
+  "name": "EA_Auctioneer",
+  "store": "EP1_3",
+  "group": "hos",
+  "hidden": true,
+  "title": "Shopaholic",
+  "description": "Buy all the items put on the block at the Borsodis' Auction House."
+ },
+ {
+  "name": "EA_TheCompletePicture",
+  "store": "EP1_4",
+  "group": "hos",
+  "hidden": true,
+  "title": "Curator of Nightmares",
+  "description": "Recreate all of Iris' nightmares in the Painted World."
+ },
+ {
+  "name": "EA_HeartsOfStone",
+  "store": "EP1_5",
+  "group": "hos",
+  "hidden": true,
+  "title": "Pacta Sunt Servanda",
+  "description": "Finish the \"Hearts of Stone\" expansion."
+ },
+ {
+  "name": "EA_KillEtherals",
+  "store": "EP1_6",
+  "group": "hos",
+  "hidden": true,
+  "title": "When It's Many Against One…",
+  "description": "Provoke all Iris von Everec's Nightmares into fighting you at the same time and defeat them."
+ },
+ {
+  "name": "EA_FeatherStrongerThanSword",
+  "store": "EP1_7",
+  "group": "hos",
+  "hidden": false,
+  "title": "Return to Sender",
+  "description": "Kill 3 opponents with their own arrows."
+ },
+ {
+  "name": "EA_Thirst",
+  "store": "EP1_8",
+  "group": "hos",
+  "hidden": false,
+  "title": "Can Quit Anytime I Want",
+  "description": "Be under the influence of seven potions or decoctions at the same time."
+ },
+ {
+  "name": "EA_DivineWhip",
+  "store": "EP1_9",
+  "group": "hos",
+  "hidden": true,
+  "title": "Wild Rose Dethorned",
+  "description": "Defeat all the fallen knights and loot their campsites."
+ },
+ {
+  "name": "EA_LatestFashion",
+  "store": "EP1_10",
+  "group": "hos",
+  "hidden": false,
+  "title": "I Wore Ofieri Before It Was Cool",
+  "description": "Collect all available Ofieri armor and horse gear, and at least one Ofieri sword."
+ },
+ {
+  "name": "EA_WantedDeadOrBovine",
+  "store": "EP1_11",
+  "group": "hos",
+  "hidden": true,
+  "title": "Moo-rderer",
+  "description": "Kill 20 cows."
+ },
+ {
+  "name": "EA_Slide",
+  "store": "EP1_12",
+  "group": "hos",
+  "hidden": true,
+  "title": "Rad Steez, Bro!",
+  "description": "Slide downhill uninterrupted for at least 10 seconds."
+ },
+ {
+  "name": "EA_KilledIt",
+  "store": "EP1_13",
+  "group": "hos",
+  "hidden": false,
+  "title": "Killed It",
+  "description": "Win a round of gwent with a total strength of at least 187."
+ },
+ {
+  "name": "EA_BeauclairWelcomeTo",
+  "store": "EP2_1",
+  "group": "baw",
+  "hidden": false,
+  "title": "The Witcher's Gone South",
+  "description": "Travel to the Duchy of Toussaint."
+ },
+ {
+  "name": "EA_HeroOfBeauclair",
+  "store": "EP2_2",
+  "group": "baw",
+  "hidden": false,
+  "title": "Last Action Hero",
+  "description": "Be decorated with the Order of Vitis Vinifera."
+ },
+ {
+  "name": "EA_BeauclairMostWanted",
+  "store": "EP2_3",
+  "group": "baw",
+  "hidden": false,
+  "title": "Kling of the Clink",
+  "description": "Serve time in Toussaint."
+ },
+ {
+  "name": "EA_ChampionOfBeauclair",
+  "store": "EP2_4",
+  "group": "baw",
+  "hidden": false,
+  "title": "A Knight to Remember",
+  "description": "Obtain a flawless victory in all the competitions during the knights' tourney."
+ },
+ {
+  "name": "EA_LikeAVirgin",
+  "store": "EP2_5",
+  "group": "baw",
+  "hidden": false,
+  "title": "Embodiment of the Five Virtues",
+  "description": "Be given Aerondight by the Lady of the Lake."
+ },
+ {
+  "name": "EA_HomeSweetHome",
+  "store": "EP2_6",
+  "group": "baw",
+  "hidden": false,
+  "title": "Playing House",
+  "description": "Use all available options for developing Corvo Bianco."
+ },
+ {
+  "name": "EA_TurnedEveryStone",
+  "store": "EP2_7",
+  "group": "baw",
+  "hidden": false,
+  "title": "Turned Every Stone",
+  "description": "Find all grandmaster diagrams for each witcher school."
+ },
+ {
+  "name": "EA_GotToHaveThemAll",
+  "store": "EP2_8",
+  "group": "baw",
+  "hidden": false,
+  "title": "I Have a Gwent Problem",
+  "description": "Collect all the cards in the Skellige deck."
+ },
+ {
+  "name": "EA_BloodAndWine",
+  "store": "EP2_9",
+  "group": "baw",
+  "hidden": true,
+  "title": "The Grapes of Wrath Stomped",
+  "description": "Help unite the warring vineyards and have a wine named in your honor."
+ },
+ {
+  "name": "EA_ReadyToRoll",
+  "store": "EP2_10",
+  "group": "baw",
+  "hidden": false,
+  "title": "Dressed to Kill",
+  "description": "Unlock the bonus for equipping all the witcher gear elements from one School."
+ },
+ {
+  "name": "EA_SchoolOfTheMutant",
+  "store": "EP2_11",
+  "group": "baw",
+  "hidden": false,
+  "title": "Weapon \"W\"",
+  "description": "Develop a mutation."
+ },
+ {
+  "name": "EA_HastaLaVista",
+  "store": "EP2_12",
+  "group": "baw",
+  "hidden": true,
+  "title": "Hasta la Vista™",
+  "description": "Kill a frozen opponent with a crossbow bolt."
+ },
+ {
+  "name": "EA_Goliath",
+  "store": "EP2_13",
+  "group": "baw",
+  "hidden": true,
+  "title": "David and Golyat",
+  "description": "Kill Golyat with a crossbow bolt to his eye."
+ }
+]

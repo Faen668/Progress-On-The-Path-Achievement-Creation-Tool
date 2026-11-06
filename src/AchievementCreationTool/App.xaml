@@ -1,0 +1,41 @@
+<Application x:Class="AchievementCreationTool.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             ThemeMode="Dark">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- The Fluent theme's accent, which is Windows' own colour unless it's set: PotP's gold instead -->
+            <Color x:Key="{x:Static SystemColors.AccentColorKey}">#D4A84B</Color>
+            <Color x:Key="{x:Static SystemColors.AccentColorLight1Key}">#DDB866</Color>
+            <Color x:Key="{x:Static SystemColors.AccentColorLight2Key}">#D4A84B</Color>
+            <Color x:Key="{x:Static SystemColors.AccentColorLight3Key}">#E8C980</Color>
+            <Color x:Key="{x:Static SystemColors.AccentColorDark1Key}">#B08A36</Color>
+            <Color x:Key="{x:Static SystemColors.AccentColorDark2Key}">#8A6E2F</Color>
+            <Color x:Key="{x:Static SystemColors.AccentColorDark3Key}">#5C4A22</Color>
+            <Color x:Key="SystemAccentColor">#D4A84B</Color>
+            <Color x:Key="SystemAccentColorLight1">#DDB866</Color>
+            <Color x:Key="SystemAccentColorLight2">#D4A84B</Color>
+            <Color x:Key="SystemAccentColorLight3">#E8C980</Color>
+            <Color x:Key="SystemAccentColorDark1">#B08A36</Color>
+            <Color x:Key="SystemAccentColorDark2">#8A6E2F</Color>
+            <Color x:Key="SystemAccentColorDark3">#5C4A22</Color>
+            <SolidColorBrush x:Key="AccentFillColorDefaultBrush" Color="#D4A84B" />
+            <SolidColorBrush x:Key="AccentFillColorSecondaryBrush" Color="#DDB866" />
+            <SolidColorBrush x:Key="AccentFillColorTertiaryBrush" Color="#B08A36" />
+            <SolidColorBrush x:Key="AccentTextFillColorPrimaryBrush" Color="#E8C980" />
+            <SolidColorBrush x:Key="AccentTextFillColorSecondaryBrush" Color="#E8C980" />
+            <SolidColorBrush x:Key="AccentTextFillColorTertiaryBrush" Color="#D4A84B" />
+            <SolidColorBrush x:Key="TextOnAccentFillColorPrimaryBrush" Color="#1A1406" />
+            <SolidColorBrush x:Key="TextOnAccentFillColorSecondaryBrush" Color="#1A1406" />
+            <!-- A selected row in a list: a dark gold ground, so its grey second line can still be read -->
+            <SolidColorBrush x:Key="ListBoxItemSelectedBackgroundThemeBrush" Color="#3A2F18" />
+            <SolidColorBrush x:Key="ListBoxItemSelectedBackgroundPointerOverThemeBrush" Color="#46391D" />
+            <SolidColorBrush x:Key="ListBoxItemBackgroundSelectedPressedThemeBrush" Color="#46391D" />
+            <SolidColorBrush x:Key="ListBoxItemSelectedForegroundThemeBrush" Color="#F2E6C8" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

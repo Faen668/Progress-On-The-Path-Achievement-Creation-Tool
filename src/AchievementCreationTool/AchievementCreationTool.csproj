@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>AchievementCreationTool</RootNamespace>
+    <AssemblyName>PotPAchievementTool</AssemblyName>
+    <!-- WPF0001: the Fluent ThemeMode API is marked experimental in .NET 9 -->
+    <NoWarn>$(NoWarn);WPF0001</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Product>Progress on the Path: Achievement Creation Tool</Product>
+    <AssemblyTitle>Progress on the Path: Achievement Creation Tool</AssemblyTitle>
+    <Description>Makes achievement packs for Progress on the Path's overlay in The Witcher 3</Description>
+    <Authors>Faen90</Authors>
+    <Company>Faen90</Company>
+    <Copyright>Copyright © 2026 Faen90</Copyright>
+    <Version>0.1.0</Version>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <!-- What it picks from: the catalogs and PotP's icons, shipped beside the exe as its own files -->
+  <ItemGroup>
+    <None Include="..\..\catalog\*.json" Link="catalog\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

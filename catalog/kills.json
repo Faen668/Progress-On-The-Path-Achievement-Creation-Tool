@@ -1,0 +1,4607 @@
+[
+ {
+  "nameId": 162822,
+  "title": "Triss",
+  "unique": true
+ },
+ {
+  "nameId": 162823,
+  "title": "Yennefer",
+  "unique": false
+ },
+ {
+  "nameId": 163524,
+  "title": "Folan",
+  "unique": true
+ },
+ {
+  "nameId": 163525,
+  "title": "Ice Giant",
+  "unique": false
+ },
+ {
+  "nameId": 163526,
+  "title": "Vigi",
+  "unique": true
+ },
+ {
+  "nameId": 163527,
+  "title": "Rock Troll",
+  "unique": false
+ },
+ {
+  "nameId": 163529,
+  "title": "Octo",
+  "unique": true
+ },
+ {
+  "nameId": 163531,
+  "title": "Hjalmar",
+  "unique": true
+ },
+ {
+  "nameId": 163532,
+  "title": "Crach an Craite",
+  "unique": true
+ },
+ {
+  "nameId": 163804,
+  "title": "Siren",
+  "unique": false
+ },
+ {
+  "nameId": 165978,
+  "title": "Thief",
+  "unique": false
+ },
+ {
+  "nameId": 166457,
+  "title": "Arnvald",
+  "unique": true
+ },
+ {
+  "nameId": 166458,
+  "title": "Cerys",
+  "unique": true
+ },
+ {
+  "nameId": 166464,
+  "title": "Donar an Hindar",
+  "unique": true
+ },
+ {
+  "nameId": 166469,
+  "title": "Peasant",
+  "unique": false
+ },
+ {
+  "nameId": 166470,
+  "title": "Halbjorn",
+  "unique": true
+ },
+ {
+  "nameId": 166471,
+  "title": "Hjort",
+  "unique": true
+ },
+ {
+  "nameId": 166472,
+  "title": "Holger Black Hand",
+  "unique": true
+ },
+ {
+  "nameId": 166473,
+  "title": "Blueboy Lugos",
+  "unique": true
+ },
+ {
+  "nameId": 166474,
+  "title": "Madman Lugos",
+  "unique": true
+ },
+ {
+  "nameId": 166477,
+  "title": "Grenn",
+  "unique": true
+ },
+ {
+  "nameId": 166478,
+  "title": "Ealdorman",
+  "unique": false
+ },
+ {
+  "nameId": 166479,
+  "title": "Svanrige",
+  "unique": true
+ },
+ {
+  "nameId": 166509,
+  "title": "Udalryk",
+  "unique": true
+ },
+ {
+  "nameId": 166527,
+  "title": "Village Witch",
+  "unique": true
+ },
+ {
+  "nameId": 166554,
+  "title": "Vesemir",
+  "unique": true
+ },
+ {
+  "nameId": 166555,
+  "title": "Morvran Voorhis",
+  "unique": true
+ },
+ {
+  "nameId": 166556,
+  "title": "Ugliest Man Alive",
+  "unique": false
+ },
+ {
+  "nameId": 166557,
+  "title": "Lambert",
+  "unique": true
+ },
+ {
+  "nameId": 166558,
+  "title": "Eskel",
+  "unique": true
+ },
+ {
+  "nameId": 166559,
+  "title": "Emhyr var Emreis",
+  "unique": true
+ },
+ {
+  "nameId": 166560,
+  "title": "Stablemaster",
+  "unique": false
+ },
+ {
+  "nameId": 166561,
+  "title": "Emhyr's Chamberlain",
+  "unique": true
+ },
+ {
+  "nameId": 166562,
+  "title": "Baron",
+  "unique": true
+ },
+ {
+  "nameId": 166703,
+  "title": "Fisherman",
+  "unique": false
+ },
+ {
+  "nameId": 166754,
+  "title": "Nilfgaardian Soldier",
+  "unique": false
+ },
+ {
+  "nameId": 166803,
+  "title": "Druid",
+  "unique": false
+ },
+ {
+  "nameId": 167637,
+  "title": "Hym",
+  "unique": true
+ },
+ {
+  "nameId": 167646,
+  "title": "Rotfiend",
+  "unique": false
+ },
+ {
+  "nameId": 167997,
+  "title": "Sergeant",
+  "unique": false
+ },
+ {
+  "nameId": 169147,
+  "title": "Astrid",
+  "unique": true
+ },
+ {
+  "nameId": 169148,
+  "title": "Mysterious Elf",
+  "unique": false
+ },
+ {
+  "nameId": 170700,
+  "title": "Ermion",
+  "unique": true
+ },
+ {
+  "nameId": 170701,
+  "title": "Drogodar",
+  "unique": true
+ },
+ {
+  "nameId": 170702,
+  "title": "Birna an Tuirseach",
+  "unique": true
+ },
+ {
+  "nameId": 170703,
+  "title": "Otrygg an Hindar",
+  "unique": true
+ },
+ {
+  "nameId": 170704,
+  "title": "Captain",
+  "unique": false
+ },
+ {
+  "nameId": 170706,
+  "title": "Widow",
+  "unique": true
+ },
+ {
+  "nameId": 170717,
+  "title": "Brewess",
+  "unique": true
+ },
+ {
+  "nameId": 170719,
+  "title": "Weavess",
+  "unique": true
+ },
+ {
+  "nameId": 170721,
+  "title": "Whispess",
+  "unique": true
+ },
+ {
+  "nameId": 170723,
+  "title": "Anna",
+  "unique": false
+ },
+ {
+  "nameId": 170734,
+  "title": "Boy",
+  "unique": false
+ },
+ {
+  "nameId": 170749,
+  "title": "Johnny",
+  "unique": true
+ },
+ {
+  "nameId": 170811,
+  "title": "Drowner",
+  "unique": false
+ },
+ {
+  "nameId": 170812,
+  "title": "Water Hag",
+  "unique": false
+ },
+ {
+  "nameId": 171010,
+  "title": "Pirate",
+  "unique": false
+ },
+ {
+  "nameId": 171105,
+  "title": "Wild Dog",
+  "unique": false
+ },
+ {
+  "nameId": 171215,
+  "title": "Vernon Roche",
+  "unique": true
+ },
+ {
+  "nameId": 171219,
+  "title": "Radovid",
+  "unique": true
+ },
+ {
+  "nameId": 171226,
+  "title": "Cyprian Wiley",
+  "unique": true
+ },
+ {
+  "nameId": 171240,
+  "title": "Dijkstra",
+  "unique": true
+ },
+ {
+  "nameId": 171256,
+  "title": "Corinne Tilly",
+  "unique": true
+ },
+ {
+  "nameId": 171275,
+  "title": "Carlo Varese",
+  "unique": true
+ },
+ {
+  "nameId": 171335,
+  "title": "Cockatrice",
+  "unique": false
+ },
+ {
+  "nameId": 171353,
+  "title": "Redanian Soldier",
+  "unique": false
+ },
+ {
+  "nameId": 171358,
+  "title": "Scoia'tael",
+  "unique": false
+ },
+ {
+  "nameId": 171502,
+  "title": "Tamara",
+  "unique": true
+ },
+ {
+  "nameId": 171505,
+  "title": "Fugas",
+  "unique": true
+ },
+ {
+  "nameId": 171521,
+  "title": "Fiend",
+  "unique": false
+ },
+ {
+  "nameId": 171602,
+  "title": "Graden",
+  "unique": true
+ },
+ {
+  "nameId": 171782,
+  "title": "Ealdorman",
+  "unique": false
+ },
+ {
+  "nameId": 172223,
+  "title": "Doorman",
+  "unique": false
+ },
+ {
+  "nameId": 172316,
+  "title": "Witch Hunter",
+  "unique": false
+ },
+ {
+  "nameId": 172329,
+  "title": "Peasant",
+  "unique": false
+ },
+ {
+  "nameId": 172334,
+  "title": "Skellige Woman",
+  "unique": false
+ },
+ {
+  "nameId": 172335,
+  "title": "Menge",
+  "unique": true
+ },
+ {
+  "nameId": 173561,
+  "title": "Scribe",
+  "unique": false
+ },
+ {
+  "nameId": 173652,
+  "title": "King of Beggars",
+  "unique": true
+ },
+ {
+  "nameId": 173880,
+  "title": "Happen the Eunuch",
+  "unique": true
+ },
+ {
+  "nameId": 174091,
+  "title": "Dandelion",
+  "unique": true
+ },
+ {
+  "nameId": 174153,
+  "title": "Cyclops",
+  "unique": false
+ },
+ {
+  "nameId": 175176,
+  "title": "Rosa var Attre",
+  "unique": true
+ },
+ {
+  "nameId": 175187,
+  "title": "Edna var Attre",
+  "unique": true
+ },
+ {
+  "nameId": 175192,
+  "title": "Marabella",
+  "unique": true
+ },
+ {
+  "nameId": 175239,
+  "title": "Vespula",
+  "unique": true
+ },
+ {
+  "nameId": 175240,
+  "title": "Molly",
+  "unique": false
+ },
+ {
+  "nameId": 175242,
+  "title": "Mary Louisa la Valette",
+  "unique": true
+ },
+ {
+  "nameId": 175252,
+  "title": "Priscilla",
+  "unique": true
+ },
+ {
+  "nameId": 175254,
+  "title": "Irina Renarde",
+  "unique": true
+ },
+ {
+  "nameId": 175299,
+  "title": "Guard",
+  "unique": false
+ },
+ {
+  "nameId": 175336,
+  "title": "Townsman",
+  "unique": false
+ },
+ {
+  "nameId": 175355,
+  "title": "La Valette Guard",
+  "unique": false
+ },
+ {
+  "nameId": 175374,
+  "title": "Pupil",
+  "unique": false
+ },
+ {
+  "nameId": 175375,
+  "title": "Bouncer",
+  "unique": false
+ },
+ {
+  "nameId": 175410,
+  "title": "Guest",
+  "unique": false
+ },
+ {
+  "nameId": 175619,
+  "title": "Innkeep",
+  "unique": false
+ },
+ {
+  "nameId": 175639,
+  "title": "Cook",
+  "unique": false
+ },
+ {
+  "nameId": 176847,
+  "title": "Margarita",
+  "unique": true
+ },
+ {
+  "nameId": 180322,
+  "title": "Halgrim",
+  "unique": true
+ },
+ {
+  "nameId": 180880,
+  "title": "Clan Tuirseach Guard",
+  "unique": false
+ },
+ {
+  "nameId": 181133,
+  "title": "Botchling",
+  "unique": false
+ },
+ {
+  "nameId": 300169,
+  "title": "Philippa Eilhart",
+  "unique": true
+ },
+ {
+  "nameId": 300175,
+  "title": "Fringilla Vigo",
+  "unique": true
+ },
+ {
+  "nameId": 301010,
+  "title": "Mage",
+  "unique": false
+ },
+ {
+  "nameId": 301032,
+  "title": "Wild Hunt Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 301098,
+  "title": "Medic",
+  "unique": false
+ },
+ {
+  "nameId": 301491,
+  "title": "Forktail",
+  "unique": false
+ },
+ {
+  "nameId": 302053,
+  "title": "Temple Guard",
+  "unique": false
+ },
+ {
+  "nameId": 302655,
+  "title": "Boar",
+  "unique": false
+ },
+ {
+  "nameId": 303048,
+  "title": "Clan Tuirseach Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 303055,
+  "title": "Wolf",
+  "unique": false
+ },
+ {
+  "nameId": 303086,
+  "title": "Leshen",
+  "unique": false
+ },
+ {
+  "nameId": 303143,
+  "title": "Strumpet",
+  "unique": false
+ },
+ {
+  "nameId": 307008,
+  "title": "Hare",
+  "unique": false
+ },
+ {
+  "nameId": 312802,
+  "title": "Harpy",
+  "unique": false
+ },
+ {
+  "nameId": 313590,
+  "title": "Bandit",
+  "unique": false
+ },
+ {
+  "nameId": 315326,
+  "title": "Dagr",
+  "unique": true
+ },
+ {
+  "nameId": 316050,
+  "title": "Redanian Guard",
+  "unique": false
+ },
+ {
+  "nameId": 316717,
+  "title": "Child",
+  "unique": false
+ },
+ {
+  "nameId": 320820,
+  "title": "Ciri",
+  "unique": true
+ },
+ {
+  "nameId": 322405,
+  "title": "Isilira",
+  "unique": true
+ },
+ {
+  "nameId": 331644,
+  "title": "Avallac'h",
+  "unique": true
+ },
+ {
+  "nameId": 332382,
+  "title": "Bandit",
+  "unique": false
+ },
+ {
+  "nameId": 333855,
+  "title": "Ciri",
+  "unique": true
+ },
+ {
+  "nameId": 334714,
+  "title": "Keira Metz",
+  "unique": true
+ },
+ {
+  "nameId": 334730,
+  "title": "Bergthora",
+  "unique": false
+ },
+ {
+  "nameId": 334912,
+  "title": "Eiric",
+  "unique": false
+ },
+ {
+  "nameId": 335378,
+  "title": "Guard",
+  "unique": false
+ },
+ {
+  "nameId": 335796,
+  "title": "Eredin",
+  "unique": true
+ },
+ {
+  "nameId": 335803,
+  "title": "Caranthir",
+  "unique": true
+ },
+ {
+  "nameId": 336154,
+  "title": "Síle de Tancarville",
+  "unique": true
+ },
+ {
+  "nameId": 337301,
+  "title": "Biberveldt",
+  "unique": true
+ },
+ {
+  "nameId": 337979,
+  "title": "Imlerith",
+  "unique": true
+ },
+ {
+  "nameId": 338912,
+  "title": "Blacksmith",
+  "unique": false
+ },
+ {
+  "nameId": 341434,
+  "title": "Steingrim",
+  "unique": true
+ },
+ {
+  "nameId": 343485,
+  "title": "Anabelle",
+  "unique": true
+ },
+ {
+  "nameId": 344307,
+  "title": "Rico",
+  "unique": true
+ },
+ {
+  "nameId": 345505,
+  "title": "Whistling Wendy",
+  "unique": true
+ },
+ {
+  "nameId": 345506,
+  "title": "Gus Meyer",
+  "unique": true
+ },
+ {
+  "nameId": 345544,
+  "title": "Anna",
+  "unique": false
+ },
+ {
+  "nameId": 345548,
+  "title": "Eustace",
+  "unique": true
+ },
+ {
+  "nameId": 345927,
+  "title": "Johnny",
+  "unique": true
+ },
+ {
+  "nameId": 345939,
+  "title": "Ulf",
+  "unique": true
+ },
+ {
+  "nameId": 346241,
+  "title": "Adventurer",
+  "unique": true
+ },
+ {
+  "nameId": 346510,
+  "title": "Felicia Cori",
+  "unique": true
+ },
+ {
+  "nameId": 346758,
+  "title": "Guard",
+  "unique": false
+ },
+ {
+  "nameId": 346764,
+  "title": "Ingrid Vegelbud",
+  "unique": true
+ },
+ {
+  "nameId": 346772,
+  "title": "Vegelbuds' Porter",
+  "unique": false
+ },
+ {
+  "nameId": 346798,
+  "title": "Vegelbud Guard",
+  "unique": false
+ },
+ {
+  "nameId": 347481,
+  "title": "Lumberjack",
+  "unique": false
+ },
+ {
+  "nameId": 347621,
+  "title": "Troubadour",
+  "unique": true
+ },
+ {
+  "nameId": 349249,
+  "title": "Astrid's Mother",
+  "unique": false
+ },
+ {
+  "nameId": 349468,
+  "title": "Nekker",
+  "unique": false
+ },
+ {
+  "nameId": 349471,
+  "title": "Smuggler",
+  "unique": false
+ },
+ {
+  "nameId": 349475,
+  "title": "Necrophage",
+  "unique": false
+ },
+ {
+  "nameId": 349476,
+  "title": "Boy",
+  "unique": false
+ },
+ {
+  "nameId": 350496,
+  "title": "Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 350968,
+  "title": "Fisherman",
+  "unique": false
+ },
+ {
+  "nameId": 351526,
+  "title": "Bruxa",
+  "unique": false
+ },
+ {
+  "nameId": 354862,
+  "title": "Graham",
+  "unique": true
+ },
+ {
+  "nameId": 357982,
+  "title": "Unicorn",
+  "unique": false
+ },
+ {
+  "nameId": 358190,
+  "title": "Sorceress",
+  "unique": false
+ },
+ {
+  "nameId": 360040,
+  "title": "Prisoner",
+  "unique": false
+ },
+ {
+  "nameId": 367149,
+  "title": "Dealer",
+  "unique": false
+ },
+ {
+  "nameId": 367788,
+  "title": "Bruiser",
+  "unique": false
+ },
+ {
+  "nameId": 369122,
+  "title": "Moreelse",
+  "unique": true
+ },
+ {
+  "nameId": 369313,
+  "title": "Girl",
+  "unique": false
+ },
+ {
+  "nameId": 369314,
+  "title": "Girl",
+  "unique": false
+ },
+ {
+  "nameId": 370227,
+  "title": "Werewolf",
+  "unique": false
+ },
+ {
+  "nameId": 371481,
+  "title": "Old Man",
+  "unique": false
+ },
+ {
+  "nameId": 372680,
+  "title": "Captain of the Guard",
+  "unique": false
+ },
+ {
+  "nameId": 374148,
+  "title": "Bjorg",
+  "unique": true
+ },
+ {
+  "nameId": 375674,
+  "title": "Freya Priestess",
+  "unique": false
+ },
+ {
+  "nameId": 377595,
+  "title": "Petter",
+  "unique": true
+ },
+ {
+  "nameId": 380093,
+  "title": "Dijkstra's Bodyguard",
+  "unique": false
+ },
+ {
+  "nameId": 380510,
+  "title": "Shieldmaiden",
+  "unique": false
+ },
+ {
+  "nameId": 381812,
+  "title": "Mob",
+  "unique": false
+ },
+ {
+  "nameId": 382076,
+  "title": "Voice",
+  "unique": false
+ },
+ {
+  "nameId": 386461,
+  "title": "Harald",
+  "unique": true
+ },
+ {
+  "nameId": 386465,
+  "title": "Sven",
+  "unique": true
+ },
+ {
+  "nameId": 387532,
+  "title": "Bjorn",
+  "unique": true
+ },
+ {
+  "nameId": 388410,
+  "title": "Hilde",
+  "unique": true
+ },
+ {
+  "nameId": 389411,
+  "title": "Townsman",
+  "unique": false
+ },
+ {
+  "nameId": 390402,
+  "title": "Townsman",
+  "unique": false
+ },
+ {
+  "nameId": 392738,
+  "title": "Ghost",
+  "unique": false
+ },
+ {
+  "nameId": 403074,
+  "title": "Rostan Muggs",
+  "unique": true
+ },
+ {
+  "nameId": 403178,
+  "title": "Gerd",
+  "unique": true
+ },
+ {
+  "nameId": 409061,
+  "title": "Joachim von Gratz",
+  "unique": true
+ },
+ {
+  "nameId": 411515,
+  "title": "Nightwraith",
+  "unique": false
+ },
+ {
+  "nameId": 415216,
+  "title": "Igor",
+  "unique": true
+ },
+ {
+  "nameId": 416092,
+  "title": "Bear",
+  "unique": false
+ },
+ {
+  "nameId": 416770,
+  "title": "Clan An Craite Elder",
+  "unique": false
+ },
+ {
+  "nameId": 416774,
+  "title": "Clan Brokvar Elder",
+  "unique": false
+ },
+ {
+  "nameId": 416779,
+  "title": "Clan Drummond Elder",
+  "unique": false
+ },
+ {
+  "nameId": 420952,
+  "title": "Servant",
+  "unique": false
+ },
+ {
+  "nameId": 420961,
+  "title": "Witch Hunter",
+  "unique": false
+ },
+ {
+  "nameId": 420970,
+  "title": "Vegelbud Guard",
+  "unique": false
+ },
+ {
+  "nameId": 422252,
+  "title": "Hierarch Hemmelfart",
+  "unique": true
+ },
+ {
+  "nameId": 423608,
+  "title": "Armorer",
+  "unique": false
+ },
+ {
+  "nameId": 428093,
+  "title": "Pirate",
+  "unique": false
+ },
+ {
+  "nameId": 430237,
+  "title": "Voice",
+  "unique": false
+ },
+ {
+  "nameId": 432590,
+  "title": "Wraith",
+  "unique": false
+ },
+ {
+  "nameId": 432611,
+  "title": "Carduin",
+  "unique": true
+ },
+ {
+  "nameId": 434966,
+  "title": "Nithral",
+  "unique": true
+ },
+ {
+  "nameId": 436843,
+  "title": "Ekimmara",
+  "unique": false
+ },
+ {
+  "nameId": 438216,
+  "title": "Redanian",
+  "unique": false
+ },
+ {
+  "nameId": 442264,
+  "title": "Seaman",
+  "unique": false
+ },
+ {
+  "nameId": 444254,
+  "title": "Succubus",
+  "unique": true
+ },
+ {
+  "nameId": 444265,
+  "title": "Peasant",
+  "unique": false
+ },
+ {
+  "nameId": 446326,
+  "title": "Odrin",
+  "unique": true
+ },
+ {
+  "nameId": 447384,
+  "title": "Endrega",
+  "unique": true
+ },
+ {
+  "nameId": 451163,
+  "title": "Merchant",
+  "unique": false
+ },
+ {
+  "nameId": 452675,
+  "title": "Witcher",
+  "unique": true
+ },
+ {
+  "nameId": 452676,
+  "title": "Shepherd",
+  "unique": false
+ },
+ {
+  "nameId": 452710,
+  "title": "Deserter",
+  "unique": false
+ },
+ {
+  "nameId": 452727,
+  "title": "Looter",
+  "unique": false
+ },
+ {
+  "nameId": 452728,
+  "title": "Ghoul",
+  "unique": false
+ },
+ {
+  "nameId": 452885,
+  "title": "Victim",
+  "unique": false
+ },
+ {
+  "nameId": 452889,
+  "title": "Old Sage",
+  "unique": false
+ },
+ {
+  "nameId": 452929,
+  "title": "Foglet",
+  "unique": false
+ },
+ {
+  "nameId": 452942,
+  "title": "Sheep",
+  "unique": false
+ },
+ {
+  "nameId": 457899,
+  "title": "Olaf",
+  "unique": true
+ },
+ {
+  "nameId": 457900,
+  "title": "Skald",
+  "unique": false
+ },
+ {
+  "nameId": 457920,
+  "title": "Mathios",
+  "unique": true
+ },
+ {
+  "nameId": 458122,
+  "title": "Elite Guard",
+  "unique": false
+ },
+ {
+  "nameId": 458124,
+  "title": "Nilfgaardian Soldier",
+  "unique": false
+ },
+ {
+  "nameId": 458125,
+  "title": "Herbalist",
+  "unique": false
+ },
+ {
+  "nameId": 458126,
+  "title": "Courtesan",
+  "unique": false
+ },
+ {
+  "nameId": 458127,
+  "title": "Guard",
+  "unique": false
+ },
+ {
+  "nameId": 458130,
+  "title": "Guard",
+  "unique": false
+ },
+ {
+  "nameId": 458131,
+  "title": "Guard",
+  "unique": false
+ },
+ {
+  "nameId": 459442,
+  "title": "Djenge Frett",
+  "unique": true
+ },
+ {
+  "nameId": 459483,
+  "title": "Ge'els",
+  "unique": true
+ },
+ {
+  "nameId": 459484,
+  "title": "Kurisu",
+  "unique": true
+ },
+ {
+  "nameId": 461008,
+  "title": "Katakan",
+  "unique": false
+ },
+ {
+  "nameId": 465334,
+  "title": "Survivor",
+  "unique": false
+ },
+ {
+  "nameId": 465459,
+  "title": "Grave Hag",
+  "unique": false
+ },
+ {
+  "nameId": 465466,
+  "title": "Pesta",
+  "unique": true
+ },
+ {
+  "nameId": 465467,
+  "title": "Golem",
+  "unique": false
+ },
+ {
+  "nameId": 465940,
+  "title": "Pillager",
+  "unique": false
+ },
+ {
+  "nameId": 466292,
+  "title": "Guard",
+  "unique": false
+ },
+ {
+  "nameId": 466300,
+  "title": "Titus Gielas",
+  "unique": true
+ },
+ {
+  "nameId": 466374,
+  "title": "Eternal Fire Priest",
+  "unique": false
+ },
+ {
+  "nameId": 466683,
+  "title": "Letho",
+  "unique": true
+ },
+ {
+  "nameId": 466798,
+  "title": "Arachas",
+  "unique": false
+ },
+ {
+  "nameId": 467088,
+  "title": "Survivor",
+  "unique": false
+ },
+ {
+  "nameId": 467274,
+  "title": "Refugee",
+  "unique": false
+ },
+ {
+  "nameId": 467824,
+  "title": "Vernossiel",
+  "unique": true
+ },
+ {
+  "nameId": 470231,
+  "title": "Old Woman",
+  "unique": false
+ },
+ {
+  "nameId": 470900,
+  "title": "Foglet",
+  "unique": false
+ },
+ {
+  "nameId": 472643,
+  "title": "Lessy",
+  "unique": true
+ },
+ {
+  "nameId": 472736,
+  "title": "Gretka",
+  "unique": true
+ },
+ {
+  "nameId": 472742,
+  "title": "Niellen",
+  "unique": true
+ },
+ {
+  "nameId": 472745,
+  "title": "Barmaid",
+  "unique": false
+ },
+ {
+  "nameId": 472898,
+  "title": "Girl",
+  "unique": false
+ },
+ {
+  "nameId": 473973,
+  "title": "Princess",
+  "unique": true
+ },
+ {
+  "nameId": 474611,
+  "title": "Jorund",
+  "unique": true
+ },
+ {
+  "nameId": 474721,
+  "title": "Kori",
+  "unique": true
+ },
+ {
+  "nameId": 474724,
+  "title": "Kraki",
+  "unique": true
+ },
+ {
+  "nameId": 475179,
+  "title": "Vampire",
+  "unique": false
+ },
+ {
+  "nameId": 477182,
+  "title": "Leif",
+  "unique": true
+ },
+ {
+  "nameId": 477233,
+  "title": "Slave",
+  "unique": false
+ },
+ {
+  "nameId": 477733,
+  "title": "Nilfgaardian Officer",
+  "unique": false
+ },
+ {
+  "nameId": 478294,
+  "title": "Thug",
+  "unique": false
+ },
+ {
+  "nameId": 478311,
+  "title": "Thug",
+  "unique": false
+ },
+ {
+  "nameId": 478312,
+  "title": "Bandit",
+  "unique": false
+ },
+ {
+  "nameId": 480031,
+  "title": "Dwarf",
+  "unique": false
+ },
+ {
+  "nameId": 480174,
+  "title": "Dijkstra's Henchman",
+  "unique": false
+ },
+ {
+  "nameId": 480691,
+  "title": "Fight Enthusiast",
+  "unique": false
+ },
+ {
+  "nameId": 481485,
+  "title": "Hortensio",
+  "unique": true
+ },
+ {
+  "nameId": 481487,
+  "title": "Ves",
+  "unique": true
+ },
+ {
+  "nameId": 482579,
+  "title": "Student",
+  "unique": false
+ },
+ {
+  "nameId": 483467,
+  "title": "Sarah",
+  "unique": true
+ },
+ {
+  "nameId": 486014,
+  "title": "Drowned Dead",
+  "unique": false
+ },
+ {
+  "nameId": 488916,
+  "title": "Witch Hunter Messenger",
+  "unique": false
+ },
+ {
+  "nameId": 488917,
+  "title": "Dijkstra's Henchman",
+  "unique": false
+ },
+ {
+  "nameId": 490621,
+  "title": "Thaler",
+  "unique": true
+ },
+ {
+  "nameId": 490669,
+  "title": "Lothar",
+  "unique": true
+ },
+ {
+  "nameId": 491843,
+  "title": "Vagrant",
+  "unique": false
+ },
+ {
+  "nameId": 492065,
+  "title": "Beggar",
+  "unique": false
+ },
+ {
+  "nameId": 492157,
+  "title": "Ernst van Hoorn",
+  "unique": true
+ },
+ {
+  "nameId": 492159,
+  "title": "Sukrus",
+  "unique": true
+ },
+ {
+  "nameId": 496161,
+  "title": "Basilisk",
+  "unique": false
+ },
+ {
+  "nameId": 496919,
+  "title": "Woman",
+  "unique": false
+ },
+ {
+  "nameId": 497266,
+  "title": "Captain Liglad",
+  "unique": false
+ },
+ {
+  "nameId": 498921,
+  "title": "Sailor",
+  "unique": false
+ },
+ {
+  "nameId": 499253,
+  "title": "Nidas",
+  "unique": true
+ },
+ {
+  "nameId": 499421,
+  "title": "Einar",
+  "unique": true
+ },
+ {
+  "nameId": 501932,
+  "title": "Morkvarg",
+  "unique": true
+ },
+ {
+  "nameId": 503004,
+  "title": "Symko",
+  "unique": true
+ },
+ {
+  "nameId": 503006,
+  "title": "Shrieker",
+  "unique": true
+ },
+ {
+  "nameId": 503481,
+  "title": "Master Claytop",
+  "unique": false
+ },
+ {
+  "nameId": 503673,
+  "title": "Drunkard",
+  "unique": false
+ },
+ {
+  "nameId": 503840,
+  "title": "Ronvid of the Small Marsh",
+  "unique": true
+ },
+ {
+  "nameId": 504536,
+  "title": "Archibald O'Neill",
+  "unique": true
+ },
+ {
+  "nameId": 504549,
+  "title": "Bookie",
+  "unique": false
+ },
+ {
+  "nameId": 505677,
+  "title": "Durden the Tailor",
+  "unique": true
+ },
+ {
+  "nameId": 507728,
+  "title": "Bruno",
+  "unique": true
+ },
+ {
+  "nameId": 509796,
+  "title": "Nathaniel Pastodi",
+  "unique": true
+ },
+ {
+  "nameId": 514768,
+  "title": "Woman",
+  "unique": false
+ },
+ {
+  "nameId": 515159,
+  "title": "Townswoman",
+  "unique": false
+ },
+ {
+  "nameId": 515498,
+  "title": "Goat",
+  "unique": false
+ },
+ {
+  "nameId": 515807,
+  "title": "Baron's Henchman",
+  "unique": false
+ },
+ {
+  "nameId": 515890,
+  "title": "Jonah",
+  "unique": true
+ },
+ {
+  "nameId": 516508,
+  "title": "Horse",
+  "unique": false
+ },
+ {
+  "nameId": 517102,
+  "title": "Eyvind",
+  "unique": true
+ },
+ {
+  "nameId": 520619,
+  "title": "Valgard",
+  "unique": true
+ },
+ {
+  "nameId": 520620,
+  "title": "Eryka",
+  "unique": true
+ },
+ {
+  "nameId": 520656,
+  "title": "Pig",
+  "unique": false
+ },
+ {
+  "nameId": 521598,
+  "title": "Einar",
+  "unique": true
+ },
+ {
+  "nameId": 521965,
+  "title": "Grim",
+  "unique": true
+ },
+ {
+  "nameId": 527328,
+  "title": "Griffin",
+  "unique": false
+ },
+ {
+  "nameId": 529360,
+  "title": "Ginter de Lavirac",
+  "unique": true
+ },
+ {
+  "nameId": 532099,
+  "title": "Eternal Fire Priest",
+  "unique": false
+ },
+ {
+  "nameId": 532236,
+  "title": "Bard",
+  "unique": false
+ },
+ {
+  "nameId": 532263,
+  "title": "Wealthy Townsman",
+  "unique": false
+ },
+ {
+  "nameId": 532375,
+  "title": "Peasant",
+  "unique": false
+ },
+ {
+  "nameId": 532407,
+  "title": "Poor Townsman",
+  "unique": false
+ },
+ {
+  "nameId": 532410,
+  "title": "Poor Townswoman",
+  "unique": false
+ },
+ {
+  "nameId": 532415,
+  "title": "Rich Townsman",
+  "unique": false
+ },
+ {
+  "nameId": 532416,
+  "title": "Rich Townswoman",
+  "unique": false
+ },
+ {
+  "nameId": 532919,
+  "title": "Admirer",
+  "unique": false
+ },
+ {
+  "nameId": 535322,
+  "title": "Wild Hunt Mage",
+  "unique": false
+ },
+ {
+  "nameId": 535651,
+  "title": "Butcher",
+  "unique": false
+ },
+ {
+  "nameId": 537522,
+  "title": "Nilfgaardian",
+  "unique": false
+ },
+ {
+  "nameId": 538568,
+  "title": "Innkeep",
+  "unique": false
+ },
+ {
+  "nameId": 542827,
+  "title": "Abbé Faria",
+  "unique": true
+ },
+ {
+  "nameId": 542828,
+  "title": "Bea",
+  "unique": true
+ },
+ {
+  "nameId": 543159,
+  "title": "Nilfgaardian Soldier",
+  "unique": false
+ },
+ {
+  "nameId": 543696,
+  "title": "Townsman",
+  "unique": false
+ },
+ {
+  "nameId": 545346,
+  "title": "Boatwright",
+  "unique": false
+ },
+ {
+  "nameId": 546023,
+  "title": "Dolores",
+  "unique": true
+ },
+ {
+  "nameId": 547898,
+  "title": "Treasurer",
+  "unique": false
+ },
+ {
+  "nameId": 548443,
+  "title": "Traveler",
+  "unique": false
+ },
+ {
+  "nameId": 549170,
+  "title": "Redanian Officer",
+  "unique": false
+ },
+ {
+  "nameId": 550645,
+  "title": "Woman",
+  "unique": false
+ },
+ {
+  "nameId": 550900,
+  "title": "Nilfgaardian Courtier",
+  "unique": false
+ },
+ {
+  "nameId": 552214,
+  "title": "Bytomir",
+  "unique": true
+ },
+ {
+  "nameId": 555882,
+  "title": "Stregomir",
+  "unique": true
+ },
+ {
+  "nameId": 557328,
+  "title": "Wyvern",
+  "unique": false
+ },
+ {
+  "nameId": 557329,
+  "title": "Royal Wyvern",
+  "unique": true
+ },
+ {
+  "nameId": 559381,
+  "title": "Valdo",
+  "unique": true
+ },
+ {
+  "nameId": 559458,
+  "title": "Fiend",
+  "unique": false
+ },
+ {
+  "nameId": 560052,
+  "title": "Witch Hunter Officer",
+  "unique": false
+ },
+ {
+  "nameId": 562016,
+  "title": "Bard",
+  "unique": false
+ },
+ {
+  "nameId": 562406,
+  "title": "Hunter",
+  "unique": false
+ },
+ {
+  "nameId": 562523,
+  "title": "Old Woman",
+  "unique": false
+ },
+ {
+  "nameId": 562678,
+  "title": "Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 562736,
+  "title": "Barmaid",
+  "unique": false
+ },
+ {
+  "nameId": 563532,
+  "title": "Hans of Cidaris",
+  "unique": true
+ },
+ {
+  "nameId": 563535,
+  "title": "Mercenary",
+  "unique": false
+ },
+ {
+  "nameId": 565721,
+  "title": "Brean Hotsch",
+  "unique": false
+ },
+ {
+  "nameId": 565804,
+  "title": "Poor Man",
+  "unique": false
+ },
+ {
+  "nameId": 565807,
+  "title": "Poor Woman",
+  "unique": false
+ },
+ {
+  "nameId": 565812,
+  "title": "Refugee",
+  "unique": false
+ },
+ {
+  "nameId": 566241,
+  "title": "Lumberjack",
+  "unique": false
+ },
+ {
+  "nameId": 567363,
+  "title": "Artis",
+  "unique": true
+ },
+ {
+  "nameId": 569270,
+  "title": "Sailor",
+  "unique": false
+ },
+ {
+  "nameId": 569290,
+  "title": "Ifrit",
+  "unique": false
+ },
+ {
+  "nameId": 569574,
+  "title": "Concerned Townsman",
+  "unique": false
+ },
+ {
+  "nameId": 570544,
+  "title": "Tymon",
+  "unique": true
+ },
+ {
+  "nameId": 572002,
+  "title": "Red Rikka",
+  "unique": true
+ },
+ {
+  "nameId": 572005,
+  "title": "Arve Oarsman",
+  "unique": true
+ },
+ {
+  "nameId": 572068,
+  "title": "Nobleman",
+  "unique": false
+ },
+ {
+  "nameId": 572189,
+  "title": "Clan Brokvar Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 572192,
+  "title": "Clan Drummond Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 572363,
+  "title": "Kurt Dysart",
+  "unique": true
+ },
+ {
+  "nameId": 572370,
+  "title": "Earth Elemental",
+  "unique": false
+ },
+ {
+  "nameId": 573195,
+  "title": "Baron's Henchman",
+  "unique": false
+ },
+ {
+  "nameId": 574040,
+  "title": "Scribe",
+  "unique": false
+ },
+ {
+  "nameId": 574090,
+  "title": "Sylvester Amello",
+  "unique": true
+ },
+ {
+  "nameId": 574248,
+  "title": "Finneas",
+  "unique": true
+ },
+ {
+  "nameId": 574477,
+  "title": "Bald Sigge",
+  "unique": true
+ },
+ {
+  "nameId": 574482,
+  "title": "Fishbreath Aegir",
+  "unique": true
+ },
+ {
+  "nameId": 574835,
+  "title": "Clan Dimun Elder",
+  "unique": false
+ },
+ {
+  "nameId": 575092,
+  "title": "Patrick Hazelnutt",
+  "unique": true
+ },
+ {
+  "nameId": 575097,
+  "title": "Count Tybalt",
+  "unique": true
+ },
+ {
+  "nameId": 575236,
+  "title": "Patrick's Paramour",
+  "unique": false
+ },
+ {
+  "nameId": 575384,
+  "title": "Bernard Tulle",
+  "unique": true
+ },
+ {
+  "nameId": 575683,
+  "title": "Doppler",
+  "unique": true
+ },
+ {
+  "nameId": 577289,
+  "title": "Fisherman",
+  "unique": false
+ },
+ {
+  "nameId": 577379,
+  "title": "Cleaver's Henchdwarf",
+  "unique": false
+ },
+ {
+  "nameId": 577863,
+  "title": "Noonwraith",
+  "unique": false
+ },
+ {
+  "nameId": 577973,
+  "title": "Noblewoman",
+  "unique": false
+ },
+ {
+  "nameId": 577978,
+  "title": "Halfling",
+  "unique": false
+ },
+ {
+  "nameId": 578008,
+  "title": "Courtesan",
+  "unique": false
+ },
+ {
+  "nameId": 578013,
+  "title": "Rich Man",
+  "unique": false
+ },
+ {
+  "nameId": 578094,
+  "title": "Elf",
+  "unique": false
+ },
+ {
+  "nameId": 580018,
+  "title": "Dockhand",
+  "unique": false
+ },
+ {
+  "nameId": 580019,
+  "title": "Drunk",
+  "unique": false
+ },
+ {
+  "nameId": 581104,
+  "title": "Mia",
+  "unique": true
+ },
+ {
+  "nameId": 581135,
+  "title": "Dock Supervisor",
+  "unique": false
+ },
+ {
+  "nameId": 581136,
+  "title": "Vienne",
+  "unique": true
+ },
+ {
+  "nameId": 581137,
+  "title": "Hammond",
+  "unique": true
+ },
+ {
+  "nameId": 581139,
+  "title": "Jad Karadin",
+  "unique": true
+ },
+ {
+  "nameId": 581868,
+  "title": "Bernard's Henchman",
+  "unique": false
+ },
+ {
+  "nameId": 583032,
+  "title": "Djinn",
+  "unique": true
+ },
+ {
+  "nameId": 583134,
+  "title": "Novigrad Guard",
+  "unique": false
+ },
+ {
+  "nameId": 583271,
+  "title": "Dancer",
+  "unique": false
+ },
+ {
+  "nameId": 584228,
+  "title": "Courtesan",
+  "unique": false
+ },
+ {
+  "nameId": 584237,
+  "title": "Traveler",
+  "unique": false
+ },
+ {
+  "nameId": 584609,
+  "title": "Tim Knott",
+  "unique": true
+ },
+ {
+  "nameId": 584610,
+  "title": "Harald Featherbuns",
+  "unique": true
+ },
+ {
+  "nameId": 586892,
+  "title": "Moritz Diefenthel",
+  "unique": true
+ },
+ {
+  "nameId": 587384,
+  "title": "Haddy",
+  "unique": true
+ },
+ {
+  "nameId": 590126,
+  "title": "Louis",
+  "unique": true
+ },
+ {
+  "nameId": 591248,
+  "title": "Headhunter",
+  "unique": false
+ },
+ {
+  "nameId": 591744,
+  "title": "Little Red",
+  "unique": true
+ },
+ {
+  "nameId": 593185,
+  "title": "Maxim Boliere",
+  "unique": true
+ },
+ {
+  "nameId": 593186,
+  "title": "Abelard Rizza",
+  "unique": true
+ },
+ {
+  "nameId": 593289,
+  "title": "Goose",
+  "unique": false
+ },
+ {
+  "nameId": 594974,
+  "title": "King Bran",
+  "unique": true
+ },
+ {
+  "nameId": 595619,
+  "title": "Elf",
+  "unique": false
+ },
+ {
+  "nameId": 595620,
+  "title": "Elf",
+  "unique": false
+ },
+ {
+  "nameId": 595826,
+  "title": "Duke",
+  "unique": true
+ },
+ {
+  "nameId": 595828,
+  "title": "Nilfgaardian Messenger",
+  "unique": false
+ },
+ {
+  "nameId": 595832,
+  "title": "Nilfgaardian Minister",
+  "unique": false
+ },
+ {
+  "nameId": 595850,
+  "title": "Nilfgaardian Settler",
+  "unique": false
+ },
+ {
+  "nameId": 595882,
+  "title": "Redanian Herald",
+  "unique": false
+ },
+ {
+  "nameId": 595889,
+  "title": "Swordsmith's Helper",
+  "unique": false
+ },
+ {
+  "nameId": 595891,
+  "title": "Peasant",
+  "unique": false
+ },
+ {
+  "nameId": 595912,
+  "title": "Farmer",
+  "unique": false
+ },
+ {
+  "nameId": 595913,
+  "title": "Peasant",
+  "unique": false
+ },
+ {
+  "nameId": 1000223,
+  "title": "Yagna",
+  "unique": true
+ },
+ {
+  "nameId": 1000329,
+  "title": "Baron's Guard",
+  "unique": false
+ },
+ {
+  "nameId": 1002205,
+  "title": "Nilfgaardian Courtier",
+  "unique": false
+ },
+ {
+  "nameId": 1002451,
+  "title": "Servant",
+  "unique": false
+ },
+ {
+  "nameId": 1002852,
+  "title": "Cleaver's Henchman",
+  "unique": false
+ },
+ {
+  "nameId": 1003942,
+  "title": "Bystander",
+  "unique": false
+ },
+ {
+  "nameId": 1004183,
+  "title": "Genny",
+  "unique": true
+ },
+ {
+  "nameId": 1004190,
+  "title": "Travik",
+  "unique": true
+ },
+ {
+  "nameId": 1004191,
+  "title": "Mikula",
+  "unique": true
+ },
+ {
+  "nameId": 1004197,
+  "title": "Aynara",
+  "unique": true
+ },
+ {
+  "nameId": 1004256,
+  "title": "Crowd",
+  "unique": false
+ },
+ {
+  "nameId": 1004263,
+  "title": "Executioner",
+  "unique": false
+ },
+ {
+  "nameId": 1004324,
+  "title": "Rudolf de Jonkheer",
+  "unique": true
+ },
+ {
+  "nameId": 1007345,
+  "title": "Chet",
+  "unique": true
+ },
+ {
+  "nameId": 1009122,
+  "title": "Bramble Fruntenstroch",
+  "unique": true
+ },
+ {
+  "nameId": 1009397,
+  "title": "Holofernus Meiersdorf",
+  "unique": true
+ },
+ {
+  "nameId": 1009505,
+  "title": "Bernie Meiersdorf",
+  "unique": true
+ },
+ {
+  "nameId": 1009532,
+  "title": "Franklin Meiersdorf",
+  "unique": true
+ },
+ {
+  "nameId": 1009533,
+  "title": "Hugo Meiersdorf",
+  "unique": true
+ },
+ {
+  "nameId": 1010557,
+  "title": "Sasha",
+  "unique": true
+ },
+ {
+  "nameId": 1010685,
+  "title": "Pilgrim",
+  "unique": false
+ },
+ {
+  "nameId": 1011406,
+  "title": "Vairmont Jonne",
+  "unique": true
+ },
+ {
+  "nameId": 1013149,
+  "title": "Gascoigne",
+  "unique": true
+ },
+ {
+  "nameId": 1013154,
+  "title": "Victor",
+  "unique": true
+ },
+ {
+  "nameId": 1015555,
+  "title": "Dog",
+  "unique": false
+ },
+ {
+  "nameId": 1015745,
+  "title": "Jockey",
+  "unique": false
+ },
+ {
+  "nameId": 1015890,
+  "title": "Pig",
+  "unique": false
+ },
+ {
+  "nameId": 1016486,
+  "title": "Mikkjal",
+  "unique": true
+ },
+ {
+  "nameId": 1017971,
+  "title": "Smith",
+  "unique": false
+ },
+ {
+  "nameId": 1017985,
+  "title": "Butcher",
+  "unique": false
+ },
+ {
+  "nameId": 1018000,
+  "title": "Hunter",
+  "unique": false
+ },
+ {
+  "nameId": 1018033,
+  "title": "Elf",
+  "unique": false
+ },
+ {
+  "nameId": 1018188,
+  "title": "Jutta",
+  "unique": true
+ },
+ {
+  "nameId": 1018198,
+  "title": "Nilfgaardian Woman",
+  "unique": false
+ },
+ {
+  "nameId": 1019336,
+  "title": "Gundar",
+  "unique": true
+ },
+ {
+  "nameId": 1022098,
+  "title": "Sigo Buntz",
+  "unique": true
+ },
+ {
+  "nameId": 1025779,
+  "title": "Kevan",
+  "unique": true
+ },
+ {
+  "nameId": 1027350,
+  "title": "Jenny o'the Woods",
+  "unique": true
+ },
+ {
+  "nameId": 1027742,
+  "title": "Salma",
+  "unique": true
+ },
+ {
+  "nameId": 1027947,
+  "title": "Chort",
+  "unique": false
+ },
+ {
+  "nameId": 1028020,
+  "title": "Juggler",
+  "unique": false
+ },
+ {
+  "nameId": 1028021,
+  "title": "Juggler",
+  "unique": false
+ },
+ {
+  "nameId": 1028023,
+  "title": "Aegar",
+  "unique": true
+ },
+ {
+  "nameId": 1028024,
+  "title": "Emilia",
+  "unique": true
+ },
+ {
+  "nameId": 1028676,
+  "title": "Witcher's Ghost",
+  "unique": false
+ },
+ {
+  "nameId": 1028677,
+  "title": "Boy's Ghost",
+  "unique": false
+ },
+ {
+  "nameId": 1029698,
+  "title": "Svana",
+  "unique": true
+ },
+ {
+  "nameId": 1030304,
+  "title": "Kaspar",
+  "unique": true
+ },
+ {
+  "nameId": 1030382,
+  "title": "Sverre",
+  "unique": true
+ },
+ {
+  "nameId": 1030909,
+  "title": "Fire",
+  "unique": false
+ },
+ {
+  "nameId": 1030982,
+  "title": "Temerian Soldier",
+  "unique": false
+ },
+ {
+  "nameId": 1031427,
+  "title": "Shepherd",
+  "unique": false
+ },
+ {
+  "nameId": 1032629,
+  "title": "Albin Hart",
+  "unique": true
+ },
+ {
+  "nameId": 1032899,
+  "title": "Preacher",
+  "unique": false
+ },
+ {
+  "nameId": 1033231,
+  "title": "Merchant",
+  "unique": false
+ },
+ {
+  "nameId": 1033272,
+  "title": "Redanian Merchant",
+  "unique": false
+ },
+ {
+  "nameId": 1033273,
+  "title": "Redanian Woman",
+  "unique": false
+ },
+ {
+  "nameId": 1033452,
+  "title": "Hussar",
+  "unique": false
+ },
+ {
+  "nameId": 1034137,
+  "title": "Patient",
+  "unique": false
+ },
+ {
+  "nameId": 1040855,
+  "title": "Servant",
+  "unique": false
+ },
+ {
+  "nameId": 1040856,
+  "title": "Harmon aep Groenekan",
+  "unique": true
+ },
+ {
+  "nameId": 1041861,
+  "title": "Gravedigger",
+  "unique": false
+ },
+ {
+  "nameId": 1041927,
+  "title": "Fisstech Addict",
+  "unique": false
+ },
+ {
+  "nameId": 1042786,
+  "title": "Rabid Dog",
+  "unique": false
+ },
+ {
+  "nameId": 1042933,
+  "title": "Actress",
+  "unique": false
+ },
+ {
+  "nameId": 1042981,
+  "title": "Stagehand",
+  "unique": false
+ },
+ {
+  "nameId": 1042982,
+  "title": "Stagehand",
+  "unique": false
+ },
+ {
+  "nameId": 1042983,
+  "title": "Ticket Seller",
+  "unique": true
+ },
+ {
+  "nameId": 1043384,
+  "title": "Hal",
+  "unique": true
+ },
+ {
+  "nameId": 1043714,
+  "title": "Silvan",
+  "unique": false
+ },
+ {
+  "nameId": 1043715,
+  "title": "Dora",
+  "unique": true
+ },
+ {
+  "nameId": 1044165,
+  "title": "Bear",
+  "unique": false
+ },
+ {
+  "nameId": 1044227,
+  "title": "Dwarven Coach",
+  "unique": false
+ },
+ {
+  "nameId": 1045409,
+  "title": "Witch Hunter Torturer",
+  "unique": false
+ },
+ {
+  "nameId": 1046357,
+  "title": "Spectator",
+  "unique": false
+ },
+ {
+  "nameId": 1046403,
+  "title": "Herold",
+  "unique": false
+ },
+ {
+  "nameId": 1046404,
+  "title": "Race Master",
+  "unique": false
+ },
+ {
+  "nameId": 1046495,
+  "title": "Luc Vegelbud",
+  "unique": true
+ },
+ {
+  "nameId": 1046735,
+  "title": "Mysterious Messenger",
+  "unique": false
+ },
+ {
+  "nameId": 1047142,
+  "title": "Anisse",
+  "unique": true
+ },
+ {
+  "nameId": 1047248,
+  "title": "Joe",
+  "unique": true
+ },
+ {
+  "nameId": 1047249,
+  "title": "Jesse",
+  "unique": true
+ },
+ {
+  "nameId": 1047252,
+  "title": "Dodger",
+  "unique": false
+ },
+ {
+  "nameId": 1047253,
+  "title": "Berthold",
+  "unique": true
+ },
+ {
+  "nameId": 1047255,
+  "title": "Landlady",
+  "unique": false
+ },
+ {
+  "nameId": 1047256,
+  "title": "Landlord",
+  "unique": false
+ },
+ {
+  "nameId": 1047438,
+  "title": "Casino Regular",
+  "unique": false
+ },
+ {
+  "nameId": 1047830,
+  "title": "Rock Troll",
+  "unique": false
+ },
+ {
+  "nameId": 1048434,
+  "title": "Caesar Bilzen",
+  "unique": true
+ },
+ {
+  "nameId": 1048437,
+  "title": "Ravvy",
+  "unique": true
+ },
+ {
+  "nameId": 1048438,
+  "title": "Horse",
+  "unique": false
+ },
+ {
+  "nameId": 1048658,
+  "title": "Nikolas Friedman",
+  "unique": true
+ },
+ {
+  "nameId": 1048672,
+  "title": "Botchling",
+  "unique": false
+ },
+ {
+  "nameId": 1048682,
+  "title": "Roche's Follower",
+  "unique": false
+ },
+ {
+  "nameId": 1049066,
+  "title": "Ealdorman Bolko",
+  "unique": false
+ },
+ {
+  "nameId": 1049078,
+  "title": "Cleaver's Henchdwarf",
+  "unique": false
+ },
+ {
+  "nameId": 1049351,
+  "title": "Nibbles",
+  "unique": false
+ },
+ {
+  "nameId": 1049405,
+  "title": "Hubio",
+  "unique": true
+ },
+ {
+  "nameId": 1049411,
+  "title": "Sophronia",
+  "unique": true
+ },
+ {
+  "nameId": 1049412,
+  "title": "Gustav Roene",
+  "unique": true
+ },
+ {
+  "nameId": 1049413,
+  "title": "Polly",
+  "unique": true
+ },
+ {
+  "nameId": 1049415,
+  "title": "Count de Luverten",
+  "unique": true
+ },
+ {
+  "nameId": 1049418,
+  "title": "Worker",
+  "unique": false
+ },
+ {
+  "nameId": 1049449,
+  "title": "Henri Rautlec",
+  "unique": true
+ },
+ {
+  "nameId": 1049787,
+  "title": "Wyvern",
+  "unique": false
+ },
+ {
+  "nameId": 1049948,
+  "title": "Messenger",
+  "unique": false
+ },
+ {
+  "nameId": 1050087,
+  "title": "Thug",
+  "unique": false
+ },
+ {
+  "nameId": 1050110,
+  "title": "Boris",
+  "unique": true
+ },
+ {
+  "nameId": 1050124,
+  "title": "Zdenek",
+  "unique": true
+ },
+ {
+  "nameId": 1050488,
+  "title": "Helper",
+  "unique": false
+ },
+ {
+  "nameId": 1050490,
+  "title": "Wild Hunt Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 1050491,
+  "title": "Hound of the Wild Hunt",
+  "unique": false
+ },
+ {
+  "nameId": 1050632,
+  "title": "Deer",
+  "unique": false
+ },
+ {
+  "nameId": 1050637,
+  "title": "Snow Hare",
+  "unique": false
+ },
+ {
+  "nameId": 1051217,
+  "title": "Whoreson's Henchman",
+  "unique": false
+ },
+ {
+  "nameId": 1051405,
+  "title": "Nilfgaardian Chancellor",
+  "unique": false
+ },
+ {
+  "nameId": 1051424,
+  "title": "Swordsmith",
+  "unique": false
+ },
+ {
+  "nameId": 1051564,
+  "title": "Simun Brambling",
+  "unique": true
+ },
+ {
+  "nameId": 1052959,
+  "title": "Croupier",
+  "unique": false
+ },
+ {
+  "nameId": 1052960,
+  "title": "Houndmaster",
+  "unique": false
+ },
+ {
+  "nameId": 1053121,
+  "title": "Errant Troll",
+  "unique": false
+ },
+ {
+  "nameId": 1053407,
+  "title": "Timmon",
+  "unique": true
+ },
+ {
+  "nameId": 1053421,
+  "title": "Servant",
+  "unique": false
+ },
+ {
+  "nameId": 1053455,
+  "title": "Medic",
+  "unique": false
+ },
+ {
+  "nameId": 1054152,
+  "title": "Hound of the Wild Hunt",
+  "unique": false
+ },
+ {
+  "nameId": 1054153,
+  "title": "Cow",
+  "unique": false
+ },
+ {
+  "nameId": 1054362,
+  "title": "Var Attre Guard Captain",
+  "unique": false
+ },
+ {
+  "nameId": 1054684,
+  "title": "Glenna",
+  "unique": true
+ },
+ {
+  "nameId": 1054778,
+  "title": "Temerian Guerilla",
+  "unique": false
+ },
+ {
+  "nameId": 1054904,
+  "title": "Mislav",
+  "unique": true
+ },
+ {
+  "nameId": 1054905,
+  "title": "Barber",
+  "unique": false
+ },
+ {
+  "nameId": 1054906,
+  "title": "Ambassador var Attre",
+  "unique": true
+ },
+ {
+  "nameId": 1055037,
+  "title": "Sweet Nettie",
+  "unique": true
+ },
+ {
+  "nameId": 1055083,
+  "title": "Maiden",
+  "unique": false
+ },
+ {
+  "nameId": 1055084,
+  "title": "Peasant",
+  "unique": false
+ },
+ {
+  "nameId": 1055085,
+  "title": "Boy",
+  "unique": false
+ },
+ {
+  "nameId": 1055096,
+  "title": "Girl",
+  "unique": false
+ },
+ {
+  "nameId": 1055097,
+  "title": "Peasant",
+  "unique": false
+ },
+ {
+  "nameId": 1055098,
+  "title": "Nightwraith",
+  "unique": false
+ },
+ {
+  "nameId": 1055103,
+  "title": "Vildkaarl",
+  "unique": true
+ },
+ {
+  "nameId": 1055104,
+  "title": "Clan Craite Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 1055105,
+  "title": "Clan Dimun Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 1055106,
+  "title": "Clan Heymaey Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 1055107,
+  "title": "Clan Tuirseach Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 1055109,
+  "title": "Seaman",
+  "unique": false
+ },
+ {
+  "nameId": 1055110,
+  "title": "Skelliger",
+  "unique": false
+ },
+ {
+  "nameId": 1055111,
+  "title": "Uve Jabberjaw",
+  "unique": true
+ },
+ {
+  "nameId": 1055115,
+  "title": "Skelliger",
+  "unique": false
+ },
+ {
+  "nameId": 1055120,
+  "title": "Chapelle",
+  "unique": true
+ },
+ {
+  "nameId": 1055121,
+  "title": "Scorpion",
+  "unique": true
+ },
+ {
+  "nameId": 1055125,
+  "title": "Pearl Diver",
+  "unique": true
+ },
+ {
+  "nameId": 1055127,
+  "title": "Nilfgaardian Medic",
+  "unique": false
+ },
+ {
+  "nameId": 1055156,
+  "title": "King of Wolves",
+  "unique": true
+ },
+ {
+  "nameId": 1055162,
+  "title": "Nilfgaardian General",
+  "unique": false
+ },
+ {
+  "nameId": 1055163,
+  "title": "Nilfgaardian Nobleman",
+  "unique": false
+ },
+ {
+  "nameId": 1055165,
+  "title": "Lena",
+  "unique": true
+ },
+ {
+  "nameId": 1055168,
+  "title": "La Valette Guard Captain",
+  "unique": false
+ },
+ {
+  "nameId": 1055174,
+  "title": "White Mouse",
+  "unique": true
+ },
+ {
+  "nameId": 1055176,
+  "title": "Margrit",
+  "unique": true
+ },
+ {
+  "nameId": 1055179,
+  "title": "Laetitia Karadin",
+  "unique": true
+ },
+ {
+  "nameId": 1055181,
+  "title": "Aristocrat",
+  "unique": false
+ },
+ {
+  "nameId": 1055182,
+  "title": "Aristocrat",
+  "unique": false
+ },
+ {
+  "nameId": 1055186,
+  "title": "Nilfgaardian Noblewoman",
+  "unique": false
+ },
+ {
+  "nameId": 1055187,
+  "title": "Albert Vegelbud",
+  "unique": true
+ },
+ {
+  "nameId": 1055188,
+  "title": "Prison Warden",
+  "unique": false
+ },
+ {
+  "nameId": 1055189,
+  "title": "Poor Townswoman",
+  "unique": false
+ },
+ {
+  "nameId": 1055239,
+  "title": "Poor Townsman",
+  "unique": false
+ },
+ {
+  "nameId": 1055244,
+  "title": "Wealthy Townswoman",
+  "unique": false
+ },
+ {
+  "nameId": 1055247,
+  "title": "Wealthy Townsman",
+  "unique": false
+ },
+ {
+  "nameId": 1055369,
+  "title": "Young Druid",
+  "unique": false
+ },
+ {
+  "nameId": 1055372,
+  "title": "Alghoul",
+  "unique": false
+ },
+ {
+  "nameId": 1055403,
+  "title": "Townswoman",
+  "unique": false
+ },
+ {
+  "nameId": 1055404,
+  "title": "Stuttering Matt",
+  "unique": true
+ },
+ {
+  "nameId": 1055405,
+  "title": "Iron-Arse Hans",
+  "unique": true
+ },
+ {
+  "nameId": 1055406,
+  "title": "Black Bogdan",
+  "unique": true
+ },
+ {
+  "nameId": 1055407,
+  "title": "Helma",
+  "unique": true
+ },
+ {
+  "nameId": 1055408,
+  "title": "Race Master",
+  "unique": false
+ },
+ {
+  "nameId": 1055409,
+  "title": "Lonelyboy Svan",
+  "unique": true
+ },
+ {
+  "nameId": 1055411,
+  "title": "Astrid the Vipress",
+  "unique": true
+ },
+ {
+  "nameId": 1055413,
+  "title": "Nekker Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 1055555,
+  "title": "Boatwright's Apprentice",
+  "unique": false
+ },
+ {
+  "nameId": 1055556,
+  "title": "Britt",
+  "unique": true
+ },
+ {
+  "nameId": 1055557,
+  "title": "Vagn",
+  "unique": true
+ },
+ {
+  "nameId": 1055562,
+  "title": "Friendly Dog",
+  "unique": false
+ },
+ {
+  "nameId": 1055563,
+  "title": "Student",
+  "unique": false
+ },
+ {
+  "nameId": 1055564,
+  "title": "Scoia'tael Commander",
+  "unique": false
+ },
+ {
+  "nameId": 1055566,
+  "title": "Ronvid's Friend",
+  "unique": false
+ },
+ {
+  "nameId": 1055567,
+  "title": "Rufus",
+  "unique": true
+ },
+ {
+  "nameId": 1055569,
+  "title": "Theophile Maria Rosco",
+  "unique": true
+ },
+ {
+  "nameId": 1055570,
+  "title": "Manfred",
+  "unique": true
+ },
+ {
+  "nameId": 1055571,
+  "title": "Merchant",
+  "unique": false
+ },
+ {
+  "nameId": 1055572,
+  "title": "Customer",
+  "unique": false
+ },
+ {
+  "nameId": 1055573,
+  "title": "Beast Tamer",
+  "unique": false
+ },
+ {
+  "nameId": 1055574,
+  "title": "Bertram",
+  "unique": true
+ },
+ {
+  "nameId": 1055575,
+  "title": "Seamus Holt",
+  "unique": true
+ },
+ {
+  "nameId": 1055576,
+  "title": "Viscount Rommer",
+  "unique": true
+ },
+ {
+  "nameId": 1055577,
+  "title": "Dune",
+  "unique": true
+ },
+ {
+  "nameId": 1055578,
+  "title": "Napp",
+  "unique": true
+ },
+ {
+  "nameId": 1055580,
+  "title": "Manfred Grossbart",
+  "unique": true
+ },
+ {
+  "nameId": 1055581,
+  "title": "Hegel Grossbart",
+  "unique": true
+ },
+ {
+  "nameId": 1055582,
+  "title": "Jesse Grossbart",
+  "unique": true
+ },
+ {
+  "nameId": 1055637,
+  "title": "Taciturn Druid",
+  "unique": false
+ },
+ {
+  "nameId": 1055638,
+  "title": "Gunnar",
+  "unique": true
+ },
+ {
+  "nameId": 1055639,
+  "title": "Yorg",
+  "unique": true
+ },
+ {
+  "nameId": 1055640,
+  "title": "Yorg's Sister",
+  "unique": false
+ },
+ {
+  "nameId": 1055641,
+  "title": "Foreigner",
+  "unique": false
+ },
+ {
+  "nameId": 1055642,
+  "title": "Foreigner",
+  "unique": false
+ },
+ {
+  "nameId": 1055643,
+  "title": "Ivar",
+  "unique": true
+ },
+ {
+  "nameId": 1055644,
+  "title": "Volund",
+  "unique": true
+ },
+ {
+  "nameId": 1055647,
+  "title": "Arnout Vester",
+  "unique": true
+ },
+ {
+  "nameId": 1055653,
+  "title": "Raven",
+  "unique": false
+ },
+ {
+  "nameId": 1055657,
+  "title": "Ram",
+  "unique": false
+ },
+ {
+  "nameId": 1055659,
+  "title": "Rooster",
+  "unique": false
+ },
+ {
+  "nameId": 1055662,
+  "title": "Erynia",
+  "unique": false
+ },
+ {
+  "nameId": 1055663,
+  "title": "Anna",
+  "unique": false
+ },
+ {
+  "nameId": 1055665,
+  "title": "Ekhidna",
+  "unique": false
+ },
+ {
+  "nameId": 1055666,
+  "title": "Endrega Worker",
+  "unique": false
+ },
+ {
+  "nameId": 1055668,
+  "title": "Endrega Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 1055669,
+  "title": "Endrega Drone",
+  "unique": false
+ },
+ {
+  "nameId": 1055671,
+  "title": "Armored Arachas",
+  "unique": false
+ },
+ {
+  "nameId": 1055672,
+  "title": "Venomous Arachas",
+  "unique": false
+ },
+ {
+  "nameId": 1055674,
+  "title": "Ancient Leshen",
+  "unique": true
+ },
+ {
+  "nameId": 1055682,
+  "title": "Devourer",
+  "unique": false
+ },
+ {
+  "nameId": 1055685,
+  "title": "Simulacrum",
+  "unique": false
+ },
+ {
+  "nameId": 1055689,
+  "title": "Black Troll",
+  "unique": false
+ },
+ {
+  "nameId": 1055691,
+  "title": "Archgriffin",
+  "unique": false
+ },
+ {
+  "nameId": 1055695,
+  "title": "Tangalore",
+  "unique": false
+ },
+ {
+  "nameId": 1055697,
+  "title": "White Wolf",
+  "unique": false
+ },
+ {
+  "nameId": 1055702,
+  "title": "Drowned Dead",
+  "unique": false
+ },
+ {
+  "nameId": 1055703,
+  "title": "La Valette Champion",
+  "unique": true
+ },
+ {
+  "nameId": 1055914,
+  "title": "Bear",
+  "unique": false
+ },
+ {
+  "nameId": 1055994,
+  "title": "Captain Wolverstone",
+  "unique": false
+ },
+ {
+  "nameId": 1056071,
+  "title": "Karli",
+  "unique": true
+ },
+ {
+  "nameId": 1056133,
+  "title": "Sick Man",
+  "unique": false
+ },
+ {
+  "nameId": 1056134,
+  "title": "Sick Woman",
+  "unique": false
+ },
+ {
+  "nameId": 1056220,
+  "title": "Anselm",
+  "unique": true
+ },
+ {
+  "nameId": 1056227,
+  "title": "Griswold",
+  "unique": true
+ },
+ {
+  "nameId": 1056244,
+  "title": "Butler",
+  "unique": false
+ },
+ {
+  "nameId": 1056249,
+  "title": "Skellige Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 1056273,
+  "title": "Ulle the Unlucky",
+  "unique": true
+ },
+ {
+  "nameId": 1056279,
+  "title": "Lydrik",
+  "unique": true
+ },
+ {
+  "nameId": 1056280,
+  "title": "Ida Emean aep Sivney",
+  "unique": true
+ },
+ {
+  "nameId": 1056321,
+  "title": "Trofast",
+  "unique": true
+ },
+ {
+  "nameId": 1057706,
+  "title": "Rhosyn",
+  "unique": true
+ },
+ {
+  "nameId": 1057707,
+  "title": "Bastien",
+  "unique": true
+ },
+ {
+  "nameId": 1057776,
+  "title": "Odolan",
+  "unique": true
+ },
+ {
+  "nameId": 1057844,
+  "title": "Fritjof",
+  "unique": true
+ },
+ {
+  "nameId": 1058289,
+  "title": "Bilge Hag",
+  "unique": false
+ },
+ {
+  "nameId": 1058290,
+  "title": "Opinicus",
+  "unique": true
+ },
+ {
+  "nameId": 1059014,
+  "title": "Gran",
+  "unique": true
+ },
+ {
+  "nameId": 1059068,
+  "title": "Bart",
+  "unique": true
+ },
+ {
+  "nameId": 1059369,
+  "title": "Gert Borel",
+  "unique": true
+ },
+ {
+  "nameId": 1059577,
+  "title": "Dagmar",
+  "unique": true
+ },
+ {
+  "nameId": 1059578,
+  "title": "Preben",
+  "unique": true
+ },
+ {
+  "nameId": 1059579,
+  "title": "Guard Dog",
+  "unique": false
+ },
+ {
+  "nameId": 1059889,
+  "title": "Marica",
+  "unique": true
+ },
+ {
+  "nameId": 1059890,
+  "title": "Thecla",
+  "unique": true
+ },
+ {
+  "nameId": 1060361,
+  "title": "Milan Noran",
+  "unique": true
+ },
+ {
+  "nameId": 1060567,
+  "title": "Gaspard",
+  "unique": true
+ },
+ {
+  "nameId": 1061202,
+  "title": "Temerian Soldier",
+  "unique": false
+ },
+ {
+  "nameId": 1061687,
+  "title": "Drunk",
+  "unique": false
+ },
+ {
+  "nameId": 1061832,
+  "title": "Temerski Aristocrat",
+  "unique": false
+ },
+ {
+  "nameId": 1061958,
+  "title": "Kobe",
+  "unique": true
+ },
+ {
+  "nameId": 1061959,
+  "title": "Lucas",
+  "unique": true
+ },
+ {
+  "nameId": 1061961,
+  "title": "Horse",
+  "unique": false
+ },
+ {
+  "nameId": 1062204,
+  "title": "Drunk",
+  "unique": false
+ },
+ {
+  "nameId": 1062519,
+  "title": "Deserter Leader",
+  "unique": false
+ },
+ {
+  "nameId": 1063235,
+  "title": "Ignis Fatuus",
+  "unique": true
+ },
+ {
+  "nameId": 1063602,
+  "title": "Outraged Townsman",
+  "unique": false
+ },
+ {
+  "nameId": 1064825,
+  "title": "John Verdun",
+  "unique": true
+ },
+ {
+  "nameId": 1065907,
+  "title": "Renegade Leader",
+  "unique": false
+ },
+ {
+  "nameId": 1065908,
+  "title": "Renegade",
+  "unique": false
+ },
+ {
+  "nameId": 1066177,
+  "title": "Comedian",
+  "unique": false
+ },
+ {
+  "nameId": 1066178,
+  "title": "Comedienne",
+  "unique": false
+ },
+ {
+  "nameId": 1066749,
+  "title": "Degenerate",
+  "unique": false
+ },
+ {
+  "nameId": 1068545,
+  "title": "Bayor",
+  "unique": false
+ },
+ {
+  "nameId": 1068546,
+  "title": "Edith",
+  "unique": false
+ },
+ {
+  "nameId": 1068740,
+  "title": "Dog",
+  "unique": false
+ },
+ {
+  "nameId": 1068842,
+  "title": "Nilfgaardian Deserter",
+  "unique": false
+ },
+ {
+  "nameId": 1068843,
+  "title": "Slave Driver",
+  "unique": false
+ },
+ {
+  "nameId": 1068916,
+  "title": "Woodcarver",
+  "unique": false
+ },
+ {
+  "nameId": 1070228,
+  "title": "Alpha",
+  "unique": false
+ },
+ {
+  "nameId": 1070289,
+  "title": "Hubert Rejk",
+  "unique": true
+ },
+ {
+  "nameId": 1070309,
+  "title": "Gregor",
+  "unique": true
+ },
+ {
+  "nameId": 1071338,
+  "title": "Farmer's Wife",
+  "unique": false
+ },
+ {
+  "nameId": 1071438,
+  "title": "Thorleif",
+  "unique": true
+ },
+ {
+  "nameId": 1072285,
+  "title": "Penitent",
+  "unique": false
+ },
+ {
+  "nameId": 1073710,
+  "title": "Odhen",
+  "unique": true
+ },
+ {
+  "nameId": 1074199,
+  "title": "Julia",
+  "unique": false
+ },
+ {
+  "nameId": 1074379,
+  "title": "Clan Drummond Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 1074399,
+  "title": "Cultist",
+  "unique": false
+ },
+ {
+  "nameId": 1074573,
+  "title": "Sandcrab",
+  "unique": false
+ },
+ {
+  "nameId": 1075448,
+  "title": "Servant",
+  "unique": false
+ },
+ {
+  "nameId": 1075506,
+  "title": "Old Speartip",
+  "unique": false
+ },
+ {
+  "nameId": 1075638,
+  "title": "Bodyguard",
+  "unique": false
+ },
+ {
+  "nameId": 1075826,
+  "title": "La Valette Servant",
+  "unique": false
+ },
+ {
+  "nameId": 1076167,
+  "title": "Liesje",
+  "unique": true
+ },
+ {
+  "nameId": 1076255,
+  "title": "Merchant",
+  "unique": false
+ },
+ {
+  "nameId": 1076543,
+  "title": "Josta",
+  "unique": true
+ },
+ {
+  "nameId": 1077064,
+  "title": "Pirate Leader",
+  "unique": false
+ },
+ {
+  "nameId": 1077342,
+  "title": "Innkeep",
+  "unique": false
+ },
+ {
+  "nameId": 1077546,
+  "title": "Guard",
+  "unique": false
+ },
+ {
+  "nameId": 1078120,
+  "title": "Slave Driver",
+  "unique": false
+ },
+ {
+  "nameId": 1078445,
+  "title": "Hagubman",
+  "unique": true
+ },
+ {
+  "nameId": 1078453,
+  "title": "Dragon",
+  "unique": true
+ },
+ {
+  "nameId": 1078454,
+  "title": "Melusine",
+  "unique": true
+ },
+ {
+  "nameId": 1078456,
+  "title": "Kernun",
+  "unique": true
+ },
+ {
+  "nameId": 1078457,
+  "title": "Therazane",
+  "unique": true
+ },
+ {
+  "nameId": 1078458,
+  "title": "White Lady",
+  "unique": true
+ },
+ {
+  "nameId": 1078459,
+  "title": "Sarasti",
+  "unique": true
+ },
+ {
+  "nameId": 1078460,
+  "title": "Mourntart",
+  "unique": true
+ },
+ {
+  "nameId": 1078461,
+  "title": "Howler",
+  "unique": true
+ },
+ {
+  "nameId": 1078522,
+  "title": "Deserter",
+  "unique": false
+ },
+ {
+  "nameId": 1078546,
+  "title": "Crematory Worker",
+  "unique": false
+ },
+ {
+  "nameId": 1078656,
+  "title": "Mad Kiyan",
+  "unique": false
+ },
+ {
+  "nameId": 1079287,
+  "title": "Fightmaster",
+  "unique": false
+ },
+ {
+  "nameId": 1079288,
+  "title": "Sofus the Bull",
+  "unique": true
+ },
+ {
+  "nameId": 1079351,
+  "title": "Lussi",
+  "unique": true
+ },
+ {
+  "nameId": 1079397,
+  "title": "Wallter",
+  "unique": true
+ },
+ {
+  "nameId": 1079736,
+  "title": "Young One",
+  "unique": true
+ },
+ {
+  "nameId": 1079773,
+  "title": "Griffin",
+  "unique": false
+ },
+ {
+  "nameId": 1080238,
+  "title": "Gargoyle",
+  "unique": false
+ },
+ {
+  "nameId": 1080246,
+  "title": "Georgius \"Piledriver\" Georg",
+  "unique": true
+ },
+ {
+  "nameId": 1080257,
+  "title": "Prisoner",
+  "unique": false
+ },
+ {
+  "nameId": 1080768,
+  "title": "Yanina",
+  "unique": true
+ },
+ {
+  "nameId": 1082195,
+  "title": "Fabian Meyer",
+  "unique": true
+ },
+ {
+  "nameId": 1082215,
+  "title": "Suzy",
+  "unique": false
+ },
+ {
+  "nameId": 1082216,
+  "title": "Bertha",
+  "unique": false
+ },
+ {
+  "nameId": 1082225,
+  "title": "Mercia",
+  "unique": false
+ },
+ {
+  "nameId": 1082226,
+  "title": "Viola",
+  "unique": false
+ },
+ {
+  "nameId": 1082231,
+  "title": "Narcissa",
+  "unique": false
+ },
+ {
+  "nameId": 1082234,
+  "title": "Amrynn",
+  "unique": false
+ },
+ {
+  "nameId": 1082242,
+  "title": "Harrisi",
+  "unique": false
+ },
+ {
+  "nameId": 1083137,
+  "title": "Gargoyle",
+  "unique": false
+ },
+ {
+  "nameId": 1083194,
+  "title": "Morvudd",
+  "unique": true
+ },
+ {
+  "nameId": 1083507,
+  "title": "Gael",
+  "unique": true
+ },
+ {
+  "nameId": 1083508,
+  "title": "Apiarian Phantom",
+  "unique": true
+ },
+ {
+  "nameId": 1084298,
+  "title": "Warg",
+  "unique": false
+ },
+ {
+  "nameId": 1084448,
+  "title": "Doe",
+  "unique": false
+ },
+ {
+  "nameId": 1084494,
+  "title": "Shady Individual",
+  "unique": false
+ },
+ {
+  "nameId": 1084497,
+  "title": "Prostitute",
+  "unique": false
+ },
+ {
+  "nameId": 1084522,
+  "title": "Sigi Reuven's Henchman",
+  "unique": false
+ },
+ {
+  "nameId": 1084523,
+  "title": "King of Beggars' Henchman",
+  "unique": false
+ },
+ {
+  "nameId": 1084653,
+  "title": "Rabid rock troll",
+  "unique": false
+ },
+ {
+  "nameId": 1084776,
+  "title": "Ice Elemental",
+  "unique": false
+ },
+ {
+  "nameId": 1084777,
+  "title": "Molly",
+  "unique": false
+ },
+ {
+  "nameId": 1084791,
+  "title": "Contestant",
+  "unique": false
+ },
+ {
+  "nameId": 1084899,
+  "title": "Vserad",
+  "unique": true
+ },
+ {
+  "nameId": 1084974,
+  "title": "Fire Elemental",
+  "unique": false
+ },
+ {
+  "nameId": 1084977,
+  "title": "Tomira",
+  "unique": true
+ },
+ {
+  "nameId": 1085020,
+  "title": "Scholar",
+  "unique": false
+ },
+ {
+  "nameId": 1085027,
+  "title": "Royal Griffin",
+  "unique": true
+ },
+ {
+  "nameId": 1085028,
+  "title": "Radko",
+  "unique": true
+ },
+ {
+  "nameId": 1085029,
+  "title": "Leslav",
+  "unique": true
+ },
+ {
+  "nameId": 1085054,
+  "title": "Shady merchant",
+  "unique": false
+ },
+ {
+  "nameId": 1085060,
+  "title": "Allgod",
+  "unique": false
+ },
+ {
+  "nameId": 1085132,
+  "title": "Gaunter O'Dimm",
+  "unique": true
+ },
+ {
+  "nameId": 1085156,
+  "title": "Agneta",
+  "unique": true
+ },
+ {
+  "nameId": 1085583,
+  "title": "Cat",
+  "unique": false
+ },
+ {
+  "nameId": 1086141,
+  "title": "Hen",
+  "unique": false
+ },
+ {
+  "nameId": 1086142,
+  "title": "Crab",
+  "unique": false
+ },
+ {
+  "nameId": 1086143,
+  "title": "Mouse",
+  "unique": false
+ },
+ {
+  "nameId": 1086144,
+  "title": "Doe",
+  "unique": false
+ },
+ {
+  "nameId": 1086145,
+  "title": "Ice Troll",
+  "unique": false
+ },
+ {
+  "nameId": 1086180,
+  "title": "Javor",
+  "unique": true
+ },
+ {
+  "nameId": 1086181,
+  "title": "Axel",
+  "unique": true
+ },
+ {
+  "nameId": 1086182,
+  "title": "Tante",
+  "unique": true
+ },
+ {
+  "nameId": 1086183,
+  "title": "Skellige Woman",
+  "unique": false
+ },
+ {
+  "nameId": 1086195,
+  "title": "Draig Bon-Dhu",
+  "unique": true
+ },
+ {
+  "nameId": 1086207,
+  "title": "Skjall",
+  "unique": true
+ },
+ {
+  "nameId": 1086252,
+  "title": "Innkeep",
+  "unique": false
+ },
+ {
+  "nameId": 1086261,
+  "title": "Smith",
+  "unique": false
+ },
+ {
+  "nameId": 1086334,
+  "title": "Duke",
+  "unique": true
+ },
+ {
+  "nameId": 1086335,
+  "title": "Earl",
+  "unique": true
+ },
+ {
+  "nameId": 1086456,
+  "title": "Brokvar Shieldmaiden",
+  "unique": false
+ },
+ {
+  "nameId": 1086457,
+  "title": "An Craite Shieldmaiden",
+  "unique": false
+ },
+ {
+  "nameId": 1086458,
+  "title": "Dimun Shieldmaiden",
+  "unique": false
+ },
+ {
+  "nameId": 1086459,
+  "title": "Drummond Shieldmaiden",
+  "unique": false
+ },
+ {
+  "nameId": 1086460,
+  "title": "Heymaey Shieldmaiden",
+  "unique": false
+ },
+ {
+  "nameId": 1086461,
+  "title": "Tuirseach Shieldmaiden",
+  "unique": false
+ },
+ {
+  "nameId": 1086577,
+  "title": "Abaya",
+  "unique": true
+ },
+ {
+  "nameId": 1086642,
+  "title": "Clan An Craite Guard",
+  "unique": false
+ },
+ {
+  "nameId": 1086643,
+  "title": "Clan Brokvar Guard",
+  "unique": false
+ },
+ {
+  "nameId": 1086644,
+  "title": "Clan Dimun Guard",
+  "unique": false
+ },
+ {
+  "nameId": 1086645,
+  "title": "Clan Drummond Guard",
+  "unique": false
+ },
+ {
+  "nameId": 1086646,
+  "title": "Clan Heymaey Guard",
+  "unique": false
+ },
+ {
+  "nameId": 1086647,
+  "title": "Prisoner of War",
+  "unique": false
+ },
+ {
+  "nameId": 1086698,
+  "title": "Captive",
+  "unique": false
+ },
+ {
+  "nameId": 1087083,
+  "title": "Mucknixer",
+  "unique": false
+ },
+ {
+  "nameId": 1087084,
+  "title": "Woodland Spirit",
+  "unique": true
+ },
+ {
+  "nameId": 1087111,
+  "title": "Devil by the Well",
+  "unique": true
+ },
+ {
+  "nameId": 1087748,
+  "title": "Cannibal",
+  "unique": false
+ },
+ {
+  "nameId": 1087749,
+  "title": "Cannibal Chief",
+  "unique": false
+ },
+ {
+  "nameId": 1087880,
+  "title": "Ponce",
+  "unique": false
+ },
+ {
+  "nameId": 1087888,
+  "title": "Carlo the Captain",
+  "unique": false
+ },
+ {
+  "nameId": 1091496,
+  "title": "Wyvern",
+  "unique": false
+ },
+ {
+  "nameId": 1092032,
+  "title": "Elihal",
+  "unique": false
+ },
+ {
+  "nameId": 1092287,
+  "title": "Werewolf",
+  "unique": false
+ },
+ {
+  "nameId": 1100251,
+  "title": "Madame de Bourbeau",
+  "unique": true
+ },
+ {
+  "nameId": 1104160,
+  "title": "Meryn",
+  "unique": true
+ },
+ {
+  "nameId": 1104501,
+  "title": "Shani",
+  "unique": true
+ },
+ {
+  "nameId": 1104729,
+  "title": "Fire Swallower",
+  "unique": false
+ },
+ {
+  "nameId": 1104851,
+  "title": "Lady of the Lake",
+  "unique": true
+ },
+ {
+  "nameId": 1105971,
+  "title": "Wild One",
+  "unique": false
+ },
+ {
+  "nameId": 1112402,
+  "title": "Damien",
+  "unique": true
+ },
+ {
+  "nameId": 1112850,
+  "title": "Archespore",
+  "unique": false
+ },
+ {
+  "nameId": 1113260,
+  "title": "Vivienne",
+  "unique": true
+ },
+ {
+  "nameId": 1113286,
+  "title": "Traveler",
+  "unique": false
+ },
+ {
+  "nameId": 1114553,
+  "title": "Horst Borsodi",
+  "unique": true
+ },
+ {
+  "nameId": 1114554,
+  "title": "Stranger",
+  "unique": false
+ },
+ {
+  "nameId": 1117693,
+  "title": "Guillaume",
+  "unique": true
+ },
+ {
+  "nameId": 1119524,
+  "title": "Matilda of Vermentino",
+  "unique": true
+ },
+ {
+  "nameId": 1119577,
+  "title": "Don Tenebroso",
+  "unique": true
+ },
+ {
+  "nameId": 1119580,
+  "title": "Vineyard Worker",
+  "unique": false
+ },
+ {
+  "nameId": 1121152,
+  "title": "Olgierd von Everec",
+  "unique": true
+ },
+ {
+  "nameId": 1123183,
+  "title": "Drunk Wedding Guest",
+  "unique": false
+ },
+ {
+  "nameId": 1123186,
+  "title": "Wedding Guest",
+  "unique": false
+ },
+ {
+  "nameId": 1123263,
+  "title": "Foreman Pafnuzio",
+  "unique": true
+ },
+ {
+  "nameId": 1123793,
+  "title": "Panther",
+  "unique": false
+ },
+ {
+  "nameId": 1123994,
+  "title": "Artist",
+  "unique": false
+ },
+ {
+  "nameId": 1123995,
+  "title": "Artist",
+  "unique": false
+ },
+ {
+  "nameId": 1124001,
+  "title": "Coco",
+  "unique": false
+ },
+ {
+  "nameId": 1124660,
+  "title": "Baron Palmerin de Launfal",
+  "unique": true
+ },
+ {
+  "nameId": 1125871,
+  "title": "Knight",
+  "unique": false
+ },
+ {
+  "nameId": 1126143,
+  "title": "Wild One",
+  "unique": false
+ },
+ {
+  "nameId": 1126746,
+  "title": "Anna Henrietta",
+  "unique": true
+ },
+ {
+  "nameId": 1130168,
+  "title": "Kikimore Worker",
+  "unique": false
+ },
+ {
+  "nameId": 1130394,
+  "title": "Arachnomorph",
+  "unique": false
+ },
+ {
+  "nameId": 1133953,
+  "title": "Circus Hand",
+  "unique": false
+ },
+ {
+  "nameId": 1133954,
+  "title": "Circus Worker",
+  "unique": false
+ },
+ {
+  "nameId": 1134757,
+  "title": "Iris",
+  "unique": true
+ },
+ {
+  "nameId": 1134918,
+  "title": "Wight",
+  "unique": false
+ },
+ {
+  "nameId": 1136747,
+  "title": "Merchant",
+  "unique": false
+ },
+ {
+  "nameId": 1145513,
+  "title": "Le Papillon",
+  "unique": true
+ },
+ {
+  "nameId": 1148070,
+  "title": "Regis",
+  "unique": true
+ },
+ {
+  "nameId": 1148114,
+  "title": "Supervisor",
+  "unique": false
+ },
+ {
+  "nameId": 1148115,
+  "title": "Wine Merchant",
+  "unique": false
+ },
+ {
+  "nameId": 1148427,
+  "title": "Tremblay",
+  "unique": true
+ },
+ {
+  "nameId": 1150478,
+  "title": "Orianna",
+  "unique": true
+ },
+ {
+  "nameId": 1150656,
+  "title": "Syanna",
+  "unique": true
+ },
+ {
+  "nameId": 1155337,
+  "title": "Fleder",
+  "unique": false
+ },
+ {
+  "nameId": 1157236,
+  "title": "Giant Centipede",
+  "unique": false
+ },
+ {
+  "nameId": 1158800,
+  "title": "Monster of Tufo",
+  "unique": true
+ },
+ {
+  "nameId": 1159665,
+  "title": "Hanna von Kagen",
+  "unique": true
+ },
+ {
+  "nameId": 1163926,
+  "title": "Milton de Peyrac-Peyran",
+  "unique": true
+ },
+ {
+  "nameId": 1164190,
+  "title": "Herbalist",
+  "unique": false
+ },
+ {
+  "nameId": 1164728,
+  "title": "Dettlaff",
+  "unique": true
+ },
+ {
+  "nameId": 1164734,
+  "title": "Liam de Coronata",
+  "unique": true
+ },
+ {
+  "nameId": 1164735,
+  "title": "Ducal Clerk",
+  "unique": false
+ },
+ {
+  "nameId": 1173398,
+  "title": "Silly Bear",
+  "unique": false
+ },
+ {
+  "nameId": 1174826,
+  "title": "Barghest",
+  "unique": false
+ },
+ {
+  "nameId": 1176772,
+  "title": "Bear Cub",
+  "unique": false
+ },
+ {
+  "nameId": 1177507,
+  "title": "Pixie",
+  "unique": false
+ },
+ {
+  "nameId": 1178493,
+  "title": "Scurver",
+  "unique": true
+ },
+ {
+  "nameId": 1183064,
+  "title": "Majordomo",
+  "unique": false
+ },
+ {
+  "nameId": 1186367,
+  "title": "Pixie",
+  "unique": false
+ },
+ {
+  "nameId": 1186374,
+  "title": "Bridge Troll",
+  "unique": false
+ },
+ {
+  "nameId": 1186788,
+  "title": "King Cormorant",
+  "unique": true
+ },
+ {
+  "nameId": 1187865,
+  "title": "Donkey",
+  "unique": false
+ },
+ {
+  "nameId": 1188937,
+  "title": "Mermaid",
+  "unique": false
+ },
+ {
+  "nameId": 1193722,
+  "title": "Shaelmaar",
+  "unique": false
+ },
+ {
+  "nameId": 1193723,
+  "title": "Shaelmaar",
+  "unique": false
+ },
+ {
+  "nameId": 1194408,
+  "title": "Knight Errant",
+  "unique": false
+ },
+ {
+  "nameId": 1197254,
+  "title": "Monsieur de Bourbeau",
+  "unique": true
+ },
+ {
+  "nameId": 1198252,
+  "title": "Kikimore Warrior",
+  "unique": false
+ },
+ {
+  "nameId": 1199684,
+  "title": "Puss",
+  "unique": false
+ },
+ {
+  "nameId": 1201288,
+  "title": "Archespore",
+  "unique": false
+ },
+ {
+  "nameId": 1201323,
+  "title": "Squire",
+  "unique": false
+ },
+ {
+  "nameId": 1202660,
+  "title": "Worker",
+  "unique": false
+ },
+ {
+  "nameId": 1205472,
+  "title": "Wolpertinger",
+  "unique": false
+ },
+ {
+  "nameId": 1205948,
+  "title": "Alp",
+  "unique": false
+ },
+ {
+  "nameId": 1206336,
+  "title": "Guardsman",
+  "unique": false
+ },
+ {
+  "nameId": 1207168,
+  "title": "Billy Goat",
+  "unique": false
+ },
+ {
+  "nameId": 1208528,
+  "title": "Hooded Woman",
+  "unique": false
+ },
+ {
+  "nameId": 1208876,
+  "title": "Bon Vivant",
+  "unique": false
+ },
+ {
+  "nameId": 1208883,
+  "title": "Bonne Vivante",
+  "unique": false
+ },
+ {
+  "nameId": 1208889,
+  "title": "Barber",
+  "unique": false
+ },
+ {
+  "nameId": 1208890,
+  "title": "Clerk",
+  "unique": false
+ },
+ {
+  "nameId": 1208891,
+  "title": "Servant",
+  "unique": false
+ },
+ {
+  "nameId": 1208892,
+  "title": "Medic",
+  "unique": false
+ },
+ {
+  "nameId": 1208896,
+  "title": "Servant",
+  "unique": false
+ },
+ {
+  "nameId": 1208900,
+  "title": "Nilfgaardian Sailor",
+  "unique": false
+ },
+ {
+  "nameId": 1211056,
+  "title": "Supervisor",
+  "unique": false
+ },
+ {
+  "nameId": 1211122,
+  "title": "Brothel Guard",
+  "unique": false
+ },
+ {
+  "nameId": 1211488,
+  "title": "Palace Guard",
+  "unique": false
+ },
+ {
+  "nameId": 1212217,
+  "title": "Lively Thorn Vine",
+  "unique": false
+ },
+ {
+  "nameId": 1212727,
+  "title": "Caretaker",
+  "unique": false
+ },
+ {
+  "nameId": 1213036,
+  "title": "Messenger",
+  "unique": false
+ },
+ {
+  "nameId": 1213069,
+  "title": "Teacher",
+  "unique": false
+ },
+ {
+  "nameId": 1213108,
+  "title": "Arnaud",
+  "unique": false
+ },
+ {
+  "nameId": 1213410,
+  "title": "Cooper",
+  "unique": false
+ },
+ {
+  "nameId": 1213849,
+  "title": "Patient",
+  "unique": false
+ },
+ {
+  "nameId": 1214289,
+  "title": "Baker",
+  "unique": false
+ },
+ {
+  "nameId": 1223143,
+  "title": "Red Miasmal",
+  "unique": true
+ },
+ {
+  "nameId": 1223153,
+  "title": "Plague Victim",
+  "unique": false
+ },
+ {
+  "nameId": 1224265,
+  "title": "Reinald",
+  "unique": true
+ },
+ {
+  "nameId": 1224625,
+  "title": "Kal",
+  "unique": true
+ }
+]

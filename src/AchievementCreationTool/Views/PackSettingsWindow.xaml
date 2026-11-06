@@ -1,0 +1,50 @@
+<Window x:Class="AchievementCreationTool.Views.PackSettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:AchievementCreationTool.Controls"
+        Title="Pack settings" Width="620" SizeToContent="Height" WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        Background="{StaticResource Panel}" Foreground="{StaticResource Ink}" ShowInTaskbar="False">
+    <StackPanel Margin="22">
+        <DockPanel Margin="0,0,0,14">
+            <Button DockPanel.Dock="Right" Style="{StaticResource HelpButton}" Tag="start" Click="OnHelp" />
+            <TextBlock Text="Pack settings" FontSize="17" FontWeight="SemiBold" />
+        </DockPanel>
+
+        <TextBlock Text="Pack ID" Style="{StaticResource FieldLabel}" />
+        <TextBox Text="{Binding Id, UpdateSourceTrigger=PropertyChanged}" FontFamily="Consolas" MaxLength="32" c:Placeholder.Text="such as velen_adventures" />
+        <TextBlock Style="{StaticResource Hint}" Margin="0,4,0,12"
+                   Text="Lower case letters, digits and _, up to 32. It names the pack's achievements in players' saves, so keep it once the pack is out." />
+
+        <TextBlock Text="Title, the section's heading in the Achievements tab" Style="{StaticResource FieldLabel}" />
+        <TextBox Text="{Binding Title.Text, UpdateSourceTrigger=PropertyChanged}" MaxLength="80" c:Placeholder.Text="such as Velen Adventures" />
+        <TextBlock Text="Its .w3strings key, for a translated pack (optional)" Style="{StaticResource FieldLabel}" Margin="0,10,0,4" />
+        <TextBox Text="{Binding Title.Key, UpdateSourceTrigger=PropertyChanged}" FontFamily="Consolas" Margin="0,0,0,4" c:Placeholder.Text="such as velen_adventures_title" />
+        <Button Style="{StaticResource HelpLink}" Content="How translations work" Tag="strings" Click="OnHelp" HorizontalAlignment="Left" Margin="0,0,0,12" />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="14" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="14" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <TextBlock Text="Author" Style="{StaticResource FieldLabel}" />
+                <TextBox Text="{Binding Author, UpdateSourceTrigger=PropertyChanged}" c:Placeholder.Text="your modding name" />
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <TextBlock Text="Version" Style="{StaticResource FieldLabel}" />
+                <TextBox Text="{Binding Version, UpdateSourceTrigger=PropertyChanged}" c:Placeholder.Text="such as 1.0" />
+            </StackPanel>
+            <StackPanel Grid.Column="4">
+                <TextBlock Text="Needs PotP version" Style="{StaticResource FieldLabel}" />
+                <TextBox Text="{Binding MinPotP, UpdateSourceTrigger=PropertyChanged}" ToolTip="Such as 7.0. Older versions of PotP skip the pack and say why." c:Placeholder.Text="such as 7.0" />
+            </StackPanel>
+        </Grid>
+        <TextBlock Text="The mod's page, such as its Nexus page (optional)" Style="{StaticResource FieldLabel}" Margin="0,12,0,4" />
+        <TextBox Text="{Binding Url, UpdateSourceTrigger=PropertyChanged}" c:Placeholder.Text="https://www.nexusmods.com/witcher3/mods/..." />
+
+        <Button Content="Done" IsDefault="True" IsCancel="True" Style="{StaticResource Primary}" HorizontalAlignment="Right" MinWidth="100" Margin="0,18,0,0" Click="OnDone" />
+    </StackPanel>
+</Window>

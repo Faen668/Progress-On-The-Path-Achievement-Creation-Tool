@@ -1,0 +1,3746 @@
+[
+ {
+  "journal": "[metaquest] Search for ugly",
+  "title": "A Mysterious Passenger",
+  "type": "Chapter",
+  "world": 2,
+  "guid": "449136a0-e01c-441e-882d-c3ba2f01a35b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/searchforugly.journal"
+ },
+ {
+  "journal": "Bear Set",
+  "title": "Scavenger Hunt: Bear School Gear",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "8b08e62d-4c9d-4c5b-a43f-7c489f1e790d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/thbearmq.journal"
+ },
+ {
+  "journal": "Bear Upgrades 1A",
+  "title": "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 1",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "0f5f5fd9-25bf-4da7-859e-35676c5599c6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/bearupgrades1a.journal"
+ },
+ {
+  "journal": "Bear Upgrades 1B",
+  "title": "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 2",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "dd71dedb-5466-4ef0-8316-c65620bed99d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/bearupgrades1b.journal"
+ },
+ {
+  "journal": "Bear Upgrades 2",
+  "title": "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 3",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "72b5dc68-1945-416d-8a15-31e897c3ca18",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/bearupgrades2.journal"
+ },
+ {
+  "journal": "Bear Upgrades 3",
+  "title": "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 4",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "e08f4faf-d935-4fa7-a682-a3ba87534899",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/bearupgrades3.journal"
+ },
+ {
+  "journal": "BidDebugQuest",
+  "title": "",
+  "type": "MonsterHunt",
+  "world": 0,
+  "guid": "f78cbe9d-5bd2-4187-93b4-c0a158ab87d0",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/biddebugquest.journal"
+ },
+ {
+  "journal": "BidDebugQuest2",
+  "title": "",
+  "type": "MonsterHunt",
+  "world": 0,
+  "guid": "f01638d9-103b-4787-af13-216f933ad6bf",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/biddebugquest2.journal"
+ },
+ {
+  "journal": "br201: Kaer Trolde Boat Racing",
+  "title": "Regatta: Helmsman's Dash",
+  "type": "Side",
+  "world": 2,
+  "guid": "4100f572-a630-4059-904c-3d1e5087d34f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/br201kaertrolde.journal"
+ },
+ {
+  "journal": "br202: Faroe Boatracing",
+  "title": "Regatta: Rally of the Wrecks",
+  "type": "Side",
+  "world": 2,
+  "guid": "a5c0bba4-bf76-4429-9e63-15c4e047f5d2",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/br202faroe.journal"
+ },
+ {
+  "journal": "br301: Novigrad Boat Racing",
+  "title": "Regatta: Novigrad",
+  "type": "Side",
+  "world": 1,
+  "guid": "4770b20c-259e-490e-9009-b0da3a1191f4",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/br301novigrad.journal"
+ },
+ {
+  "journal": "br302 : Oxenfurt Boat Racing",
+  "title": "Regatta: Oxenfurt",
+  "type": "Side",
+  "world": 1,
+  "guid": "8cdd13d6-3d03-4048-8a55-047234e305de",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/br302oxenfurt.journal"
+ },
+ {
+  "journal": "Card Game Meta: Gather All",
+  "title": "Collect 'Em All",
+  "type": "Side",
+  "world": 0,
+  "guid": "22a27919-f7e1-4ecc-906f-539f21cb40d1",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/cgmetagatherall.journal"
+ },
+ {
+  "journal": "CG : No Man's Land",
+  "title": "Gwent: Velen Players",
+  "type": "Side",
+  "world": 9,
+  "guid": "becb3ba0-3a48-4c29-b629-c2c39a43a131",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/cgnomansland.journal"
+ },
+ {
+  "journal": "CG: Innkeepers",
+  "title": "Gwent: Playing Innkeeps",
+  "type": "Side",
+  "world": 0,
+  "guid": "15ba81d3-b6bd-4e85-95e9-83dfce70775d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/cginnkeepers.journal"
+ },
+ {
+  "journal": "CG: Novigrad",
+  "title": "Gwent: Big City Players",
+  "type": "Side",
+  "world": 1,
+  "guid": "40b54f3b-7011-4885-bcb3-c09ee237755a",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/cgnovigrad.journal"
+ },
+ {
+  "journal": "CG: Old Friends",
+  "title": "Gwent: Old Pals",
+  "type": "Side",
+  "world": 0,
+  "guid": "b3c40cbf-bb84-4f39-a288-08024f29ef7c",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/cgoldfriends.journal"
+ },
+ {
+  "journal": "CG: Skellige",
+  "title": "Gwent: Skellige Style",
+  "type": "Side",
+  "world": 2,
+  "guid": "72ba3a67-722a-4cfd-8482-370ac21be4f4",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/cgskellige.journal"
+ },
+ {
+  "journal": "CG: Talar",
+  "title": "Gwent: Playing Thaler",
+  "type": "Side",
+  "world": 1,
+  "guid": "ff0c771b-9062-467f-b167-51e2604f1e00",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/cgtalar.journal"
+ },
+ {
+  "journal": "Combat",
+  "title": "",
+  "type": "Chapter",
+  "world": 0,
+  "guid": "0a29f61a-f558-4179-82b9-3923ae65a235",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/combat.journal"
+ },
+ {
+  "journal": "E3 2013",
+  "title": "Hunter Becomes Hunted",
+  "type": "Chapter",
+  "world": 0,
+  "guid": "b230cd53-134e-461f-9cee-8850ff54ce35",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/e3demo2013.journal"
+ },
+ {
+  "journal": "E3 2013 Fake",
+  "title": "Lord of Ard Hugtand",
+  "type": "Chapter",
+  "world": 0,
+  "guid": "7eb464d4-d32d-46fb-b6a4-0bc174539495",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/e3demo2013fake.journal"
+ },
+ {
+  "journal": "E3 2014",
+  "title": "The Ladies of the Wood",
+  "type": "Chapter",
+  "world": 0,
+  "guid": "371cc090-f6a7-4c72-a3c3-2f2bda3e6f7c",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/e3demo2014novigrad.journal"
+ },
+ {
+  "journal": "E3 2014 Griffin",
+  "title": "Griffin hunt",
+  "type": "Chapter",
+  "world": 0,
+  "guid": "078e6f1e-c61e-472f-af2b-3cfbc17e5453",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/e3y2014stage.journal"
+ },
+ {
+  "journal": "Elvish Chest",
+  "title": "Don't Play with the Gods",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "1d6d26ec-d469-454b-9a1e-bcfe9b1246f2",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/elvishtreasure.journal"
+ },
+ {
+  "journal": "Exploration",
+  "title": "[PL] Exploration",
+  "type": "Chapter",
+  "world": 0,
+  "guid": "4d190df7-1e7b-4af3-aec3-49f28ae0b656",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/exploration.journal"
+ },
+ {
+  "journal": "Fist Fight Championship",
+  "title": "Fists of Fury: Champion of Champions",
+  "type": "Side",
+  "world": 2,
+  "guid": "3b9cd0f0-7724-4ce0-ba88-8c3f32e2344b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/fistfightchampionship.journal"
+ },
+ {
+  "journal": "Gryphon Set",
+  "title": "Scavenger Hunt: Griffin School Gear",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "50b8d133-0e7b-4faa-bef7-2ab4f0b0576b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/thgryphonmq.journal"
+ },
+ {
+  "journal": "Gryphon Upgrades 1A",
+  "title": "Scavenger Hunt: Griffin School Gear Upgrade Diagrams - Part 1",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "ac4b6fa2-04e9-4e2b-a000-c43a99819a23",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/gryphonupgrades1a.journal"
+ },
+ {
+  "journal": "Gryphon Upgrades 1B",
+  "title": "Scavenger Hunt: Griffin School Gear Upgrade Diagrams - Part 2",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "8c40cb19-60ea-4f5f-83f1-a990d7948459",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/gryphonupgrades1b.journal"
+ },
+ {
+  "journal": "Gryphon Upgrades 2",
+  "title": "Scavenger Hunt: Griffin School Gear Upgrade Diagrams - Part 3",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "c4ed40ca-fd8a-4c8e-bbf2-d4d5c06f34d9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/gryphonupgrades2.journal"
+ },
+ {
+  "journal": "Gryphon Upgrades 3",
+  "title": "Scavenger Hunt: Griffin School Gear Upgrade Diagrams - Part 4",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "e9c98e64-5d83-4ef0-ba12-d13a87cea6d9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/gryphonupgrades3.journal"
+ },
+ {
+  "journal": "hr101 : Horse Race: Baron's Men",
+  "title": "Races: Crow's Perch",
+  "type": "Side",
+  "world": 9,
+  "guid": "6e696c48-2fea-49e6-8ec4-7f94376174ab",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/hr101baron.journal"
+ },
+ {
+  "journal": "hr201 Horse Race: Ferlund",
+  "title": "The Heroes' Pursuits: Fayrlund",
+  "type": "Side",
+  "world": 2,
+  "guid": "e6d3273c-8ae2-4840-9217-4d33aa50129e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/hr201ferlund.journal"
+ },
+ {
+  "journal": "hr202 Horse Race: Fejrlesdal",
+  "title": "The Heroes' Pursuits: Fyresdal",
+  "type": "Side",
+  "world": 2,
+  "guid": "459a8157-c1b3-4727-8f71-3a9c41fc71c2",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/hr202fejrlesdal.journal"
+ },
+ {
+  "journal": "hr203 Horse Race: Kaer Trolde",
+  "title": "The Heroes' Pursuits: Kaer Trolde",
+  "type": "Side",
+  "world": 2,
+  "guid": "a9caec8f-8a21-4fb8-941a-a2243c5e613f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/hr203hindarsfjall.journal"
+ },
+ {
+  "journal": "hr204 : Horse Race Championship",
+  "title": "The Heroes' Pursuits: For the Goddess' Glory!",
+  "type": "Side",
+  "world": 2,
+  "guid": "020a073b-ee70-472a-811b-e5ab377fb690",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/hr204championship.journal"
+ },
+ {
+  "journal": "Interactions",
+  "title": "[Interaction]",
+  "type": "Chapter",
+  "world": 0,
+  "guid": "52c157da-2517-431c-8408-38e172de758d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/interactions.journal"
+ },
+ {
+  "journal": "lw_cp33_sunken_treasure",
+  "title": "Sunken Treasure",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "b8486eaf-eccb-4e34-966a-896985b65c1e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sunkentreasure2.journal"
+ },
+ {
+  "journal": "lw_cp34_shipwreck_island",
+  "title": "Coast of Wrecks",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "6361033c-9acf-4e1b-874b-94839d0932ff",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwcp34shipwreckislad.journal"
+ },
+ {
+  "journal": "lw_de11",
+  "title": "Out of the Frying Pan, into the Fire",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "6ca5d2b3-584a-4040-b6e8-446b27acb220",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwde11.journal"
+ },
+ {
+  "journal": "lw_de32_campfire_treasure",
+  "title": "Hidden from the World",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "ddf3b2fc-9d43-42aa-8ccf-69bf7043c3b5",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/de32campfiretreasure.journal"
+ },
+ {
+  "journal": "lw_gr12_ferry_station_2",
+  "title": "An Unfortunate Turn of Events",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "a6f4d060-551a-4ede-b33d-f0b5a3e3dd00",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/gr12ferrystation.journal"
+ },
+ {
+  "journal": "lw_gr34",
+  "title": "The Things Men Do For Coin…",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "4cbf2cde-74f6-488f-aabf-d445fe5815e4",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwgr34.journal"
+ },
+ {
+  "journal": "lw_gr39",
+  "title": "Blood Gold",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "b16a5f09-3da7-4781-b84b-c2858c248b94",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwgr39treasure.journal"
+ },
+ {
+  "journal": "lw_gr40",
+  "title": "Dowry",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "19d6292e-62a6-4556-9dec-7b5399956006",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwgr40.journal"
+ },
+ {
+  "journal": "lw_gr41",
+  "title": "Battlefield Loot",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "6272b5a8-5cb6-450d-b479-92de7e5c8c78",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwgr41.journal"
+ },
+ {
+  "journal": "lw_gr7_hidden_pier",
+  "title": "Lost Goods",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "78081e59-024f-48b2-bacd-647c159e1e8d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/hiddenpier.journal"
+ },
+ {
+  "journal": "lw_gr_poi_042_ponds",
+  "title": "Tough Luck",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "9d07785d-7008-4017-a218-75751a1aa460",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lw_gr_poi_042_ponds.journal"
+ },
+ {
+  "journal": "lw_prologue_bandit_treasure",
+  "title": "Dirty Funds",
+  "type": "TreasureHunt",
+  "world": 4,
+  "guid": "6321316f-5639-4812-81a1-f5754eebecd5",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwprologuebandittreasure.journal"
+ },
+ {
+  "journal": "LW_Prologue_Deserter_Camps",
+  "title": "Deserters",
+  "type": "Chapter",
+  "world": 0,
+  "guid": "2daa9582-a768-46a6-83a2-725c80f2aae3",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwprologuedeserters.journal"
+ },
+ {
+  "journal": "lw_prologue_deserter_stash",
+  "title": "Deserter Gold",
+  "type": "TreasureHunt",
+  "world": 4,
+  "guid": "ee12c78f-ad07-46dd-8a64-fd49b332bd11",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwprologuedeserterstash.journal"
+ },
+ {
+  "journal": "lw_prologue_temerian_treasure",
+  "title": "Temerian Valuables",
+  "type": "TreasureHunt",
+  "world": 4,
+  "guid": "753cdade-1932-4d36-825d-32f70387dc2d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwprologuetemeriantreasure.journal"
+ },
+ {
+  "journal": "lw_sb24",
+  "title": "A Plea Ignored",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "33474e9d-427f-43ad-a508-e9478f3914eb",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwsb24.journal"
+ },
+ {
+  "journal": "lw_sb2_sunken_ships_note",
+  "title": "Queen Zuleyka's Treasure",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "517b15a4-72f5-41ad-bd72-62dc4797227b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwsb2sunkenshipsnote.journal"
+ },
+ {
+  "journal": "lw_sk30_mushroom_farms",
+  "title": "Freya Be Praised!",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "b459a0ed-ae2c-47e1-a532-9f96e675900b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lw_sk30_mushroom_farms.journal"
+ },
+ {
+  "journal": "lw_sk31",
+  "title": "Inheritance",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "b2edf46a-f7f8-4eb4-9997-9b96f5d74205",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwsk31.journal"
+ },
+ {
+  "journal": "lw_sk38",
+  "title": "Unlucky's Treasure",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "822243b0-19c3-4da6-81d5-31e486d5651c",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwsk38.journal"
+ },
+ {
+  "journal": "lw_sk4",
+  "title": "Pearls of the Coast",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "defe57a9-6da7-4ebd-b801-e95dff779883",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/pearldiverstreasure.journal"
+ },
+ {
+  "journal": "lw_sk_poi_005",
+  "title": "Family Fortune",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "17d71dcd-b5d3-434d-b5e1-150b9708bcbe",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lw_sk_poi_005.journal"
+ },
+ {
+  "journal": "lw_sk_poi_042",
+  "title": "Not Only Eagles Dare",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "5dea555a-8a68-4b72-92d0-4d0763c989b0",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lw_sk_poi_042.journal"
+ },
+ {
+  "journal": "lw_sk_poi_050",
+  "title": "Shortcut",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "485b407e-1e25-42a7-9597-f3db0f435124",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lw_sk_poi_050.journal"
+ },
+ {
+  "journal": "lw_sk_poi_056",
+  "title": "Ironsides' Treasure",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "6e47b277-b96e-4316-8311-e4cc0b799e34",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lw_sk_poi_056.journal"
+ },
+ {
+  "journal": "lw_sk_poi_057",
+  "title": "Hidden in the Depths",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "9f5a8b38-b234-428b-be92-bd8708cfb05b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lw_sk_poi_057.journal"
+ },
+ {
+  "journal": "lw_skellige_sk3_sunken_treasure",
+  "title": "Nilfgaardian Treasure",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "db5f4199-7db8-43e7-950c-c16e52a39d67",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwskelligesk3sunkentreasure.journal"
+ },
+ {
+  "journal": "lw_skellige_sk48_splintered_ships",
+  "title": "Precious Haul",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "9ec3e829-7f66-4696-b347-a6959e63bcdf",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lwskelligesk48splinteredships.journal"
+ },
+ {
+  "journal": "lw_tm6",
+  "title": "The Dead Have No Defense",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "ed406ec1-db14-4cc5-9744-eda9262a2627",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/tombraider.journal"
+ },
+ {
+  "journal": "lw_tm_sunken_treasure",
+  "title": "Sunken Chest",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "d36d4c2a-8d7a-4ec2-8f3e-b94842eba0b6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sunkentreasure.journal"
+ },
+ {
+  "journal": "Lynx Set",
+  "title": "Scavenger Hunt: Cat School Gear",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "c513bd36-76de-4232-b0e9-c486aba8e942",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/thlynxmq.journal"
+ },
+ {
+  "journal": "Lynx Set Upgrades",
+  "title": "",
+  "type": "TreasureHunt",
+  "world": 0,
+  "guid": "3667d484-a6e2-4b3c-abd4-1bd31686c02e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/thlynxupgrademq.journal"
+ },
+ {
+  "journal": "Lynx Upgrades 1a",
+  "title": "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 1",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "dffc24f2-ef40-4650-a69f-67f8008fc1f3",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lynxupgrades1a.journal"
+ },
+ {
+  "journal": "Lynx Upgrades 1b",
+  "title": "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 2",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "9bce69b0-3ce0-4f6f-a298-1eb8f8970e0c",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lynx upgrades 1b.journal"
+ },
+ {
+  "journal": "Lynx Upgrades 2",
+  "title": "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 3",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "1898b768-d27d-4d6f-922c-be26b183780f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lynx upgrades 2.journal"
+ },
+ {
+  "journal": "Lynx Upgrades 3",
+  "title": "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 4",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "0eaea2e4-c898-44df-83ae-2f58cd36513d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/lynx upgrades 3.journal"
+ },
+ {
+  "journal": "mh105: Hunt Wyvern",
+  "title": "Contract: Phantom of the Trade Route",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "915c91bf-69de-47b8-beed-9c0b373a1144",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh105wyvern.journal"
+ },
+ {
+  "journal": "mh202: Nekker Warrior",
+  "title": "Contract: Strange Beast",
+  "type": "MonsterHunt",
+  "world": 2,
+  "guid": "3286d764-15b1-498c-9a21-99029868bcbd",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh202nekkeralpha.journal"
+ },
+ {
+  "journal": "mh203: Water Hag",
+  "title": "Contract: Muire D'yaeblen",
+  "type": "MonsterHunt",
+  "world": 2,
+  "guid": "8049e060-0d7c-447f-8b20-7c96cbfa57ff",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh203drowneddead.journal"
+ },
+ {
+  "journal": "mh206 : Fiend",
+  "title": "Contract: Missing Son",
+  "type": "MonsterHunt",
+  "world": 2,
+  "guid": "1a0b2ef7-f39e-4f0e-824a-dca39b9daad9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh206fiend.journal"
+ },
+ {
+  "journal": "mh207: Wraith",
+  "title": "Contract: The Phantom of Eldberg",
+  "type": "MonsterHunt",
+  "world": 2,
+  "guid": "f8815175-2a27-4f99-9cf1-f54595fa0677",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh207wraith.journal"
+ },
+ {
+  "journal": "mh208 : Forktail",
+  "title": "Contract: Dragon",
+  "type": "MonsterHunt",
+  "world": 2,
+  "guid": "ab316d0c-b758-4745-b5b1-aaa665250c9b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh208forktail.journal"
+ },
+ {
+  "journal": "mh210 : Lamia",
+  "title": "Contract: Here Comes the Groom",
+  "type": "MonsterHunt",
+  "world": 2,
+  "guid": "4fc8b957-64b1-4ad1-a634-0ed5aa18812e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh210lamia.journal"
+ },
+ {
+  "journal": "mh301: Gryphon",
+  "title": "Contract: The Creature from Oxenfurt Forest",
+  "type": "MonsterHunt",
+  "world": 1,
+  "guid": "0fd87fdb-3d98-405c-9b22-71384b86b503",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh301gryphon.journal"
+ },
+ {
+  "journal": "mh302 : Leszy",
+  "title": "Contract: Lord of the Wood",
+  "type": "MonsterHunt",
+  "world": 1,
+  "guid": "31761a49-10b0-4539-a703-ebb7082a36ba",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh302leszy.journal"
+ },
+ {
+  "journal": "mh303: Succubus",
+  "title": "Contract: Deadly Delights",
+  "type": "MonsterHunt",
+  "world": 1,
+  "guid": "2ee64753-cf55-4749-a2cf-ec84004bf3af",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh303succubus.journal"
+ },
+ {
+  "journal": "mh304: Katakan",
+  "title": "Contract: The Oxenfurt Drunk",
+  "type": "MonsterHunt",
+  "world": 1,
+  "guid": "43e9c2a8-de8c-43da-8813-c5fefcb37f97",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh304katakan.journal"
+ },
+ {
+  "journal": "mh305 : Doppler",
+  "title": "Contract: An Elusive Thief",
+  "type": "MonsterHunt",
+  "world": 1,
+  "guid": "d713995f-8ec3-4d74-9298-c2f8b89e30a5",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh305doppler.journal"
+ },
+ {
+  "journal": "mh306 : Da'o",
+  "title": "Contract: Doors Slamming Shut",
+  "type": "MonsterHunt",
+  "world": 1,
+  "guid": "af164e2c-196d-41cc-b6bf-b41a919aaa1d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh306dao.journal"
+ },
+ {
+  "journal": "mh307: Wild Hunt Minion",
+  "title": "Contract: The Apiarian Phantom",
+  "type": "MonsterHunt",
+  "world": 1,
+  "guid": "256f8a48-33fd-4f3e-9d30-1ce13f86ea93",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh307minion.journal"
+ },
+ {
+  "journal": "mh308 : Noonwratih",
+  "title": "Contract: The White Lady",
+  "type": "MonsterHunt",
+  "world": 1,
+  "guid": "30a9d01a-c8af-4f9d-903e-bd9350940a04",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh308noonwraith.journal"
+ },
+ {
+  "journal": "MQ0001 Missing Brother",
+  "title": "Missing in Action",
+  "type": "Side",
+  "world": 4,
+  "guid": "3b6dbb8a-95a7-4e50-b31e-a38d1f4d2c4f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq0001battlefieldmother.journal"
+ },
+ {
+  "journal": "MQ0002 Missing Goods",
+  "title": "Precious Cargo",
+  "type": "Side",
+  "world": 4,
+  "guid": "377aabfa-a307-4fbc-ae41-fa0141bd9de3",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq0002thefield.journal"
+ },
+ {
+  "journal": "mq0003: Noonwraith",
+  "title": "Contract: Devil by the Well",
+  "type": "MonsterHunt",
+  "world": 4,
+  "guid": "addbee45-7e6b-437f-912e-6d2886ef0f19",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq0003freshwater.journal"
+ },
+ {
+  "journal": "MQ0004 Locked Shed",
+  "title": "A Frying Pan, Spick and Span",
+  "type": "Side",
+  "world": 4,
+  "guid": "f7c2c616-a7e7-4fbf-a1fb-373ac8cfb80f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq0004lockedshed.journal"
+ },
+ {
+  "journal": "MQ0005 Dwarven Smith",
+  "title": "Twisted Firestarter",
+  "type": "Side",
+  "world": 4,
+  "guid": "c005330f-252a-4a0d-a75c-6fba97048763",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq0005dwarfsmith.journal"
+ },
+ {
+  "journal": "mq1001 Dog Trail",
+  "title": "A Dog's Life",
+  "type": "Side",
+  "world": 9,
+  "guid": "9e0fe58c-92ee-4c16-ade1-edae10fe019b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1001wolvesanddogs.journal"
+ },
+ {
+  "journal": "mq1002 Rezydencja",
+  "title": "Of Dairy and Darkness",
+  "type": "Side",
+  "world": 1,
+  "guid": "b85f69b4-b896-4563-a633-973384a92392",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1002sellerofbracelets.journal"
+ },
+ {
+  "journal": "MQ1003 Trail of Death",
+  "title": "Hazardous Goods",
+  "type": "Side",
+  "world": 9,
+  "guid": "2639d2af-8473-4473-b609-5814c1d4e97d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1003trailofdead.journal"
+ },
+ {
+  "journal": "mq1005 Battle Scavengers",
+  "title": "Bitter Harvest",
+  "type": "Side",
+  "world": 9,
+  "guid": "8767df69-3640-4b26-b910-2758bafd01f5",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1005battlescavengers.journal"
+ },
+ {
+  "journal": "mq1010 Last Rite",
+  "title": "Last Rites",
+  "type": "Side",
+  "world": 9,
+  "guid": "d637a77d-b7b2-4f37-a695-d6bb080c09e1",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1010lastrite.journal"
+ },
+ {
+  "journal": "mq1012 On God Terms With Gods",
+  "title": "Defender of the Faith",
+  "type": "Side",
+  "world": 9,
+  "guid": "93a95560-ff7a-416a-a61f-fe6c9c7bd79f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1012ongoodtermswithgods.journal"
+ },
+ {
+  "journal": "mq1013 The Pretender",
+  "title": "Witcher Wannabe",
+  "type": "Side",
+  "world": 9,
+  "guid": "4d001168-9e8c-41ff-92ef-3c6a8f67dafd",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1013thepretender.journal"
+ },
+ {
+  "journal": "mq1015 Lynch",
+  "title": "Lynch Mob",
+  "type": "Side",
+  "world": 9,
+  "guid": "b917e855-ae9d-4c13-a64a-96aba395c29e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1015lynch.journal"
+ },
+ {
+  "journal": "mq1016 Poultry Abduction",
+  "title": "Empty Coop",
+  "type": "Side",
+  "world": 1,
+  "guid": "5d8d80d4-3a15-47e3-b16f-578c6f73c43a",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1016poultryabduction.journal"
+ },
+ {
+  "journal": "MQ1019 A matter of faith",
+  "title": "Funeral Pyres",
+  "type": "Side",
+  "world": 9,
+  "guid": "308b9390-ef32-4136-a310-8763ca327dad",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1019amatteroffaith.journal"
+ },
+ {
+  "journal": "mq1020 Missing Horse",
+  "title": "Spooked Mare",
+  "type": "Side",
+  "world": 1,
+  "guid": "9c6ecbd4-0800-4214-b1db-5c3260a7645a",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1020wildhorse.journal"
+ },
+ {
+  "journal": "MQ1022 Border Troll",
+  "title": "The Volunteer",
+  "type": "Side",
+  "world": 1,
+  "guid": "5af9bd9a-c1c1-4ec9-a48f-c2f180d21d00",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1022bordertroll.journal"
+ },
+ {
+  "journal": "MQ1023_Fake_Papers",
+  "title": "Fake Papers",
+  "type": "Side",
+  "world": 9,
+  "guid": "33b84675-7812-457f-be90-b52f02671d54",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1023fakepapers.journal"
+ },
+ {
+  "journal": "MQ1028 Courier",
+  "title": "The Dwarven Document Dilemma",
+  "type": "Side",
+  "world": 1,
+  "guid": "4bae35cf-c544-4152-8c74-1b6d617b8cd6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1028courier.journal"
+ },
+ {
+  "journal": "MQ1039 Uninvited Guests",
+  "title": "A Barnful of Trouble",
+  "type": "Side",
+  "world": 1,
+  "guid": "8586a6c6-533d-4eb2-bc53-a0383bcfe889",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1039uninvitedguests.journal"
+ },
+ {
+  "journal": "mq1045 Damsel in distress",
+  "title": "Love's Cruel Snares",
+  "type": "Side",
+  "world": 9,
+  "guid": "2ee12a3d-faf7-432b-9a75-08090e89e78d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1045bdamselindistress.journal"
+ },
+ {
+  "journal": "mq1046_burning_down_the_house",
+  "title": "Death By Fire",
+  "type": "Side",
+  "world": 9,
+  "guid": "4fdb3d24-90bf-4d70-9a0b-eb67962c49f9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1046_burning_down_the_house.journal"
+ },
+ {
+  "journal": "mq1050_written_in_the_stars",
+  "title": "The Truth is in the Stars",
+  "type": "Side",
+  "world": 9,
+  "guid": "189702c5-7991-4e37-810d-b5898e18f145",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1050writteninthestars.journal"
+ },
+ {
+  "journal": "mq1051_nilfgaard",
+  "title": "Contract: Patrol Gone Missing",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "c5583b34-5d58-4415-984c-1782efe47bce",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1051nilfgaard.journal"
+ },
+ {
+  "journal": "mq1055_nilfgaard_mom",
+  "title": "Blood Ties",
+  "type": "Side",
+  "world": 9,
+  "guid": "bcbb27c8-e374-4fa7-8f40-c13c77acd28c",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1055nilfgaardmom.journal"
+ },
+ {
+  "journal": "mq1057: The Great Spirit",
+  "title": "A Greedy God",
+  "type": "Side",
+  "world": 9,
+  "guid": "1026a2e0-38e6-4a93-9d40-4d7f95e55b0c",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1057fugas.journal"
+ },
+ {
+  "journal": "mq1060_armor_upgrades",
+  "title": "Scavenger Hunt: Forgotten Wolf School Gear Diagrams",
+  "type": "TreasureHunt",
+  "world": 3,
+  "guid": "d63764c3-50d1-403a-9b23-34f9b3b1e929",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1060_armor_upgrades.journal"
+ },
+ {
+  "journal": "mq1060_devils_pit",
+  "title": "In the Eternal Fire's Shadow",
+  "type": "Side",
+  "world": 9,
+  "guid": "fd4e1197-1416-4dcd-bea1-25212ad63017",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq1060devilspit.journal"
+ },
+ {
+  "journal": "mq2001 Jarl's Horn",
+  "title": "A Hallowed Horn",
+  "type": "Side",
+  "world": 2,
+  "guid": "e2bb1f49-747d-49e4-92b8-d10577d954e5",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2001jarlshorn.journal"
+ },
+ {
+  "journal": "mq2001 Kuilu",
+  "title": "The Family Blade",
+  "type": "Side",
+  "world": 2,
+  "guid": "bf18da51-2fc9-48a1-9296-c47feb93453e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2001renegadeskaertrolde.journal"
+ },
+ {
+  "journal": "mq2002 Pirate Scavengers",
+  "title": "Finders Keepers",
+  "type": "Side",
+  "world": 2,
+  "guid": "d79a07ae-8eb1-46bb-8eb1-0f8e44eead99",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2002apiratescavengers.journal"
+ },
+ {
+  "journal": "mq2003 Disturbing rest",
+  "title": "Peace Disturbed",
+  "type": "Side",
+  "world": 2,
+  "guid": "b9d89677-b257-47cc-9843-d1b4f1450666",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2003tomb1.journal"
+ },
+ {
+  "journal": "MQ2006 Bergeton's Treasure",
+  "title": "X Marks the Spot",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "1be06d7d-55b0-4ce7-b2e0-87fac96d0b57",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2006chest1.journal"
+ },
+ {
+  "journal": "MQ2006 Erleif's Treasure",
+  "title": "Ruins, Hidden Treasure, You Know...",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "d7b5996b-1c46-4148-977d-a2b62abf28aa",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2006chest2.journal"
+ },
+ {
+  "journal": "MQ2009 Immoral Proposition",
+  "title": "A Bard's Beloved",
+  "type": "Side",
+  "world": 2,
+  "guid": "b676e286-ee2c-4a16-bafc-5e22709aba3d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2009waterhag.journal"
+ },
+ {
+  "journal": "mq2010 human trap",
+  "title": "Abandoned Sawmill",
+  "type": "Side",
+  "world": 2,
+  "guid": "f9352cb9-d711-4d7c-9056-a28f0818b180",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2010humantrap.journal"
+ },
+ {
+  "journal": "mq2011_liar_and_theif",
+  "title": "Worthy of Trust",
+  "type": "Side",
+  "world": 2,
+  "guid": "1c5e7903-cd6c-4062-b7f7-68c97f8a1223",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2011_liar_and_theif.journal"
+ },
+ {
+  "journal": "MQ2012 Bad Place, Bad Time",
+  "title": "Hard Times",
+  "type": "Side",
+  "world": 2,
+  "guid": "4fe8e4ce-d310-44cf-babc-1c522b3f587d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2012badplacebadtime.journal"
+ },
+ {
+  "journal": "MQ2013 Grossbart brothers",
+  "title": "The Sad Tale of the Grossbart Brothers",
+  "type": "Side",
+  "world": 2,
+  "guid": "89dbde2f-58bb-47f6-92ae-cf0446d98690",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2013bountyhunter.journal"
+ },
+ {
+  "journal": "mq2015 Long Time Apart",
+  "title": "Taken as a Lass",
+  "type": "Side",
+  "world": 2,
+  "guid": "62611322-1005-4f5b-81ea-6537b09f225d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2015unfulfilledhope.journal"
+ },
+ {
+  "journal": "mq2017 : For Fame And Glory",
+  "title": "For Fame and Glory",
+  "type": "Side",
+  "world": 2,
+  "guid": "ec3807c4-5263-4ea4-8798-a810f85b9a40",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2017forfameandglory.journal"
+ },
+ {
+  "journal": "MQ2018 : Bandits",
+  "title": "Armed Assault",
+  "type": "Side",
+  "world": 2,
+  "guid": "6c38fdc9-e884-4177-ad02-30a9ecbfdecc",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2018bandits.journal"
+ },
+ {
+  "journal": "mq2020 Flesh for cash buisness",
+  "title": "Flesh for Sale",
+  "type": "Side",
+  "world": 2,
+  "guid": "75ce5700-1bbe-4b1f-ae37-92060fca206d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2020fleshforcash.journal"
+ },
+ {
+  "journal": "mq2022 Stupid Side of Courage",
+  "title": "Brave Fools Die Young",
+  "type": "Side",
+  "world": 2,
+  "guid": "14094167-1ac5-45f8-822c-b1261c15bdba",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2022stupidsideofcourage.journal"
+ },
+ {
+  "journal": "mq2024: Master of the Arena",
+  "title": "Master of the Arena",
+  "type": "Side",
+  "world": 2,
+  "guid": "c8c83587-cac0-4d2a-b585-1ae4e8daf1a9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2024curseofthearena.journal"
+ },
+ {
+  "journal": "MQ2030_nithing",
+  "title": "The Nithing",
+  "type": "Side",
+  "world": 2,
+  "guid": "4ec24d96-8232-4c80-ab1d-9bf06d88fe1a",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2030nithing.journal"
+ },
+ {
+  "journal": "mq2033_dead_mans_chest",
+  "title": "Dead Man's Chest",
+  "type": "Side",
+  "world": 2,
+  "guid": "5e9b5628-9d78-4f7e-bf02-7fc90cb88090",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2033deadmanschest.journal"
+ },
+ {
+  "journal": "MQ2037 Dishonored",
+  "title": "The Price of Honor",
+  "type": "Side",
+  "world": 2,
+  "guid": "130a322c-4e1c-479e-b4d1-0e6c6d138001",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2037dishonored.journal"
+ },
+ {
+  "journal": "mq2038_shieldmaiden",
+  "title": "Iron Maiden",
+  "type": "Side",
+  "world": 2,
+  "guid": "1d9f7929-c567-4152-a475-0632ce72cb7d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2038_shieldmaiden.journal"
+ },
+ {
+  "journal": "MQ2039 Vow of Silence",
+  "title": "Shock Therapy",
+  "type": "Side",
+  "world": 2,
+  "guid": "fa0cbf21-7e9e-49a2-a35d-24b55239a207",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2039vowofsilence.journal"
+ },
+ {
+  "journal": "mq2040_trial_of_power",
+  "title": "The Path of Warriors",
+  "type": "Side",
+  "world": 2,
+  "guid": "1ef218c4-9658-4e67-8620-e3d650a51fb6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2040trialofpower.journal"
+ },
+ {
+  "journal": "mq2045_chains",
+  "title": "Crime and Punishment",
+  "type": "Side",
+  "world": 2,
+  "guid": "6425aa34-6330-4c11-8a78-1084884bf6c2",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2045chains.journal"
+ },
+ {
+  "journal": "mq2048_msg_in_a_bottle",
+  "title": "From a Land Far, Far Away",
+  "type": "Side",
+  "world": 0,
+  "guid": "fa188ad1-ead7-40b0-9ad8-67de1798c31b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2048_msg_in_a_bottle.journal"
+ },
+ {
+  "journal": "mq2049_atheist",
+  "title": "Free Spirit",
+  "type": "Side",
+  "world": 2,
+  "guid": "6c500404-6e05-4e5b-adfe-20e96920fe0e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2049_atheist.journal"
+ },
+ {
+  "journal": "MQ2051 Unfinished Business",
+  "title": "An Unpaid Debt",
+  "type": "Side",
+  "world": 2,
+  "guid": "ee2acb45-a699-4c52-95ce-5e0848c68362",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq2051unfinishedbusiness.journal"
+ },
+ {
+  "journal": "mq3002 Spies of Novigrad",
+  "title": "Hidden Messages of the Nilfgaardian Kind",
+  "type": "Side",
+  "world": 1,
+  "guid": "a6d42062-578c-41bf-a612-0ed82df8fe55",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3002hiddenmessages.journal"
+ },
+ {
+  "journal": "mq3005 Shady Deal",
+  "title": "A Walk on the Waterfront",
+  "type": "Side",
+  "world": 1,
+  "guid": "6ef66a4f-160d-4a74-bf88-1b9dc4a59148",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3005badalley.journal"
+ },
+ {
+  "journal": "MQ3006 Magic Merchant",
+  "title": "Hey, You Wanna Look at my Stuff?",
+  "type": "Side",
+  "world": 1,
+  "guid": "966d9c4f-a759-4058-8379-43efb64b6f14",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3006magicmerchant.journal"
+ },
+ {
+  "journal": "mq3012 Warrior Statuette",
+  "title": "The Soldier Statuette",
+  "type": "Side",
+  "world": 1,
+  "guid": "dd3cf855-37b2-448b-bfc9-e148ada5940e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3012warriorstatuette.journal"
+ },
+ {
+  "journal": "mq3012Noble Statuette",
+  "title": "The Nobleman Statuette",
+  "type": "Side",
+  "world": 1,
+  "guid": "6f0d2fff-93d1-481e-bcc0-fecb02eee057",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3012noblestatuette.journal"
+ },
+ {
+  "journal": "mq3016_wandering_bards",
+  "title": "Novigrad Hospitality",
+  "type": "Side",
+  "world": 1,
+  "guid": "894669d1-97ab-4584-ae1c-fae2d0c1df46",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3016wanderingbards.journal"
+ },
+ {
+  "journal": "MQ3017 Little Red Raiding Hood",
+  "title": "Little Red",
+  "type": "Side",
+  "world": 1,
+  "guid": "e60eb31f-13e6-4acb-b4ec-4562c9530114",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3017raidinghood.journal"
+ },
+ {
+  "journal": "mq3019_herd_instincts",
+  "title": "Rough Neighborhood",
+  "type": "Side",
+  "world": 1,
+  "guid": "f4928196-eace-42a4-a4c5-4a909dffc845",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3019herdinstincts.journal"
+ },
+ {
+  "journal": "MQ3024 you shall not pass",
+  "title": "Thou Shalt Not Pass",
+  "type": "Side",
+  "world": 1,
+  "guid": "37881603-ef31-4a81-acba-1e57e6ce0443",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3024youshallnotpass.journal"
+ },
+ {
+  "journal": "MQ3026 Novigrad Horse Racing",
+  "title": "Race: The Great Erasmus Vegelbud Memorial Derby",
+  "type": "Side",
+  "world": 1,
+  "guid": "b3338f99-dada-4362-adf9-a14b440ff195",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3026horseracing.journal"
+ },
+ {
+  "journal": "mq3027_mymanifest",
+  "title": "Message from an Old Friend",
+  "type": "Side",
+  "world": 1,
+  "guid": "546ec303-24b8-469c-8672-9e80a088c258",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3027_mymanifest.journal"
+ },
+ {
+  "journal": "mq3031_aging_romance",
+  "title": "Black Pearl",
+  "type": "Side",
+  "world": 0,
+  "guid": "f904638d-1839-49c2-80b3-350aa77a72d7",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3031agingromance.journal"
+ },
+ {
+  "journal": "mq3035_emhyr",
+  "title": "Reason of State",
+  "type": "Side",
+  "world": 1,
+  "guid": "05511846-2a65-450f-ad95-f6e7949edf31",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3035_emhyr.journal"
+ },
+ {
+  "journal": "mq3036_rosa_romance",
+  "title": "Fencing Lessons",
+  "type": "Side",
+  "world": 1,
+  "guid": "de61d321-b796-4adc-8985-f72c19a463db",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3036rosaromance.journal"
+ },
+ {
+  "journal": "MQ3037 Sleeping Vampire",
+  "title": "A Tome Entombed",
+  "type": "Side",
+  "world": 1,
+  "guid": "08c47340-56c2-4617-9954-7cb118695333",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3037sleepingvampire.journal"
+ },
+ {
+  "journal": "mq3038_wheel_of_fortune",
+  "title": "Warehouse of Woe",
+  "type": "Side",
+  "world": 1,
+  "guid": "a1b177a9-23b7-451d-b58d-7258519e317d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3038wheeloffortune.journal"
+ },
+ {
+  "journal": "mq3039_crows",
+  "title": "A Feast for Crows",
+  "type": "Side",
+  "world": 1,
+  "guid": "5e06a175-6042-429a-95b8-752f6ae23eaa",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3039crows.journal"
+ },
+ {
+  "journal": "mq3041_showing_presence",
+  "title": "Out On Your Arse!",
+  "type": "Side",
+  "world": 1,
+  "guid": "b745d4b1-d52b-4a4b-9e2c-7c57c6e78ec9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq3041showingpresence.journal"
+ },
+ {
+  "journal": "mq4002_anomaly",
+  "title": "Greenhouse Effect",
+  "type": "Side",
+  "world": 3,
+  "guid": "56afd15a-e197-46f6-8527-3aa8af6a134f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq4002anomaly.journal"
+ },
+ {
+  "journal": "mq4003_lake",
+  "title": "Monster Slayer",
+  "type": "Side",
+  "world": 3,
+  "guid": "2b2d83b9-4059-4700-b1ed-60ef36cdabc9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq4003lake.journal"
+ },
+ {
+  "journal": "mq4004_bastion",
+  "title": "The Bastion",
+  "type": "Side",
+  "world": 3,
+  "guid": "8a68c2f0-76f4-462b-be09-4e3c3a847b39",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq4004bastion.journal"
+ },
+ {
+  "journal": "mq4005_sword",
+  "title": "Berengar's Blade",
+  "type": "Side",
+  "world": 3,
+  "guid": "39c6b04c-3113-4ff4-ac1c-1d00fe0da8c6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq4005sword.journal"
+ },
+ {
+  "journal": "mq4006_armor",
+  "title": "The Witchers' Forge",
+  "type": "Side",
+  "world": 3,
+  "guid": "73c91830-8418-4493-90cb-d8085e78fd1e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq4006armor.journal"
+ },
+ {
+  "journal": "mq5004horse",
+  "title": "Faithful Friend",
+  "type": "Side",
+  "world": 8,
+  "guid": "5116d959-a6fc-43b7-9451-9b36ec15f1a9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mq5004horse.journal"
+ },
+ {
+  "journal": "MS 2014 Werewolf",
+  "title": "The Beast of Crookback Bog",
+  "type": "MonsterHunt",
+  "world": 0,
+  "guid": "79586ac0-1748-4bba-ae99-b04929d929c6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mswerewolfdemo.journal"
+ },
+ {
+  "journal": "NML Hunt: Arachas",
+  "title": "Contract: Missing Brother",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "6c4ef31a-767f-4b5f-93d3-46b81c4aea85",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh102arachas.journal"
+ },
+ {
+  "journal": "NML Hunt: Cockatrice",
+  "title": "Contract: Shrieker",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "aedb434d-5423-438c-98d8-a76194f8c96d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh101cockatrice.journal"
+ },
+ {
+  "journal": "NML Hunt: Czart",
+  "title": "Contract: Mysterious Tracks",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "fdadcb0d-ac15-43b1-a3f1-5ad267013692",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh107fiend.journal"
+ },
+ {
+  "journal": "NML Hunt: Ekimma",
+  "title": "Contract: The Mystery of the Byways Murders",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "96d759b7-24ff-465e-996d-751e107cc563",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh104ekimma.journal"
+ },
+ {
+  "journal": "NML Hunt: Fogling",
+  "title": "Contract: Swamp Thing",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "210232cb-19b3-4ef5-aa47-c8675ff7a32f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh108fogling.journal"
+ },
+ {
+  "journal": "NML Hunt: Grave Hag",
+  "title": "Contract: The Merry Widow",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "34ddea30-e445-468a-921a-d677dc03dd31",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh106gravehag.journal"
+ },
+ {
+  "journal": "NML Hunt: Nightwraith",
+  "title": "Contract: Jenny o' the Woods",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "01ed9015-a1c1-41f7-bb26-1f3c0b3e0a6e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mh103nightwraith.journal"
+ },
+ {
+  "journal": "NML: Fist Fighting",
+  "title": "Fists of Fury: Velen",
+  "type": "Side",
+  "world": 9,
+  "guid": "bd0558aa-9220-4c80-bbb2-8a045dc13f45",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/fistfightnomansland.journal"
+ },
+ {
+  "journal": "NVG: Fist Fighting",
+  "title": "Fists of Fury: Novigrad",
+  "type": "Side",
+  "world": 1,
+  "guid": "adb63834-dc15-4efa-9d6e-030bdd4e1dd6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/fistfightsnovigrad.journal"
+ },
+ {
+  "journal": "Q001 Dream",
+  "title": "Kaer Morhen",
+  "type": "Side",
+  "world": 3,
+  "guid": "c1aa4441-64e8-48ff-b93b-2b9791c10c25",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q001beggining.journal"
+ },
+ {
+  "journal": "Q001 Find Yennefer",
+  "title": "Lilac and Gooseberries",
+  "type": "Side",
+  "world": 4,
+  "guid": "768a197c-dc8a-4630-b34b-5a730b5b53c9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q001yennsearch.journal"
+ },
+ {
+  "journal": "Q002 Bandit attack",
+  "title": "The Incident at White Orchard",
+  "type": "Chapter",
+  "world": 4,
+  "guid": "03e485c6-efbd-4719-8e28-b7292ee04521",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q002bandits.journal"
+ },
+ {
+  "journal": "Q002 Griffin hunt",
+  "title": "The Beast of White Orchard",
+  "type": "Chapter",
+  "world": 4,
+  "guid": "f6086b74-edff-4e68-91e1-9cd7a733ba13",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q002griffin.journal"
+ },
+ {
+  "journal": "Q002 Healing Woman",
+  "title": "On Death's Bed",
+  "type": "Side",
+  "world": 4,
+  "guid": "da94cd0c-1ff9-432b-943c-e98f34b2b479",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q002healingwoman.journal"
+ },
+ {
+  "journal": "Q002 Vizima Palace",
+  "title": "Imperial Audience",
+  "type": "Side",
+  "world": 5,
+  "guid": "3a6b433b-9285-47ea-b96f-d9236ee5379a",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q002vizimapalace.journal"
+ },
+ {
+  "journal": "Q101 Agent",
+  "title": "The Nilfgaardian Connection",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "3d77bf9d-3ff0-4f45-8f65-aa66273235a6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q101agent.journal"
+ },
+ {
+  "journal": "Q102 Baron",
+  "title": "Bloody Baron",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "9efdc32a-e75e-48f7-b789-11420e7e8797",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/baron.journal"
+ },
+ {
+  "journal": "Q103 Arrival to Crow Perch",
+  "title": "Ciri's Story: The King of the Wolves",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "32f85932-5db3-44d6-aa04-77a0bcc040f3",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q103firstreplacerciri.journal"
+ },
+ {
+  "journal": "Q103 Ciri's Chamber",
+  "title": "Ciri's Room",
+  "type": "Side",
+  "world": 9,
+  "guid": "74a38073-fe20-4cbd-9a8a-8aa61c8ab10a",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q103ciriroom.journal"
+ },
+ {
+  "journal": "Q103 Departure to Novigrad",
+  "title": "Ciri's Story: Out of the Shadows",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "bade3825-a892-4750-80e2-cb33380c985f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q103thirdreplacerciri.journal"
+ },
+ {
+  "journal": "Q103 Epic Goat Adventure",
+  "title": "A Princess in Distress",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "76ebf26b-49cf-42ee-a467-51d6af9fa300",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q103goat.journal"
+ },
+ {
+  "journal": "Q103 Family Issues",
+  "title": "Family Matters",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "db024d36-e35e-4e9a-898d-09fb0fabe7c8",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/family.journal"
+ },
+ {
+  "journal": "Q103 The Race",
+  "title": "Ciri's Story: The Race",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "8cbd6c93-82a8-4c81-91e2-a948b6df0573",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q103secondreplacerciri.journal"
+ },
+ {
+  "journal": "Q104 Favour For Keira",
+  "title": "Magic Lamp",
+  "type": "Side",
+  "world": 9,
+  "guid": "46d709e3-bff9-477d-83fe-8ba50620712d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q104postmine.journal"
+ },
+ {
+  "journal": "Q104 Looking for a Witch",
+  "title": "Hunting a Witch",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "19b5b835-9acc-494c-b8bd-413f8446c972",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q104lookingforwitch.journal"
+ },
+ {
+  "journal": "Q104 Mysterious Sorcerer",
+  "title": "Wandering in the Dark",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "9b0cdb84-84a9-48eb-85e6-4ad716bf8e1f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/mine.journal"
+ },
+ {
+  "journal": "Q105 Ciri escape from swamps",
+  "title": "Ciri's Story: Fleeing the Bog",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "3325808c-0518-48b2-848f-25e3bed307f5",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q105ciriescape.journal"
+ },
+ {
+  "journal": "Q105 Evil Spirit",
+  "title": "The Whispering Hillock",
+  "type": "Side",
+  "world": 9,
+  "guid": "b98f2bee-41cc-409f-8b28-52370cebfcf5",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q105evilspirit.journal"
+ },
+ {
+  "journal": "Q105 Witches",
+  "title": "Ladies of the Wood",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "ea962976-0f34-4e95-bdc1-4f83c7911946",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q105witches.journal"
+ },
+ {
+  "journal": "Q106 Keira's bussiness",
+  "title": "An Invitation from Keira Metz",
+  "type": "Side",
+  "world": 9,
+  "guid": "287cd23b-fcc1-4c20-ad69-22d532016747",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q106findkeira.journal"
+ },
+ {
+  "journal": "Q106 Tower",
+  "title": "A Towerful of Mice",
+  "type": "Side",
+  "world": 9,
+  "guid": "38e268cf-77d8-4317-876b-100a0dbaf722",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q106tower.journal"
+ },
+ {
+  "journal": "Q107 Swamps",
+  "title": "Return to Crookback Bog",
+  "type": "Side",
+  "world": 9,
+  "guid": "7e03203e-04e3-4d65-9386-5c163cd13ba9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q107swamps.journal"
+ },
+ {
+  "journal": "Q108 Forfather's Eve",
+  "title": "Forefathers' Eve",
+  "type": "Side",
+  "world": 9,
+  "guid": "d9f8303b-61fd-4235-ac4d-c39ab4190442",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q108eve.journal"
+ },
+ {
+  "journal": "Q109 Wrapup",
+  "title": "For the Advancement of Learning",
+  "type": "Side",
+  "world": 9,
+  "guid": "3d71d5dd-f7de-4002-beec-c5f8d026e213",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q109wrapup.journal"
+ },
+ {
+  "journal": "Q110 Postbattle",
+  "title": "Blood on the Battlefield",
+  "type": "Side",
+  "world": 3,
+  "guid": "cec5f8ee-6be9-4756-aa0a-7812ad04e10e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q110postbattle.journal"
+ },
+ {
+  "journal": "Q111 Imlerith",
+  "title": "Bald Mountain",
+  "type": "Side",
+  "world": 9,
+  "guid": "0c6b1407-2f11-41bd-a28c-d47f778fdbdb",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q111imlerith.journal"
+ },
+ {
+  "journal": "Q201 Brans Reception",
+  "title": "The King is Dead - Long Live the King",
+  "type": "Chapter",
+  "world": 2,
+  "guid": "fb952c6e-65c3-46b1-8a74-1ac470c42e80",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/pirate.journal"
+ },
+ {
+  "journal": "Q201 Travel to Skellige",
+  "title": "Destination: Skellige",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "550442bd-7d49-43af-b509-0a9ecccdbc54",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q201traveltoskellige.journal"
+ },
+ {
+  "journal": "Q202 Ice Giant",
+  "title": "The Lord of Undvik",
+  "type": "Side",
+  "world": 2,
+  "guid": "8f37175c-d952-4dff-96c8-6b3fab4ae995",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/giant.journal"
+ },
+ {
+  "journal": "Q203 Cataclysm",
+  "title": "Echoes of the Past",
+  "type": "Chapter",
+  "world": 2,
+  "guid": "e7eb9a3a-160a-47fb-ad04-16471ef32343",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q203cataclysm.journal"
+ },
+ {
+  "journal": "Q203 Him",
+  "title": "Possession",
+  "type": "Side",
+  "world": 2,
+  "guid": "2bcb0806-068c-47e1-ae34-324f17acf3d5",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q203him.journal"
+ },
+ {
+  "journal": "Q205 Ciri - safe heaven",
+  "title": "The Calm Before the Storm",
+  "type": "Chapter",
+  "world": 2,
+  "guid": "5c6a7440-e4f5-4323-908d-af9be2d14fd6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q205cirireplacer.journal"
+ },
+ {
+  "journal": "Q205 Lofoten",
+  "title": "Missing Persons",
+  "type": "Chapter",
+  "world": 2,
+  "guid": "92387564-535e-42bf-9393-6af5c7da9578",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q205lofoten.journal"
+ },
+ {
+  "journal": "Q205 The Garden",
+  "title": "Nameless",
+  "type": "Chapter",
+  "world": 2,
+  "guid": "7f6b63a6-ca50-439e-9f6c-d4d798ac3e26",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q205herbarium.journal"
+ },
+ {
+  "journal": "Q206 Berserkers",
+  "title": "King's Gambit",
+  "type": "Side",
+  "world": 2,
+  "guid": "b5130ae1-2171-468a-b0d3-7b0b9954be3f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q206berserkers.journal"
+ },
+ {
+  "journal": "Q208 Heroesmead",
+  "title": "Coronation",
+  "type": "Side",
+  "world": 2,
+  "guid": "9540a12a-6796-49aa-bee7-c87ba4308084",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q208heroesmead.journal"
+ },
+ {
+  "journal": "Q210 Avallach lab",
+  "title": "Child of the Elder Blood",
+  "type": "Chapter",
+  "world": 2,
+  "guid": "d034287f-809b-4ad3-8cb6-b22becd21dc6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q210avallachlab.journal"
+ },
+ {
+  "journal": "Q210 Emhyr",
+  "title": "Veni Vidi Vigo",
+  "type": "Chapter",
+  "world": 2,
+  "guid": "d8775e1a-f5bb-40ac-b6d9-6ca6e448c1b6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q210emhyr.journal"
+ },
+ {
+  "journal": "Q210 Pre Canaris",
+  "title": "The Sunstone",
+  "type": "Chapter",
+  "world": 2,
+  "guid": "6f58796e-9749-4ce9-a9ad-2c00ecc65bba",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q210precanaris.journal"
+ },
+ {
+  "journal": "Q210 Preparations",
+  "title": "Battle Preparations",
+  "type": "Side",
+  "world": 2,
+  "guid": "3ffaca7e-30a5-489a-8748-4e82de07a521",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q210preparations.journal"
+ },
+ {
+  "journal": "Q210 Skjall Grave",
+  "title": "Skjall's Grave",
+  "type": "Chapter",
+  "world": 2,
+  "guid": "b95fa3f5-a37b-47b7-aeb4-514a6548b891",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q210skjallgrave.journal"
+ },
+ {
+  "journal": "Q301 Dreamer",
+  "title": "Pyres of Novigrad",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "a7ea902c-db99-4021-862e-1c123d92e677",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q301dreamer.journal"
+ },
+ {
+  "journal": "Q301 Find Dreamer",
+  "title": "Novigrad Dreaming",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "d2c182b4-40bc-4495-b226-b3cce786d74f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q301helpdreamer.journal"
+ },
+ {
+  "journal": "Q301 Visiting Dreamer",
+  "title": "Haunted House",
+  "type": "Side",
+  "world": 1,
+  "guid": "585f4fb7-2bde-4cf8-acb6-3bd303df468d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q301visitingdreamer.journal"
+ },
+ {
+  "journal": "Q302 Ciri - Rescuing Dudu",
+  "title": "Ciri's Story: Visiting Junior",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "dc58a7f2-1834-49d5-a6b3-99acccd40661",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q302rescuingdudu.journal"
+ },
+ {
+  "journal": "q302 Favour For Radovid",
+  "title": "A Favor for Radovid",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "01fcfd79-6202-4dae-96d3-2c79d5af0b24",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q302favourforradovid.journal"
+ },
+ {
+  "journal": "Q302 King Beggar's Debt",
+  "title": "Honor Among Thieves",
+  "type": "Side",
+  "world": 1,
+  "guid": "c04f6fd0-95da-44af-86a6-ae578b74475e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q302debt.journal"
+ },
+ {
+  "journal": "Q302 Mafia",
+  "title": "Get Junior",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "5e9e0041-3ecd-463e-981b-2dc7c6d6f55c",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q302mafia.journal"
+ },
+ {
+  "journal": "Q302 War Of Gangs",
+  "title": "The Gangs of Novigrad",
+  "type": "Side",
+  "world": 1,
+  "guid": "61f50930-98e3-4f9f-b389-f1adea594b0f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q302war.journal"
+ },
+ {
+  "journal": "Q303 Treasure",
+  "title": "Count Reuven's Treasure",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "0292f065-c52c-4622-9234-7c4b8efab3c7",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q303treasure.journal"
+ },
+ {
+  "journal": "Q304 Looking For Dandelion",
+  "title": "Broken Flowers",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "85131bee-99ec-4af9-8605-9bad11ce06fa",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q304dandelion.journal"
+ },
+ {
+  "journal": "Q305 Ciri - chase to the temple",
+  "title": "Ciri's Story: Breakneck Speed",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "12b8d11e-0285-4bf8-af5c-8cd487085aa7",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q305cirichasetothetemple.journal"
+ },
+ {
+  "journal": "Q305 Looking for Dandelion",
+  "title": "A Poet Under Pressure",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "c5306ca1-97e4-4d2c-8ef7-5e529e2f5572",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q305lookingfordandelion.journal"
+ },
+ {
+  "journal": "Q305 The Play",
+  "title": "The Play's the Thing",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "35f76922-a59d-4196-95fc-27038d78ff7c",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q305theplay.journal"
+ },
+ {
+  "journal": "Q308 Psycho",
+  "title": "Carnal Sins",
+  "type": "Side",
+  "world": 1,
+  "guid": "6edc27e1-7c09-46d5-aea6-2818d8466c2e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q308psycho.journal"
+ },
+ {
+  "journal": "Q309 Casablanca",
+  "title": "Now or Never",
+  "type": "Side",
+  "world": 1,
+  "guid": "06950c40-52df-4422-8169-c603f3b4d23f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q309mages.journal"
+ },
+ {
+  "journal": "Q309 Novigrad Under Control",
+  "title": "Novigrad, Closed City",
+  "type": "Side",
+  "world": 1,
+  "guid": "364a7c69-6558-447a-80d2-ce3b0644246a",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q309novigradundercontrol.journal"
+ },
+ {
+  "journal": "Q309 Novigrad Under Control 2",
+  "title": "Novigrad, Closed City II",
+  "type": "Side",
+  "world": 1,
+  "guid": "f341460a-5f9a-4fee-b068-c7ca68a8e51b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q309novigradundercontrol2.journal"
+ },
+ {
+  "journal": "Q310 A Blind Owl",
+  "title": "Blindingly Obvious",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "9ed9d47a-f66a-499a-8d39-90feab1fb0eb",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q310pregeels.journal"
+ },
+ {
+  "journal": "Q310 Ciri's Night Out",
+  "title": "Payback",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "c4c78d01-9e36-4fb4-b690-bb60f5dc3aa5",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q310bombing.journal"
+ },
+ {
+  "journal": "Q310 Prison Break",
+  "title": "The Great Escape",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "5b858684-6e08-4a64-adf3-8a255b235e63",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q310prisonbreak.journal"
+ },
+ {
+  "journal": "Q310 Retrieving Keira",
+  "title": "A Final Kindness",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "9d537ab1-9b54-4d10-a243-ce311a0f4c60",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q310keira.journal"
+ },
+ {
+  "journal": "Q310 Romantic Disaster",
+  "title": "It Takes Three to Tango",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "044eae5b-699c-4be9-afcc-48ce56c14683",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q310romancefailure.journal"
+ },
+ {
+  "journal": "Q311 The Spiral",
+  "title": "Through Time and Space",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "6a08dbe7-ddd4-4175-bb01-8d543ecab021",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q311thespiral.journal"
+ },
+ {
+  "journal": "Q401 Hunt With Eskel",
+  "title": "To Bait a Forktail...",
+  "type": "Chapter",
+  "world": 3,
+  "guid": "8580cfdf-21bd-4da5-9f39-ada875df8ac6",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q401_hunt_with_eskel.journal"
+ },
+ {
+  "journal": "Q401 Konsylium",
+  "title": "Ugly Baby",
+  "type": "Side",
+  "world": 3,
+  "guid": "ca9f7d30-27de-4047-b373-41fa6a6a76c7",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q401_konsylium.journal"
+ },
+ {
+  "journal": "Q401 Megascope",
+  "title": "Disturbance",
+  "type": "Chapter",
+  "world": 3,
+  "guid": "0bf1484f-6703-4fae-b3a4-80285c7f8fc0",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q401_megascope.journal"
+ },
+ {
+  "journal": "Q401 The Curse",
+  "title": "Va Fail, Elaine",
+  "type": "Chapter",
+  "world": 3,
+  "guid": "f4d14b2f-9290-43c3-a656-62e7b906b79b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q401_the_curse.journal"
+ },
+ {
+  "journal": "Q401 The Phylactery",
+  "title": "The Final Trial",
+  "type": "Chapter",
+  "world": 3,
+  "guid": "0215b534-04e9-4bbd-b6ae-432fcb04fdec",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q401_phylactery.journal"
+ },
+ {
+  "journal": "Q401 The Reunion",
+  "title": "No Place Like Home",
+  "type": "Chapter",
+  "world": 3,
+  "guid": "d51fe71a-3779-4c88-a603-0354e50daa81",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q401_reunion.journal"
+ },
+ {
+  "journal": "Q401 Ugliest Man Alive",
+  "title": "The Key to the Riddle",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "8b503a4f-7b93-450f-ac31-92382c28edd1",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q401_ugliest_man_alive.journal"
+ },
+ {
+  "journal": "Q402 Allies for Kaer Morhen",
+  "title": "Brothers in Arms",
+  "type": "Chapter",
+  "world": 0,
+  "guid": "ef8415f6-7c62-48a5-bbc2-5a55d592442c",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q402gatheringallies.journal"
+ },
+ {
+  "journal": "Q402 Allies in Novigrad",
+  "title": "Brothers In Arms: Novigrad",
+  "type": "Chapter",
+  "world": 1,
+  "guid": "f461db29-50dd-415d-a890-89beb2f25bea",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q402novigradallies.journal"
+ },
+ {
+  "journal": "Q402 Allies in Skellige",
+  "title": "Brothers In Arms: Skellige",
+  "type": "Chapter",
+  "world": 2,
+  "guid": "093a3020-ff54-4681-8766-9ea28cd9232f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q402skelligeallies.journal"
+ },
+ {
+  "journal": "Q402 Allies in Velen",
+  "title": "Brothers In Arms: Velen",
+  "type": "Chapter",
+  "world": 9,
+  "guid": "b1da9a85-7821-48f9-a4f1-f3b461217e15",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q402velenallies.journal"
+ },
+ {
+  "journal": "Q402 Ally in Nilfgaard",
+  "title": "Brothers In Arms: Nilfgaard",
+  "type": "Chapter",
+  "world": 5,
+  "guid": "f185ee6a-b3bd-4b8c-8853-bc7cf95450c7",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q402nilfgaardianally.journal"
+ },
+ {
+  "journal": "Q402 Isle of Mists",
+  "title": "The Isle of Mists",
+  "type": "Side",
+  "world": 0,
+  "guid": "1ac2e15c-b955-4bcb-b997-06bfd11fa286",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q402ciri.journal"
+ },
+ {
+  "journal": "Q403 Battle of Kaer Morhen",
+  "title": "The Battle of Kaer Morhen",
+  "type": "Side",
+  "world": 3,
+  "guid": "0b4f80af-793f-4a65-81bf-a84e39412a8a",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q403battle.journal"
+ },
+ {
+  "journal": "Q501 Eredin",
+  "title": "On Thin Ice",
+  "type": "Side",
+  "world": 2,
+  "guid": "1234b258-f7c7-4a8e-9d97-0f3ed331838e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q501eredin.journal"
+ },
+ {
+  "journal": "Q502 Avallach",
+  "title": "Tedd Deireadh, the Final Age",
+  "type": "Side",
+  "world": 2,
+  "guid": "5b67dff5-8918-4481-baec-f450ec94b8a4",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q502avallach.journal"
+ },
+ {
+  "journal": "Q503 NEW Ciri Dead",
+  "title": "Something Ends, Something Begins",
+  "type": "Side",
+  "world": 9,
+  "guid": "8f17e40a-d119-4942-995a-bc96d9f4a628",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q503newquest.journal"
+ },
+ {
+  "journal": "Q504 Ciri Empress",
+  "title": "Something Ends, Something Begins",
+  "type": "Side",
+  "world": 8,
+  "guid": "e8d3e37e-a208-443d-8376-40f6167460aa",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q504ciriempress.journal"
+ },
+ {
+  "journal": "Q505 Ciri Free",
+  "title": "Something Ends, Something Begins",
+  "type": "Side",
+  "world": 0,
+  "guid": "053b2b41-db6d-41e1-a6ec-f4d658324494",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q505cirifree.journal"
+ },
+ {
+  "journal": "Quest Tutorial 01",
+  "title": "",
+  "type": "Side",
+  "world": 11,
+  "guid": "02579048-bd86-4afa-ac54-9d909eb8514e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/questtutorial01.journal"
+ },
+ {
+  "journal": "SKG: Fist Fighting",
+  "title": "Fists of Fury: Skellige",
+  "type": "Side",
+  "world": 2,
+  "guid": "14c1a784-fb76-40ab-a2b5-65d6ad73d838",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/fistfightsskellige.journal"
+ },
+ {
+  "journal": "SQ101 Keira",
+  "title": "A Favor for a Friend",
+  "type": "Side",
+  "world": 9,
+  "guid": "1ee3c260-26f3-47de-a32f-427dc784ee94",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq101keira.journal"
+ },
+ {
+  "journal": "SQ102 Dolores",
+  "title": "The Fall of the House of Reardon",
+  "type": "Side",
+  "world": 9,
+  "guid": "4ff26ae8-7a85-4526-8e15-03913d163119",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq102dolores.journal"
+ },
+ {
+  "journal": "SQ102 Letho",
+  "title": "Ghosts of the Past",
+  "type": "Side",
+  "world": 9,
+  "guid": "4614b8ba-27f1-49b4-968f-5b8df6fb94ab",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq102letho.journal"
+ },
+ {
+  "journal": "SQ104 Werewolf",
+  "title": "Wild at Heart",
+  "type": "Side",
+  "world": 9,
+  "guid": "15cbfa78-d1b1-4da5-ad3e-62fc73ce739f",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq104werewolf.journal"
+ },
+ {
+  "journal": "SQ106 Killbill",
+  "title": "Following the Thread",
+  "type": "Side",
+  "world": 0,
+  "guid": "23ebf49c-bfb5-4cd2-94fb-d8a2a64070b2",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq106killbill.journal"
+ },
+ {
+  "journal": "SQ108 Master Blacksmith",
+  "title": "Master Armorers",
+  "type": "Side",
+  "world": 0,
+  "guid": "10d429df-9d62-44d8-a56a-dc38f37648d3",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq108masterblacksmith.journal"
+ },
+ {
+  "journal": "sq108: Griffon",
+  "title": "Contract: The Griffin from the Highlands",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "323560bf-ecf7-4414-ba6c-9a1a371de503",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq108griffon.journal"
+ },
+ {
+  "journal": "SQ201 Curse",
+  "title": "In Wolf's Clothing",
+  "type": "Side",
+  "world": 2,
+  "guid": "fe437b83-5725-4999-9a08-f639277ca8d2",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq201curse.journal"
+ },
+ {
+  "journal": "SQ202 Yen",
+  "title": "The Last Wish",
+  "type": "Side",
+  "world": 2,
+  "guid": "038c9de1-76b6-49ce-9748-598b876ba7da",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq202yen.journal"
+ },
+ {
+  "journal": "SQ204 Forest Spirit",
+  "title": "In the Heart of the Woods",
+  "type": "MonsterHunt",
+  "world": 2,
+  "guid": "adf1f1f0-d27d-41c5-8a25-973353b69328",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq204forestspirit.journal"
+ },
+ {
+  "journal": "SQ205 Alchemist",
+  "title": "Practicum in Advanced Alchemy",
+  "type": "Side",
+  "world": 2,
+  "guid": "52dcbb5b-44f6-433c-a278-25fc868dbb49",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq205alchemist.journal"
+ },
+ {
+  "journal": "SQ209 Cave of Dreams",
+  "title": "The Cave of Dreams",
+  "type": "Side",
+  "world": 2,
+  "guid": "c15e1341-0af2-4a1d-ad85-cabcea5a1c00",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq209weregildb.journal"
+ },
+ {
+  "journal": "SQ209 Tavern Brawl",
+  "title": "Stranger in a Strange Land",
+  "type": "Side",
+  "world": 2,
+  "guid": "5a628afb-aebd-4d9f-9a3a-406cc24a6b06",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq209weregild.journal"
+ },
+ {
+  "journal": "SQ210 Impossible Tower",
+  "title": "The Tower Outta Nowheres",
+  "type": "Side",
+  "world": 2,
+  "guid": "7ecf7633-1266-4638-89da-9da12a20db92",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq210impossibletower.journal"
+ },
+ {
+  "journal": "SQ301 Triss",
+  "title": "A Matter of Life and Death",
+  "type": "Side",
+  "world": 1,
+  "guid": "df5c1032-d052-43cf-b142-6705b0578c5e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq301triss.journal"
+ },
+ {
+  "journal": "SQ302 Philippa",
+  "title": "Redania's Most Wanted",
+  "type": "Side",
+  "world": 1,
+  "guid": "9d3e34eb-f4ba-4db8-9b64-1c4ba5ba7b7b",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq302philippa.journal"
+ },
+ {
+  "journal": "SQ303 Brothel",
+  "title": "Cabaret",
+  "type": "Side",
+  "world": 1,
+  "guid": "1dbec8f9-bb3b-4023-a170-eb230141d152",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq303brothel.journal"
+ },
+ {
+  "journal": "SQ304 Armorsmith",
+  "title": "Of Swords and Dumplings",
+  "type": "Side",
+  "world": 1,
+  "guid": "bcfd66c3-becb-4e55-8258-9700dc3c20a9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq304armorsmith.journal"
+ },
+ {
+  "journal": "SQ305 Scoiatael",
+  "title": "Contract: Woodland Beast",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "6afafc3c-0499-47d5-a7d3-216d4dc1300d",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq305scoiatael.journal"
+ },
+ {
+  "journal": "SQ306 Maverick",
+  "title": "High Stakes",
+  "type": "Side",
+  "world": 1,
+  "guid": "025c0756-2876-42ec-9fc3-f08968b5dd39",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq306maverick.journal"
+ },
+ {
+  "journal": "SQ310 Dangerous Game",
+  "title": "A Dangerous Game",
+  "type": "Side",
+  "world": 1,
+  "guid": "4eaa1ca7-1762-4891-b0e0-849c54f1a22e",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq310dangerousgame.journal"
+ },
+ {
+  "journal": "SQ312 Ves",
+  "title": "An Eye for an Eye",
+  "type": "Side",
+  "world": 1,
+  "guid": "cb6ea4cb-4c94-43ab-b778-72f3a610fd68",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq312vincentves.journal"
+ },
+ {
+  "journal": "SQ315 Talar",
+  "title": "A Deadly Plot",
+  "type": "Side",
+  "world": 1,
+  "guid": "0731749c-3634-4445-b12a-cc88d758f8a7",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sq315talar.journal"
+ },
+ {
+  "journal": "STORY - Chapter 1 - Ciri's footsteps",
+  "title": "In Ciri's Footsteps",
+  "type": "Side",
+  "world": 0,
+  "guid": "78f7725e-9ee2-43ae-9f11-1b3676f4dd28",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/ch1quest.journal"
+ },
+ {
+  "journal": "STORY - Chapter 3 - Preparations in Novigrad",
+  "title": "Final Preparations",
+  "type": "Side",
+  "world": 1,
+  "guid": "edcccdf6-27d0-49d3-bada-7c308a1fdbd4",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/q310preparationsnovigrad.journal"
+ },
+ {
+  "journal": "Sunken treasure",
+  "title": "A Costly Mistake",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "987a0a55-1bd2-4a59-9708-b864897fcbec",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/sunken treasure.journal"
+ },
+ {
+  "journal": "TEMP Minor Testing Def",
+  "title": "[DEBUG] TEMP Minor Testing Def",
+  "type": "Chapter",
+  "world": 0,
+  "guid": "a54f3359-858e-4c12-aa42-d10a93818420",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/tempminortestingquestquest.journal"
+ },
+ {
+  "journal": "Tips & Tricks",
+  "title": "",
+  "type": "Chapter",
+  "world": 0,
+  "guid": "eb510481-7557-47e2-8e8d-6c00fbe4aaf9",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/tipstricks.journal"
+ },
+ {
+  "journal": "Treasure hunt template",
+  "title": "",
+  "type": "TreasureHunt",
+  "world": 0,
+  "guid": "91e0f1db-e676-4560-a526-1c7eabb5bca4",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/thunttemplate.journal"
+ },
+ {
+  "journal": "Viper Set",
+  "title": "Scavenger Hunt: Viper School Gear",
+  "type": "TreasureHunt",
+  "world": 4,
+  "guid": "aa5d86a4-4811-401e-acb6-747cb3cb807a",
+  "dlc": "base",
+  "file": "gameplay/journal/quests/th1001viper.journal"
+ },
+ {
+  "journal": "bar_a_10",
+  "title": "Waiting for Goe and Doh",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "cb9a683e-6d11-401d-a74d-178d013c679a",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/bara10.journal"
+ },
+ {
+  "journal": "cammerlengo",
+  "title": "Knight for Hire",
+  "type": "Side",
+  "world": 11,
+  "guid": "afad298f-4308-47b9-9250-d6d62efcf302",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/cammerlengo.journal"
+ },
+ {
+  "journal": "car_a_04",
+  "title": "Vintner's Contract: Cleaning Those Hard-to-Reach Places",
+  "type": "Side",
+  "world": 11,
+  "guid": "4183d8ae-1f00-4196-bdf8-3d365ddbd3ee",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/cara04.journal"
+ },
+ {
+  "journal": "car_a_11",
+  "title": "Spoontaneous Profits!",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "e39845ac-da94-4799-b6a6-dbec11788c38",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/cara11.journal"
+ },
+ {
+  "journal": "car_b_08",
+  "title": "The Inconstant Gardener",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "9928729b-3f0a-4f4b-a504-1750ac608f21",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/carb08.journal"
+ },
+ {
+  "journal": "car_b_10",
+  "title": "The Last Exploits of Selina's Gang",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "ba4bc5bd-f387-4b52-b651-c2d2f9ea7368",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/carb10.journal"
+ },
+ {
+  "journal": "cg700_all_cards",
+  "title": "Gwent: Never Fear, Skellige's Here",
+  "type": "Side",
+  "world": 11,
+  "guid": "10792209-ae39-4257-9911-825bec20fb2f",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/cg700allcards.journal"
+ },
+ {
+  "journal": "cg700_tournament",
+  "title": "Gwent: To Everything - Turn, Turn, Tournament!",
+  "type": "Side",
+  "world": 11,
+  "guid": "dbbf356d-9cc0-4ffc-af4a-4029488b20d6",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/cg700mainquest.journal"
+ },
+ {
+  "journal": "dun_b_03",
+  "title": "Vintner's Contract: Dun Tynne Hillside",
+  "type": "Side",
+  "world": 11,
+  "guid": "fd7151a7-ac7c-442d-8091-5f53aa93ba0a",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/dunb03.journal"
+ },
+ {
+  "journal": "ff701_fistfights",
+  "title": "Fists of Fury: Toussaint",
+  "type": "Side",
+  "world": 11,
+  "guid": "af499a50-055d-4016-87a7-a49748613306",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/ff701fistfights.journal"
+ },
+ {
+  "journal": "ff701_master",
+  "title": "Raging Wolf",
+  "type": "Side",
+  "world": 11,
+  "guid": "d3b2b89d-cba8-4e35-9cb3-f07082bff246",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/ff701_master.journal"
+ },
+ {
+  "journal": "gor_a_10",
+  "title": "But Other Than That, How Did You Enjoy the Play?",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "0bbcbace-237b-4099-885b-a52461a8b477",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/gora10.journal"
+ },
+ {
+  "journal": "gor_b_02",
+  "title": "Vintner's Contract: Duchaton Crest",
+  "type": "Side",
+  "world": 11,
+  "guid": "356e6e7d-fc70-48dc-9899-50d9df22baa0",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/gorb02.journal"
+ },
+ {
+  "journal": "gor_b_04",
+  "title": "The Toussaint Prison Experiment",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "00685344-fb0f-477d-a6ef-9339dd965335",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/gorb04.journal"
+ },
+ {
+  "journal": "gor_c_14",
+  "title": "The Suffering of Young Francois",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "9406114d-7c4a-40ae-bb66-c54e0e607789",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/gorc14.journal"
+ },
+ {
+  "journal": "MH701 tectonic_terror",
+  "title": "Contract: The Tufo Monster",
+  "type": "MonsterHunt",
+  "world": 11,
+  "guid": "32486d3e-b6bb-469f-8bd1-b19f5a6f0488",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mh701tectonicterror.journal"
+ },
+ {
+  "journal": "mq7001 Rest in peace",
+  "title": "Till Death Do You Part",
+  "type": "Side",
+  "world": 11,
+  "guid": "6791bac0-8d29-4eac-8dea-00899084cf62",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7001restinpeace.journal"
+ },
+ {
+  "journal": "mq7002 Stubborn Knight",
+  "title": "Feet as Cold as Ice",
+  "type": "MonsterHunt",
+  "world": 11,
+  "guid": "c9725eb0-7261-42eb-bb1a-490eb409bcd0",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7002knight.journal"
+ },
+ {
+  "journal": "mq7004_bleeding_tree",
+  "title": "A Knight's Tales",
+  "type": "Side",
+  "world": 11,
+  "guid": "66478bb1-19be-4f4e-9e59-9cbd956a4968",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7004bleedingtree.journal"
+ },
+ {
+  "journal": "mq7006_the_paths_of_destiny",
+  "title": "There Can Be Only One",
+  "type": "Side",
+  "world": 11,
+  "guid": "9b2e88ec-2bac-4b39-9657-f6796c37b25f",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7006thepathsofdestiny.journal"
+ },
+ {
+  "journal": "mq7006_the_paths_of_destiny_p2",
+  "title": "There Can Be Only One",
+  "type": "Side",
+  "world": 11,
+  "guid": "3d002f87-cb1a-47d1-9f84-974ad7473229",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7006thepathsofdestinyp2.journal"
+ },
+ {
+  "journal": "mq7007_gargoyles",
+  "title": "Extreme Cosplay",
+  "type": "Side",
+  "world": 11,
+  "guid": "a3b5e68e-eb21-4d28-8db6-8265baa66d44",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7007gargoyles.journal"
+ },
+ {
+  "journal": "mq7009 Painter",
+  "title": "A Portrait of the Witcher as an Old Man",
+  "type": "Side",
+  "world": 11,
+  "guid": "bcd96cb1-8b97-4ef5-b008-c6513caa2eab",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7009painter.journal"
+ },
+ {
+  "journal": "mq7010 Airborne Cattle",
+  "title": "Contract: Bovine Blues",
+  "type": "MonsterHunt",
+  "world": 11,
+  "guid": "2633d68e-fa82-4c40-882a-7ad156d2460a",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7010airbornecattle.journal"
+ },
+ {
+  "journal": "mq7011 Where's My Money",
+  "title": "Paperchase",
+  "type": "Side",
+  "world": 11,
+  "guid": "e1815592-f37a-4f7d-9b3b-59f352f1e152",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7011wheresmymoney.journal"
+ },
+ {
+  "journal": "mq7015_souvenir",
+  "title": "Goodness, Gracious, Great Balls of Granite!",
+  "type": "Side",
+  "world": 11,
+  "guid": "3c3dc52f-95b5-4450-9368-c689a185e179",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7015souvenir.journal"
+ },
+ {
+  "journal": "mq7017_talking_horse",
+  "title": "Equine Phantoms",
+  "type": "MonsterHunt",
+  "world": 11,
+  "guid": "9876843e-1f74-47d5-9580-861212d7a7a0",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7017talkinghorse.journal"
+ },
+ {
+  "journal": "mq7018_last_one",
+  "title": "Mutual of Beauclair's Wild Kingdom",
+  "type": "Side",
+  "world": 11,
+  "guid": "0ae82268-5d8d-4fff-b49c-214af880e411",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7018lastone.journal"
+ },
+ {
+  "journal": "mq7020_songs_of_glory",
+  "title": "Of Sheers and a Witcher I Sing",
+  "type": "Side",
+  "world": 11,
+  "guid": "0eb811a8-f57c-4069-99dc-66699db608d8",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7020songsofglory.journal"
+ },
+ {
+  "journal": "mq7021_left_behind",
+  "title": "Father Knows Worst",
+  "type": "Side",
+  "world": 11,
+  "guid": "e0eb6bb5-d420-492f-b9f4-535eb78bc56c",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7021leftbehind.journal"
+ },
+ {
+  "journal": "mq7023_mutations",
+  "title": "Turn and Face the Strange",
+  "type": "Side",
+  "world": 11,
+  "guid": "a644cc5f-9717-41d1-9843-2acefb9d8734",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7023mutations.journal"
+ },
+ {
+  "journal": "mq7024_home",
+  "title": "No Place Like Home",
+  "type": "Side",
+  "world": 11,
+  "guid": "35e4c812-59ef-4224-ac6f-811f0eb7537e",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/mq7024home.journal"
+ },
+ {
+  "journal": "plegmund",
+  "title": "Big Feet to Fill",
+  "type": "Side",
+  "world": 11,
+  "guid": "b3ff603c-b21d-45c1-9264-3638a1318878",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/plegmund.journal"
+ },
+ {
+  "journal": "plegmund_poi_01",
+  "title": "Big Feet to Fill: The First Group",
+  "type": "Side",
+  "world": 11,
+  "guid": "e28bc846-a50a-471f-bb51-b7ba9723a003",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/plegmundpoi01.journal"
+ },
+ {
+  "journal": "plegmund_poi_02",
+  "title": "Big Feet to Fill: The Second Group",
+  "type": "Side",
+  "world": 11,
+  "guid": "56b78e64-36ab-48a5-89b2-f5c437b0cc52",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/plegmundpoi02.journal"
+ },
+ {
+  "journal": "plegmund_poi_03",
+  "title": "Big Feet to Fill: The Third Group",
+  "type": "Side",
+  "world": 11,
+  "guid": "965b131e-dc40-402d-8fba-ee0923f08776",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/plegmundpoi03.journal"
+ },
+ {
+  "journal": "plegmund_poi_04",
+  "title": "Big Feet to Fill: The Fourth Group",
+  "type": "Side",
+  "world": 11,
+  "guid": "85dd2133-2682-4fab-be25-fd10f7566a5d",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/plegmundpoi04.journal"
+ },
+ {
+  "journal": "plegmund_poi_05",
+  "title": "Big Feet to Fill: The Fifth Group",
+  "type": "Side",
+  "world": 11,
+  "guid": "9804a828-1141-471c-9dc2-4f9b47690fca",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/plegmundpoi05.journal"
+ },
+ {
+  "journal": "poi_bar_a_05",
+  "title": "Filibert Always Pays His Debts",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "d1fb4ecd-cfaf-4c46-b70b-a43faf69d8a7",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/poi_bar_a_05.journal"
+ },
+ {
+  "journal": "poi_gor_d_20",
+  "title": "The Curse of Carnarvon",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "c651cb60-4070-4d78-b6d0-8a4f9a28d436",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/poigord20.journal"
+ },
+ {
+  "journal": "Q701_Festival",
+  "title": "The Beast of Toussaint",
+  "type": "Side",
+  "world": 11,
+  "guid": "11d55e15-e711-434f-b810-9ee8e209bb17",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q701festival.journal"
+ },
+ {
+  "journal": "Q701A Hook",
+  "title": "Envoys, Wineboys",
+  "type": "Side",
+  "world": 9,
+  "guid": "629e3452-67f6-444a-97c1-c170ef226ebf",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q701ahook.journal"
+ },
+ {
+  "journal": "Q702 Dettlaff",
+  "title": "Blood Run",
+  "type": "Side",
+  "world": 11,
+  "guid": "1939e60d-df59-401c-bb65-476fc8eebc25",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q702defflaff.journal"
+ },
+ {
+  "journal": "Q702 Faith of Marlene",
+  "title": "The Hunger Game",
+  "type": "Side",
+  "world": 11,
+  "guid": "6ff82e52-a32d-4816-be37-dfc7a9d85a8d",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q702wightdecision.journal"
+ },
+ {
+  "journal": "Q702 Lair Of The Beast",
+  "title": "Where Children Toil, Toys Waste Away",
+  "type": "Side",
+  "world": 11,
+  "guid": "b4d11a9c-b849-4dde-8159-842367e88718",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q702lairofbeast.journal"
+ },
+ {
+  "journal": "Q702 Reverb Mixture",
+  "title": "La Cage au Fou",
+  "type": "Side",
+  "world": 11,
+  "guid": "ce23e598-3c3b-4d3b-92ad-7827a9465109",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q702hunt.journal"
+ },
+ {
+  "journal": "Q702 Water Mill",
+  "title": "Amidst the Mill's Grist",
+  "type": "Side",
+  "world": 11,
+  "guid": "eadc1606-b400-4b14-97d6-6d56520fdc8a",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q702mill.journal"
+ },
+ {
+  "journal": "Q703 All for one",
+  "title": "Capture the Castle",
+  "type": "Chapter",
+  "world": 11,
+  "guid": "b0e13120-6e44-43a5-a0f5-d0839e7526ee",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q703allforone.journal"
+ },
+ {
+  "journal": "Q703 Art",
+  "title": "The Man from Cintra",
+  "type": "Chapter",
+  "world": 11,
+  "guid": "6c2340e8-e618-4e58-a9d5-93bf29cbe5e8",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q703art.journal"
+ },
+ {
+  "journal": "Q703 Wine",
+  "title": "Wine is Sacred",
+  "type": "Chapter",
+  "world": 11,
+  "guid": "c9d7bc04-03dd-43b3-a9aa-d37ebd78739a",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q703wine.journal"
+ },
+ {
+  "journal": "Q704 Dettlaff",
+  "title": "Tesham Mutna",
+  "type": "Chapter",
+  "world": 11,
+  "guid": "be9868e4-64c0-427c-ab5f-c1fec27c07c7",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q704adettlaff.journal"
+ },
+ {
+  "journal": "Q704 Monster Hunt",
+  "title": "Blood Simple",
+  "type": "Chapter",
+  "world": 11,
+  "guid": "41c2c88e-617e-465e-8da2-04e5967e55b7",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q704truth.journal"
+ },
+ {
+  "journal": "Q704 Starting",
+  "title": "The Night of Long Fangs",
+  "type": "Chapter",
+  "world": 11,
+  "guid": "ff48073d-69e5-4f69-bed7-9cf7adb317e2",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q704starting.journal"
+ },
+ {
+  "journal": "Q704 Vampires",
+  "title": "What Lies Unseen",
+  "type": "Chapter",
+  "world": 11,
+  "guid": "e2f4aa1d-183b-4bdd-9dd8-df9db7349b00",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q704vampires.journal"
+ },
+ {
+  "journal": "q704_ft_goose",
+  "title": "Duck, Duck, Goosed!",
+  "type": "Side",
+  "world": 11,
+  "guid": "dde4e2d1-6315-4ce3-8bf3-e6011176740f",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q704ftgoose.journal"
+ },
+ {
+  "journal": "Q704B Fairy Land",
+  "title": "Beyond Hill and Dale...",
+  "type": "Chapter",
+  "world": 11,
+  "guid": "e458aac7-112b-4c80-9466-1e0cb1603e11",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q704bfairyland.journal"
+ },
+ {
+  "journal": "Q705 Ceremony",
+  "title": "Pomp and Strange Circumstance",
+  "type": "Side",
+  "world": 11,
+  "guid": "75b389cc-43b3-4f50-a208-c59c8321f888",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q705ceremony.journal"
+ },
+ {
+  "journal": "Q705 Home",
+  "title": "Be It Ever So Humble…",
+  "type": "Chapter",
+  "world": 11,
+  "guid": "c9f4557a-507f-4660-9d3f-e51fbe60c0b6",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q705home.journal"
+ },
+ {
+  "journal": "Q705 Prison",
+  "title": "Burlap is the New Stripe",
+  "type": "Chapter",
+  "world": 11,
+  "guid": "fd761cac-7883-44df-afc9-458adf3c1650",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q705prison.journal"
+ },
+ {
+  "journal": "Q705 Prison Stash",
+  "title": "The Perks of Being a Jailbird",
+  "type": "Side",
+  "world": 11,
+  "guid": "a33e591c-960a-44b7-aa73-51b50c907570",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/q705prisonstash.journal"
+ },
+ {
+  "journal": "san_a_01",
+  "title": "Applied Escapology",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "ed6b1d03-ee82-4e2c-b3a4-1bfbe50c76a1",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/sana01.journal"
+ },
+ {
+  "journal": "san_b_02",
+  "title": "The Black Widow",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "77cd5426-6a2a-4360-b572-69027c940dab",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/sanb02.journal"
+ },
+ {
+  "journal": "SQ701 tournament",
+  "title": "The Warble of a Smitten Knight",
+  "type": "Side",
+  "world": 11,
+  "guid": "ad9e547a-3aeb-4032-ae21-ad87729fe48a",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/sq701tournament.journal"
+ },
+ {
+  "journal": "SQ703 wine_wars",
+  "title": "Big Game Hunter",
+  "type": "MonsterHunt",
+  "world": 11,
+  "guid": "39087354-c2c0-4bbd-b342-093d61fd3002",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/sq703winewars.journal"
+ },
+ {
+  "journal": "th700 Preacher bones",
+  "title": "The Words of the Prophets Are Written on Sarcophagi",
+  "type": "Side",
+  "world": 11,
+  "guid": "3d231eb3-3c97-445c-b811-640fa61b516a",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/th700preacherbones.journal"
+ },
+ {
+  "journal": "th700_red_wolf",
+  "title": "Scavenger Hunt: Grandmaster Manticore Gear",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "d0589e62-ef34-4a43-92c6-11af2cd7e0e0",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/th700redwolf.journal"
+ },
+ {
+  "journal": "th700_th701_metaquest",
+  "title": "Master Master Master Master!",
+  "type": "Side",
+  "world": 11,
+  "guid": "9a723089-9d47-4018-8985-ad2b6e7b574e",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/th700th701metaquest.journal"
+ },
+ {
+  "journal": "th701_bear_gear",
+  "title": "Scavenger Hunt: Grandmaster Ursine Gear",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "eb1b7a32-a709-41d6-af5d-9e7cdfe8115f",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/th701beargear.journal"
+ },
+ {
+  "journal": "th701_cat_gear",
+  "title": "Scavenger Hunt: Grandmaster Feline Gear",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "8cb2680e-dbcf-4756-8b60-adbd251ad9ef",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/th701catgear.journal"
+ },
+ {
+  "journal": "th701_gryphon_gear",
+  "title": "Scavenger Hunt: Grandmaster Griffin Gear",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "07034c68-04f6-4fed-8d7a-bdd0bf5474cf",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/th701gryphongear.journal"
+ },
+ {
+  "journal": "th701_wolf_gear",
+  "title": "Scavenger Hunt: Grandmaster Wolven Gear",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "6dbe2d54-2066-4a4e-b6ab-c1ca5b90cb97",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/th701wolfgear.journal"
+ },
+ {
+  "journal": "ved_a_03",
+  "title": "What Was This About Again?",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "2fde6f32-4d56-49fc-9d61-f8ce4a70b023",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/veda03.journal"
+ },
+ {
+  "journal": "vin_a_01",
+  "title": "Vintner's Contract: Chuchote Cave",
+  "type": "Side",
+  "world": 11,
+  "guid": "dc82c3fd-ca3f-4362-ba25-7eec407a1672",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/vina01.journal"
+ },
+ {
+  "journal": "vin_b_03",
+  "title": "Vintner's Contract: Rivecalme Storehouse",
+  "type": "Side",
+  "world": 11,
+  "guid": "367672ba-ab7f-41e9-8c42-39f3c093d4d5",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/vinb03.journal"
+ },
+ {
+  "journal": "vin_b_05",
+  "title": "Around the World in… Eight Days",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "d9ef08f9-6bc0-4f18-a4c1-064bc41c4cb6",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/vinb05.journal"
+ },
+ {
+  "journal": "ww_belgard",
+  "title": "Wine Wars: Belgaard",
+  "type": "Side",
+  "world": 11,
+  "guid": "642890ad-cbe6-4f8e-a2ef-56279a5055f7",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/wwbelgard.journal"
+ },
+ {
+  "journal": "ww_belgard_secret",
+  "title": "Wine Wars: The Deus in the Machina",
+  "type": "Side",
+  "world": 11,
+  "guid": "060ee78a-92a4-4b7a-a428-dfb4871ae063",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/wwbelgardsecret.journal"
+ },
+ {
+  "journal": "ww_consortium",
+  "title": "Wine Wars: Consorting",
+  "type": "Side",
+  "world": 11,
+  "guid": "81c1fe3b-b079-4ce1-a856-a730102e40d2",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/lwwwconsorcium.journal"
+ },
+ {
+  "journal": "ww_cor_04",
+  "title": "Coin Doesn't Stink",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "eb22af64-d7fa-4032-991d-97398bf5eb5c",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/ww_cor_04.journal"
+ },
+ {
+  "journal": "ww_coronata",
+  "title": "Wine Wars: Coronata",
+  "type": "Side",
+  "world": 11,
+  "guid": "e0ad810b-493b-4517-b3d1-1a1d0f08796b",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/wwcoronata.journal"
+ },
+ {
+  "journal": "ww_initial",
+  "title": "Wine Wars: Belgaard",
+  "type": "Side",
+  "world": 11,
+  "guid": "63bce128-cf79-4af8-8c49-7e8577fa711e",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/wwinitial.journal"
+ },
+ {
+  "journal": "ww_ver_13",
+  "title": "Don't Take Candy from a Stranger",
+  "type": "TreasureHunt",
+  "world": 11,
+  "guid": "fb8802df-e465-417e-bad1-7320f06e1715",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/wwver13.journal"
+ },
+ {
+  "journal": "ww_vermentino",
+  "title": "Wine Wars: Vermentino",
+  "type": "Side",
+  "world": 11,
+  "guid": "7a0007ee-daf9-4b89-9358-d6501b26fe42",
+  "dlc": "baw",
+  "file": "dlc/bob/journal/quests/wwvermentino.journal"
+ },
+ {
+  "journal": "Wolf Set",
+  "title": "Scavenger Hunt: Wolf School Gear",
+  "type": "TreasureHunt",
+  "world": 3,
+  "guid": "ecda507b-a54f-4902-a9ca-d7851cf56be2",
+  "dlc": "dlc10",
+  "file": "dlc/dlc10/journal/quests/wolftreasurehuntset.journal"
+ },
+ {
+  "journal": "Wolf Upgrades 1A",
+  "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 1",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "2b4d53f2-e107-4d13-be1b-6bb7e2bef946",
+  "dlc": "dlc10",
+  "file": "dlc/dlc10/journal/quests/wolfupgrades1a.journal"
+ },
+ {
+  "journal": "Wolf Upgrades 1B",
+  "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 2",
+  "type": "TreasureHunt",
+  "world": 3,
+  "guid": "65f92ed7-4bbf-4636-8b68-4f272b249b2b",
+  "dlc": "dlc10",
+  "file": "dlc/dlc10/journal/quests/wolfupgrades1b.journal"
+ },
+ {
+  "journal": "Wolf Upgrades 2",
+  "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 3",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "0aca2dc7-17f1-441f-8d56-9e627383dc1d",
+  "dlc": "dlc10",
+  "file": "dlc/dlc10/journal/quests/wolfupgrades2.journal"
+ },
+ {
+  "journal": "Wolf Upgrades 2b",
+  "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 4",
+  "type": "TreasureHunt",
+  "world": 3,
+  "guid": "b5a3ebf1-4027-4858-88bd-5c03d1e75ac6",
+  "dlc": "dlc10",
+  "file": "dlc/dlc10/journal/quests/wolfupgrades2b.journal"
+ },
+ {
+  "journal": "Wolf Upgrades 3",
+  "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 5",
+  "type": "TreasureHunt",
+  "world": 9,
+  "guid": "c78b90ec-543c-4b01-a750-258923cf7c3f",
+  "dlc": "dlc10",
+  "file": "dlc/dlc10/journal/quests/wolfupgrades3.journal"
+ },
+ {
+  "journal": "Wolf Upgrades 3b",
+  "title": "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 6",
+  "type": "TreasureHunt",
+  "world": 2,
+  "guid": "08304185-664c-4846-bc59-d76dd679e71d",
+  "dlc": "dlc10",
+  "file": "dlc/dlc10/journal/quests/wolfupgrades3b.journal"
+ },
+ {
+  "journal": "mq2052 Reversed Monster Hunt",
+  "title": "Contract: Skellige's Most Wanted",
+  "type": "MonsterHunt",
+  "world": 2,
+  "guid": "9b223108-9c4c-4134-b21b-4db7d97da119",
+  "dlc": "dlc12",
+  "file": "dlc/dlc12/journal/quests/dlcmq2052reversedmonsterhunt.journal"
+ },
+ {
+  "journal": "mq1058 Cat Stash",
+  "title": "Take What You Want",
+  "type": "Side",
+  "world": 9,
+  "guid": "7258b2fb-ef24-4a41-a235-77649ffc2865",
+  "dlc": "dlc15",
+  "file": "dlc/dlc15/journal/quests/mq1058catstash.journal"
+ },
+ {
+  "journal": "mq1058 Lynx Witcher Fake ",
+  "title": "Contract: The Beast of Honorton",
+  "type": "MonsterHunt",
+  "world": 9,
+  "guid": "bd40c6d4-fb2d-4532-bfed-7d18f6c6422c",
+  "dlc": "dlc15",
+  "file": "dlc/dlc15/journal/quests/dlcmq1058lyncwitcherfake.journal"
+ },
+ {
+  "journal": "mq1058 The Village X Massacare",
+  "title": "Where the Cat and Wolf Play...",
+  "type": "Side",
+  "world": 9,
+  "guid": "35cccb0a-8790-4c51-b434-1cd177eadb6c",
+  "dlc": "dlc15",
+  "file": "dlc/dlc15/journal/quests/dlcmq1058lynxwitcher.journal"
+ },
+ {
+  "journal": "mh201 : Cave Troll",
+  "title": "Contract: Missing Miners",
+  "type": "MonsterHunt",
+  "world": 2,
+  "guid": "a1be23d7-38b8-4eed-aff1-47a9d4f674e2",
+  "dlc": "dlc3",
+  "file": "dlc/dlc3/journal/quests/mh201cavetroll.journal"
+ },
+ {
+  "journal": "SQ107 Pigs",
+  "title": "Fools' Gold",
+  "type": "Side",
+  "world": 9,
+  "guid": "5c8108fd-966d-45d9-8109-9621d2bbaff9",
+  "dlc": "dlc7",
+  "file": "dlc/dlc7/journal/quests/sq107pigs.journal"
+ },
+ {
+  "journal": "ep1poi01",
+  "title": "The Cursed Chapel",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "d5d60e68-e8ac-40e4-80a3-ad9fdc89280f",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/ep1poi01.journal"
+ },
+ {
+  "journal": "ep1poi02",
+  "title": "The Royal Air Force",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "55341374-9677-4c98-ae2d-a4b9069e2206",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/ep1poi02.journal"
+ },
+ {
+  "journal": "ep1poi04",
+  "title": "Tinker, Hunter, Soldier, Spy",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "96f7f53a-7099-412c-b066-bef57d967b22",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/ep1poi04.journal"
+ },
+ {
+  "journal": "ep1poi05",
+  "title": "The Sword, Famine and Perfidy",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "4f1d428d-fe69-4906-9baa-5fe600327d2f",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/ep1poi05.journal"
+ },
+ {
+  "journal": "ep1poi08",
+  "title": "A Surprise Inheritance",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "6f79bd9a-fff3-4653-a81f-5129c3573851",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/ep1poi08.journal"
+ },
+ {
+  "journal": "ep1poi10",
+  "title": "The Drakenborg Redemption",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "665c3401-5d8f-4b42-aa67-d3700fcf8fee",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/ep1poi10.journal"
+ },
+ {
+  "journal": "ep1poi26",
+  "title": "The Secret Life of Count Romilly",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "4f090ed7-940f-4c07-8444-b9d4bd8f8485",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/ep1poi26.journal"
+ },
+ {
+  "journal": "ep1poi26b",
+  "title": "A Dark Legacy",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "b4a3b282-618f-49f6-8446-00f22be9dd9f",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/ep1poi26b.journal"
+ },
+ {
+  "journal": "mq6001merchant",
+  "title": "Races: Swift as the Western Winds",
+  "type": "Side",
+  "world": 1,
+  "guid": "7a04f9e7-2a1f-4910-85fa-aa947c15c3ca",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/mq6001merchant.journal"
+ },
+ {
+  "journal": "mq6002_cannibals",
+  "title": "Without a Trace",
+  "type": "Side",
+  "world": 1,
+  "guid": "f8d62c5e-387f-4563-aeb1-ca381b8e6d2a",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/mq6002cannibals.journal"
+ },
+ {
+  "journal": "mq6003_tax_collector",
+  "title": "The Taxman Cometh",
+  "type": "Side",
+  "world": 1,
+  "guid": "7e6e5238-e640-4f4b-8911-ada7138f39b6",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/mq6003taxcollector.journal"
+ },
+ {
+  "journal": "mq6004_broken_rose",
+  "title": "Rose on a Red Field",
+  "type": "Side",
+  "world": 1,
+  "guid": "b89dd723-1d61-4bd4-b870-bb018c3c9a84",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/mq6004brokenrose.journal"
+ },
+ {
+  "journal": "mq6005 Enchanter Level 0",
+  "title": "Enchanting: Start-up Costs",
+  "type": "Side",
+  "world": 1,
+  "guid": "9fc8532c-c982-4082-b75e-0386c8485356",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/mq6005enchanterlevel0.journal"
+ },
+ {
+  "journal": "mq6005 Enchanter Level 1",
+  "title": "Enchanting: Quality Has Its Price",
+  "type": "Side",
+  "world": 1,
+  "guid": "baca6f45-9393-4211-8b7b-a38303eb75b4",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/mq6005enchanterlevel1.journal"
+ },
+ {
+  "journal": "mq6005 Enchanter Level 2",
+  "title": "Enchanting: Mastery Demands Sacrifice",
+  "type": "Side",
+  "world": 1,
+  "guid": "1b2be57b-a84e-4536-8c49-f3f3df80f8c3",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/mq6005enchanterlevel2.journal"
+ },
+ {
+  "journal": "q601intro",
+  "title": "Evil's Soft First Touches",
+  "type": "Side",
+  "world": 1,
+  "guid": "92b33408-f297-4fcd-a40c-1f7fa091ed60",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/q601intro.journal"
+ },
+ {
+  "journal": "q602romance",
+  "title": "A Midnight Clear",
+  "type": "Side",
+  "world": 1,
+  "guid": "2c24e325-7c3c-45be-bb43-bef76965e875",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/q602romance.journal"
+ },
+ {
+  "journal": "q602wedding",
+  "title": "Dead Man's Party",
+  "type": "Side",
+  "world": 1,
+  "guid": "78053f6b-56ae-4982-9f22-c0f97239efb9",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/q602wedding.journal"
+ },
+ {
+  "journal": "q603bank",
+  "title": "Open Sesame!",
+  "type": "Side",
+  "world": 1,
+  "guid": "b554fbe9-9ab7-4196-8aa4-2371c0028025",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/q603bank.journal"
+ },
+ {
+  "journal": "q603diversion",
+  "title": "Open Sesame: Witcher Seasonings",
+  "type": "Side",
+  "world": 1,
+  "guid": "fab56833-e73f-458b-aa6f-0f62444e6edf",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/q603diversion.journal"
+ },
+ {
+  "journal": "q603getinman",
+  "title": "Open Sesame: Breaking and Entering",
+  "type": "Side",
+  "world": 1,
+  "guid": "0b8961c8-eb48-4338-a535-d6b238aa9fc4",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/q603getinman.journal"
+ },
+ {
+  "journal": "q603painting",
+  "title": "Avid Collector",
+  "type": "Side",
+  "world": 1,
+  "guid": "f5516bd5-9935-46ae-aa25-9aafce940dc4",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/q603painting.journal"
+ },
+ {
+  "journal": "q603vaultspecialist",
+  "title": "Open Sesame: The Safecracker",
+  "type": "Side",
+  "world": 1,
+  "guid": "ef331d09-4ae9-4aeb-ae57-4b013b751daf",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/q603vaultspecialist.journal"
+ },
+ {
+  "journal": "q604mansion",
+  "title": "Scenes From a Marriage",
+  "type": "Side",
+  "world": 1,
+  "guid": "5f9ab09d-d33f-451b-a4ba-5a47bff37b4b",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/q604mansion.journal"
+ },
+ {
+  "journal": "q605finale",
+  "title": "Whatsoever a Man Soweth…",
+  "type": "Side",
+  "world": 1,
+  "guid": "0551620d-10fc-4373-910c-103a175e6455",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/q605finale.journal"
+ },
+ {
+  "journal": "th1010ofirarmor",
+  "title": "From Ofier's Distant Shores",
+  "type": "TreasureHunt",
+  "world": 1,
+  "guid": "a1ffe752-4b4f-4782-82a8-6e273e444e94",
+  "dlc": "hos",
+  "file": "dlc/ep1/journal/quests/th1010ofirarmor.journal"
+ }
+]

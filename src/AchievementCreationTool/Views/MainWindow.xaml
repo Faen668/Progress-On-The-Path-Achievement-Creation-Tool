@@ -1,0 +1,348 @@
+<Window x:Class="AchievementCreationTool.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:AchievementCreationTool.Controls"
+        xmlns:m="clr-namespace:AchievementCreationTool.Model"
+        xmlns:l="clr-namespace:AchievementCreationTool.Logic"
+        Title="{Binding WindowTitle}" Width="1440" Height="900" MinWidth="1100" MinHeight="640"
+        Background="{StaticResource Ground}" Foreground="{StaticResource Ink}" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <c:Shows x:Key="Shows" />
+        <c:Shows x:Key="Hides" Invert="True" />
+
+        <!-- A condition in the tree: a group with its choice, or one condition in words -->
+        <HierarchicalDataTemplate DataType="{x:Type m:Condition}" ItemsSource="{Binding Children}">
+            <Border Padding="8,6" CornerRadius="6" Margin="0,2" BorderThickness="1" BorderBrush="{StaticResource Line}" Background="#1F2329">
+                <Grid>
+                    <StackPanel Orientation="Horizontal" Visibility="{Binding IsGroup, Converter={StaticResource Shows}}">
+                        <ComboBox Width="150" SelectedIndex="{Binding GroupIndex}" VerticalAlignment="Center">
+                            <ComboBoxItem Content="All of these" />
+                            <ComboBoxItem Content="Any of these" />
+                            <ComboBoxItem Content="At least" />
+                            <ComboBoxItem Content="None of this" />
+                        </ComboBox>
+                        <TextBox Width="56" Margin="8,0,0,0" VerticalAlignment="Center" Text="{Binding N, UpdateSourceTrigger=PropertyChanged}"
+                                 Visibility="{Binding IsAtLeast, Converter={StaticResource Shows}}" ToolTip="How many of the conditions below must be met" />
+                        <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" Foreground="{StaticResource Muted}" Text="{Binding Summary}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Visibility="{Binding IsGroup, Converter={StaticResource Hides}}">
+                        <Border Style="{StaticResource Chip}">
+                            <TextBlock Text="{Binding KindName}" FontSize="12" Foreground="#C9CDD3" />
+                        </Border>
+                        <TextBlock Text="{Binding Summary}" FontWeight="SemiBold" VerticalAlignment="Center" />
+                        <TextBlock Text="{Binding Detail}" Margin="10,0,0,0" Foreground="{StaticResource Muted}" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </HierarchicalDataTemplate>
+    </Window.Resources>
+
+    <DockPanel>
+        <!-- The bar along the top -->
+        <Border DockPanel.Dock="Top" Background="{StaticResource Panel}" BorderBrush="{StaticResource Line}" BorderThickness="0,0,0,1" Padding="18,10">
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                    <Button Content="Help" Margin="0,0,16,0" Click="OnHelp" Tag="start" ToolTip="The guide: how packs, conditions and the rest work (F1)" />
+                    <Button Content="New pack" Margin="0,0,8,0" Click="OnNew" />
+                    <Button Content="Open…" Margin="0,0,8,0" Click="OnOpen" />
+                    <Button Content="Pack settings…" Margin="0,0,8,0" Click="OnPackSettings" />
+                    <Button Content="Save" Margin="0,0,8,0" Click="OnSave" />
+                    <Button Content="Save as…" Margin="0,0,8,0" Click="OnSaveAs" />
+                    <Button Content="Check and export…" Style="{StaticResource Primary}" Click="OnExport" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <c:IconView Width="36" Height="36" Icon="builtin:trophy" Margin="0,0,12,0" />
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock Text="Achievement Creation Tool" FontSize="16" FontWeight="SemiBold" />
+                        <TextBlock Text="{Binding PackLine}" FontSize="12" Foreground="{StaticResource Muted}" />
+                    </StackPanel>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+
+        <!-- The bar along the bottom -->
+        <Border DockPanel.Dock="Bottom" Background="{StaticResource Panel}" BorderBrush="{StaticResource Line}" BorderThickness="0,1,0,0" Padding="18,6">
+            <TextBlock Text="{Binding StatusLine}" FontSize="12" Foreground="{StaticResource Muted}" TextTrimming="CharacterEllipsis" />
+        </Border>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="380" />
+            </Grid.ColumnDefinitions>
+
+            <!-- The pack's achievements -->
+            <Border Background="{StaticResource PanelLow}" BorderBrush="{StaticResource Line}" BorderThickness="0,0,1,0" Padding="14">
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Top" Text="{Binding PackTitle}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource Muted}" Margin="2,0,0,8" />
+                    <StackPanel DockPanel.Dock="Bottom" Margin="0,10,0,0">
+                        <Button Content="Add achievement" HorizontalAlignment="Stretch" Click="OnAddAchievement" />
+                        <UniformGrid Columns="4" Margin="0,8,0,0">
+                            <Button Content="Copy" Margin="0,0,4,0" Click="OnDuplicate" ToolTip="Make a copy of this achievement" />
+                            <Button Content="Up" Margin="2,0" Click="OnAchievementUp" ToolTip="Move it up the list: the tab shows them in this order" />
+                            <Button Content="Down" Margin="2,0" Click="OnAchievementDown" />
+                            <Button Content="Delete" Margin="4,0,0,0" Click="OnDeleteAchievement" />
+                        </UniformGrid>
+                    </StackPanel>
+                    <ListBox x:Name="AchievementList" ItemsSource="{Binding Pack.Achievements}" SelectedItem="{Binding Selected}"
+                             Background="Transparent" BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate DataType="{x:Type m:Achievement}">
+                                <DockPanel Margin="0,4">
+                                    <c:IconView DockPanel.Dock="Left" Width="42" Height="42" Margin="0,0,10,0"
+                                                Icon="{Binding Icon}" Ring="{Binding Ring}" Folder="{Binding DataContext.Pack.Folder, RelativeSource={RelativeSource AncestorType=Window}}" />
+                                    <TextBlock DockPanel.Dock="Right" Text="Hidden" FontSize="11" Foreground="{StaticResource Muted}" VerticalAlignment="Center"
+                                               Visibility="{Binding Hidden, Converter={StaticResource Shows}}" />
+                                    <StackPanel VerticalAlignment="Center">
+                                        <TextBlock Text="{Binding Title.Shown}" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" />
+                                        <TextBlock Text="{Binding Id}" FontSize="12" Foreground="{StaticResource Muted}" TextTrimming="CharacterEllipsis" />
+                                    </StackPanel>
+                                </DockPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </DockPanel>
+            </Border>
+
+            <!-- The achievement being edited -->
+            <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto" Padding="20,18">
+                <Grid>
+                    <StackPanel Margin="4" Visibility="{Binding Selected, Converter={StaticResource Hides}}">
+                        <TextBlock Text="Add an achievement, or choose one on the left." Foreground="{StaticResource Muted}" />
+                        <Button Style="{StaticResource HelpLink}" Content="New to this? Start with the guide." Tag="start" Click="OnHelp" HorizontalAlignment="Left" Margin="0,8,0,0" />
+                    </StackPanel>
+                    <StackPanel Visibility="{Binding Selected, Converter={StaticResource Shows}}">
+
+                        <!-- Details -->
+                        <Border Style="{StaticResource Card}">
+                            <StackPanel>
+                                <DockPanel>
+                                    <Button DockPanel.Dock="Right" Style="{StaticResource HelpButton}" Tag="achievements" Click="OnHelp" />
+                                    <TextBlock Text="Details" Style="{StaticResource CardTitle}" />
+                                </DockPanel>
+                                <DockPanel>
+                                    <StackPanel DockPanel.Dock="Left" Width="120" Margin="0,0,20,0">
+                                        <c:IconView Width="96" Height="96" Icon="{Binding Selected.Icon}" Ring="{Binding Selected.Ring}" Folder="{Binding Pack.Folder}" />
+                                        <Button Content="Change icon…" Margin="0,10,0,0" HorizontalAlignment="Stretch" Click="OnChangeIcon" />
+                                    </StackPanel>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="16" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <StackPanel Grid.ColumnSpan="3" Margin="0,0,0,10">
+                                            <TextBlock Text="Title" Style="{StaticResource FieldLabel}" />
+                                            <TextBox Text="{Binding Selected.Title.Text, UpdateSourceTrigger=PropertyChanged}" MaxLength="80" c:Placeholder.Text="Short and to the point, such as Friend of Ravens" />
+                                        </StackPanel>
+                                        <StackPanel Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,10">
+                                            <TextBlock Text="Description" Style="{StaticResource FieldLabel}" />
+                                            <TextBox Text="{Binding Selected.Description.Text, UpdateSourceTrigger=PropertyChanged}" MaxLength="300"
+                                                     TextWrapping="Wrap" AcceptsReturn="False" MinHeight="56"
+                                                     c:Placeholder.Text="What the player has to do, such as Finish every witcher contract in Velen." />
+                                        </StackPanel>
+                                        <StackPanel Grid.Row="2" Margin="0,0,0,10">
+                                            <TextBlock Text="ID, written to the file" Style="{StaticResource FieldLabel}" />
+                                            <TextBox Text="{Binding Selected.Id, UpdateSourceTrigger=PropertyChanged}" FontFamily="Consolas" MaxLength="48" c:Placeholder.Text="such as friend_of_ravens" />
+                                            <TextBlock Style="{StaticResource Hint}" Text="{Binding FullId}" Margin="0,4,0,0" />
+                                        </StackPanel>
+                                        <StackPanel Grid.Row="2" Grid.Column="2" Margin="0,0,0,10">
+                                            <TextBlock Text="Ring" Style="{StaticResource FieldLabel}" />
+                                            <ComboBox SelectedValue="{Binding Selected.Ring}" SelectedValuePath="Tag">
+                                                <ComboBoxItem Content="Gold" Tag="gold" />
+                                                <ComboBoxItem Content="Silver" Tag="silver" />
+                                                <ComboBoxItem Content="Bronze" Tag="bronze" />
+                                                <ComboBoxItem Content="None" Tag="none" />
+                                            </ComboBox>
+                                            <TextBlock Style="{StaticResource Hint}" Text="The colour its icon is drawn in once it's unlocked." Margin="0,4,0,0" />
+                                        </StackPanel>
+                                        <StackPanel Grid.Row="3" Grid.ColumnSpan="3">
+                                            <CheckBox Content="Hidden until it's unlocked" IsChecked="{Binding Selected.Hidden}" />
+                                            <TextBlock Style="{StaticResource Hint}" Margin="28,0,0,8" Text="The tab shows &quot;Hidden achievement&quot;, with no description, icon or reward, until then." />
+                                            <CheckBox Content="Unlock on saves that already qualify" IsChecked="{Binding Selected.Retroactive}" />
+                                            <TextBlock Style="{StaticResource Hint}" Margin="28,0,0,8" Text="Off: only what happens after the pack is installed counts." />
+                                        </StackPanel>
+                                        <Expander Grid.Row="4" Grid.ColumnSpan="3" Header="Text from the mod's own .w3strings" Margin="0,4,0,0">
+                                            <StackPanel Margin="0,8,0,0">
+                                                <TextBlock Style="{StaticResource Hint}" Margin="0,0,0,8"
+                                                           Text="For a translated pack: give the string keys from your mod's content\*.w3strings. The game shows each in the player's language; the text above shows when no .w3strings has the key." />
+                                                <Button Style="{StaticResource HelpLink}" Content="How translations work" Tag="strings" Click="OnHelp" HorizontalAlignment="Left" Margin="0,-4,0,8" />
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*" />
+                                                        <ColumnDefinition Width="16" />
+                                                        <ColumnDefinition Width="*" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <StackPanel>
+                                                        <TextBlock Text="Title's key" Style="{StaticResource FieldLabel}" />
+                                                        <TextBox Text="{Binding Selected.Title.Key, UpdateSourceTrigger=PropertyChanged}" FontFamily="Consolas" c:Placeholder.Text="such as mymod_ravens_title" />
+                                                    </StackPanel>
+                                                    <StackPanel Grid.Column="2">
+                                                        <TextBlock Text="Description's key" Style="{StaticResource FieldLabel}" />
+                                                        <TextBox Text="{Binding Selected.Description.Key, UpdateSourceTrigger=PropertyChanged}" FontFamily="Consolas" c:Placeholder.Text="such as mymod_ravens_desc" />
+                                                    </StackPanel>
+                                                </Grid>
+                                            </StackPanel>
+                                        </Expander>
+                                    </Grid>
+                                </DockPanel>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- The conditions -->
+                        <Border Style="{StaticResource Card}">
+                            <StackPanel>
+                                <DockPanel>
+                                    <Button DockPanel.Dock="Right" Style="{StaticResource HelpButton}" Tag="conditions" Click="OnHelp" />
+                                    <TextBlock Text="Unlocks when" Style="{StaticResource CardTitle}" />
+                                </DockPanel>
+                                <TextBlock Style="{StaticResource Hint}" Margin="0,-6,0,10"
+                                           Text="What has to happen for it to unlock. One condition, or several in a group: all of them, any of them, at least some, or none. Double-click a condition to change it." />
+                                <TextBlock Text="No conditions yet: add one, and it unlocks when that's true." Foreground="{StaticResource Muted}" Margin="0,0,0,10"
+                                           Visibility="{Binding Selected.Unlock, Converter={StaticResource Hides}}" />
+                                <TreeView x:Name="ConditionTree" ItemsSource="{Binding RootConditions}" Background="Transparent" BorderThickness="0"
+                                          SelectedItemChanged="OnConditionSelected" MouseDoubleClick="OnConditionDoubleClick" MinHeight="40">
+                                    <TreeView.ItemContainerStyle>
+                                        <Style TargetType="TreeViewItem" BasedOn="{StaticResource {x:Type TreeViewItem}}">
+                                            <Setter Property="IsExpanded" Value="True" />
+                                        </Style>
+                                    </TreeView.ItemContainerStyle>
+                                </TreeView>
+                                <WrapPanel Margin="0,10,0,0">
+                                    <Button Content="Add condition…" Style="{StaticResource Primary}" Margin="0,0,8,8" Click="OnAddCondition" />
+                                    <Button Content="Add group" Margin="0,0,8,8" Click="OnAddGroup" ToolTip="A group of conditions: all of them, any of them, at least some, or none" />
+                                    <Button Content="Change…" Margin="0,0,8,8" Click="OnEditCondition" />
+                                    <Button Content="Up" Margin="0,0,8,8" Click="OnConditionUp" />
+                                    <Button Content="Down" Margin="0,0,8,8" Click="OnConditionDown" />
+                                    <Button Content="Remove" Margin="0,0,8,8" Click="OnRemoveCondition" />
+                                </WrapPanel>
+                                <TextBlock Style="{StaticResource Hint}" Text="A new condition goes into the group that's selected. With one condition already there, both go into an &quot;All of these&quot; group." />
+                                <WrapPanel Margin="0,6,0,0">
+                                    <Button Style="{StaticResource HelpLink}" Content="How conditions and groups work" Tag="conditions" Click="OnHelp" Margin="0,0,16,0" />
+                                    <Button Style="{StaticResource HelpLink}" Content="Which kind of condition to use" Tag="kinds" Click="OnHelp" />
+                                </WrapPanel>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- The progress bar and the reward -->
+                        <Border Style="{StaticResource Card}">
+                            <StackPanel>
+                                <DockPanel>
+                                    <Button DockPanel.Dock="Right" Style="{StaticResource HelpButton}" Tag="progress" Click="OnHelp" />
+                                    <TextBlock Text="Progress and reward" Style="{StaticResource CardTitle}" />
+                                </DockPanel>
+                                <TextBlock Text="Progress bar in the overlay" Style="{StaticResource FieldLabel}" />
+                                <ComboBox ItemsSource="{Binding ProgressChoices}" SelectedItem="{Binding SelectedProgress}" DisplayMemberPath="Label" MaxWidth="520" HorizontalAlignment="Left" MinWidth="320" />
+                                <TextBlock Style="{StaticResource Hint}" Margin="0,4,0,14" Text="Counts towards one of its conditions with a number (a fact, kills, items, level, crowns, a section), or how many of its conditions are met." />
+
+                                <TextBlock Text="Reward when it unlocks" Style="{StaticResource FieldLabel}" />
+                                <ItemsControl ItemsSource="{Binding Selected.Rewards}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate DataType="{x:Type m:Reward}">
+                                            <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                                                <ComboBox Width="140" ItemsSource="{x:Static m:Reward.Kinds}" SelectedItem="{Binding Kind}" />
+                                                <TextBox Width="100" Margin="8,0,0,0" Text="{Binding Amount, UpdateSourceTrigger=PropertyChanged}" ToolTip="How many" c:Placeholder.Text="how many" />
+                                                <Button Margin="8,0,0,0" MinWidth="220" Content="{Binding ItemTitle}" Click="OnPickRewardItem"
+                                                        Visibility="{Binding IsItem, Converter={StaticResource Shows}}" />
+                                                <Button Margin="8,0,0,0" Content="Remove" Click="OnRemoveReward" />
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                                <Button Content="Add to the reward" HorizontalAlignment="Left" Click="OnAddReward" />
+                                <TextBlock Style="{StaticResource Hint}" Margin="0,6,0,0" Text="Crowns, an item or experience, given once when it unlocks. On a save that's loaded from before, it's taken back with the unlock." />
+                                <Button Style="{StaticResource HelpLink}" Content="How rewards work" Tag="rewards" Click="OnHelp" HorizontalAlignment="Left" Margin="0,6,0,0" />
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+
+            <!-- How it will look, and what's wrong with it -->
+            <Border Grid.Column="2" Background="{StaticResource PanelLow}" BorderBrush="{StaticResource Line}" BorderThickness="1,0,0,0">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Padding="18">
+                    <StackPanel>
+                        <TextBlock Text="Preview" Style="{StaticResource CardTitle}" />
+                        <StackPanel Visibility="{Binding Selected, Converter={StaticResource Shows}}">
+                            <TextBlock Text="In the overlay's Achievements tab" Style="{StaticResource FieldLabel}" />
+                            <Border Background="#101215" BorderBrush="#2A2E35" BorderThickness="1" CornerRadius="6" Padding="12" Margin="0,4,0,8">
+                                <DockPanel>
+                                    <c:IconView DockPanel.Dock="Left" Width="60" Height="60" Margin="0,0,12,0" Locked="True"
+                                                Icon="{Binding PreviewIcon}" Ring="{Binding Selected.Ring}" Folder="{Binding Pack.Folder}" />
+                                    <StackPanel VerticalAlignment="Center">
+                                        <DockPanel>
+                                            <TextBlock DockPanel.Dock="Right" Text="Locked" FontSize="12" Foreground="{StaticResource Muted}" Margin="10,0,0,0" />
+                                            <TextBlock Text="{Binding PreviewTitle}" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" />
+                                        </DockPanel>
+                                        <TextBlock Text="{Binding PreviewLockedLine}" FontSize="12" Foreground="{StaticResource Muted}" TextWrapping="Wrap" Margin="0,4,0,0" />
+                                    </StackPanel>
+                                </DockPanel>
+                            </Border>
+                            <Border Background="#101215" BorderBrush="{StaticResource GoldLine}" BorderThickness="1" CornerRadius="6" Padding="12" Margin="0,0,0,14">
+                                <DockPanel>
+                                    <c:IconView DockPanel.Dock="Left" Width="60" Height="60" Margin="0,0,12,0"
+                                                Icon="{Binding Selected.Icon}" Ring="{Binding Selected.Ring}" Folder="{Binding Pack.Folder}" />
+                                    <StackPanel VerticalAlignment="Center">
+                                        <DockPanel>
+                                            <TextBlock DockPanel.Dock="Right" Text="{Binding PreviewDate}" FontSize="12" Foreground="{StaticResource Good}" Margin="10,0,0,0" />
+                                            <TextBlock Text="{Binding Selected.Title.Shown}" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" />
+                                        </DockPanel>
+                                        <TextBlock Text="{Binding Selected.Description.Shown}" FontSize="12" Foreground="{StaticResource Muted}" TextWrapping="Wrap" Margin="0,4,0,0" />
+                                    </StackPanel>
+                                </DockPanel>
+                            </Border>
+
+                            <TextBlock Text="The banner when it unlocks" Style="{StaticResource FieldLabel}" />
+                            <Border Background="#0A0907" BorderBrush="#E8CC92" BorderThickness="0,1" Padding="14,10,14,14" Margin="0,4,0,18">
+                                <StackPanel HorizontalAlignment="Center">
+                                    <Border Width="56" Height="56" CornerRadius="28" BorderBrush="#E8CC92" BorderThickness="2" Background="#0A0806" HorizontalAlignment="Center">
+                                        <c:IconView Framed="False" Icon="{Binding Selected.Icon}" Ring="gold" Folder="{Binding Pack.Folder}" Margin="4" />
+                                    </Border>
+                                    <TextBlock Text="ACHIEVEMENT UNLOCKED" HorizontalAlignment="Center" FontSize="11" Foreground="#E8CC92" Margin="0,8,0,2" />
+                                    <TextBlock Text="{Binding Selected.Title.Shown}" HorizontalAlignment="Center" FontSize="18" FontWeight="SemiBold" Foreground="#FAF2DC" TextAlignment="Center" TextWrapping="Wrap" />
+                                    <TextBlock Text="{Binding Selected.Description.Shown}" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" Margin="0,4,0,0" />
+                                    <TextBlock Text="{Binding PreviewReward}" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" Margin="0,2,0,0"
+                                               Visibility="{Binding PreviewReward, Converter={StaticResource Shows}}" />
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+
+                        <DockPanel>
+                            <Button DockPanel.Dock="Right" Style="{StaticResource HelpButton}" Tag="export" Click="OnHelp" />
+                            <TextBlock Text="Checks" Style="{StaticResource CardTitle}" />
+                        </DockPanel>
+                        <Border CornerRadius="6" Padding="10" Margin="0,0,0,8" Background="{StaticResource GoodGround}" BorderBrush="#2D4A36" BorderThickness="1"
+                                Visibility="{Binding SelectionIsClean, Converter={StaticResource Shows}}">
+                            <TextBlock Text="This achievement is ready." TextWrapping="Wrap" />
+                        </Border>
+                        <ItemsControl ItemsSource="{Binding Findings}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate DataType="{x:Type l:Finding}">
+                                    <Border x:Name="Box" CornerRadius="6" Padding="10" Margin="0,0,0,8" BorderThickness="1"
+                                            Background="{StaticResource WarnGround}" BorderBrush="#5E4024">
+                                        <TextBlock Text="{Binding Text}" TextWrapping="Wrap" />
+                                    </Border>
+                                    <DataTemplate.Triggers>
+                                        <DataTrigger Binding="{Binding IsProblem}" Value="True">
+                                            <Setter TargetName="Box" Property="Background" Value="{StaticResource BadGround}" />
+                                            <Setter TargetName="Box" Property="BorderBrush" Value="#6A3030" />
+                                        </DataTrigger>
+                                    </DataTemplate.Triggers>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                        <TextBlock Text="{Binding PackCheckLine}" Style="{StaticResource Hint}" Margin="0,4,0,0" />
+                    </StackPanel>
+                </ScrollViewer>
+            </Border>
+        </Grid>
+    </DockPanel>
+</Window>

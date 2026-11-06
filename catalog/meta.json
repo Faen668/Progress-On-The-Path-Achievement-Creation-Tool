@@ -1,0 +1,20 @@
+{
+ "made": "2026-11-06T12:35:42",
+ "from": {
+  "r4data": "F:\\Steam\\steamapps\\common\\The Witcher 3 REDkit\\r4data",
+  "potp": "D:\\Github\\The Witcher 3 Remastered\\Progress on the Path NG"
+ },
+ "counts": {
+  "quests": 416,
+  "facts": 6819,
+  "quest_files": 917,
+  "quest_blocks": 178681,
+  "items": 5016,
+  "gwent_cards": 197,
+  "kills": 921,
+  "potp_sections": 121,
+  "potp_entries": 1285,
+  "achievements": 78,
+  "icons": 47
+ }
+}

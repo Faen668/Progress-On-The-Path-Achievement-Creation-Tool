@@ -1,0 +1,109 @@
+<Window x:Class="AchievementCreationTool.Views.ConditionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:AchievementCreationTool.Controls"
+        Title="{Binding Heading}" Width="980" Height="700" MinWidth="820" MinHeight="560" WindowStartupLocation="CenterOwner"
+        Background="{StaticResource Panel}" Foreground="{StaticResource Ink}" ShowInTaskbar="False">
+    <Window.Resources>
+        <c:Shows x:Key="Shows" />
+    </Window.Resources>
+    <DockPanel>
+        <Border DockPanel.Dock="Bottom" Background="{StaticResource PanelLow}" BorderBrush="{StaticResource Line}" BorderThickness="0,1,0,0" Padding="20,12">
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                    <Button Content="Cancel" IsCancel="True" Margin="0,0,8,0" MinWidth="90" />
+                    <Button Content="{Binding OkText}" IsDefault="True" Style="{StaticResource Primary}" MinWidth="120" Click="OnOk" />
+                </StackPanel>
+                <TextBlock Text="{Binding Problem}" Foreground="{StaticResource Warn}" VerticalAlignment="Center" TextWrapping="Wrap" />
+            </DockPanel>
+        </Border>
+
+        <!-- The kinds of condition -->
+        <Border DockPanel.Dock="Left" Width="230" Background="{StaticResource PanelLow}" BorderBrush="{StaticResource Line}" BorderThickness="0,0,1,0" Padding="10">
+            <ListBox ItemsSource="{Binding Kinds}" SelectedItem="{Binding Kind}" Background="Transparent" BorderThickness="0">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <DockPanel Margin="0,2">
+                            <TextBlock DockPanel.Dock="Right" Text="{Binding Count}" FontSize="11" Foreground="{StaticResource Muted}" VerticalAlignment="Center" />
+                            <TextBlock Text="{Binding Name}" />
+                        </DockPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Border>
+
+        <DockPanel Margin="20,16,20,12">
+            <DockPanel DockPanel.Dock="Top">
+                <Button DockPanel.Dock="Right" Style="{StaticResource HelpButton}" Tag="kinds" Click="OnHelp" />
+                <TextBlock Text="{Binding Kind.Name}" FontSize="17" FontWeight="SemiBold" />
+            </DockPanel>
+            <TextBlock DockPanel.Dock="Top" Text="{Binding Kind.About}" Style="{StaticResource Hint}" Margin="0,4,0,4" />
+            <WrapPanel DockPanel.Dock="Top" Margin="0,0,0,12">
+                <Button Style="{StaticResource HelpLink}" Content="Which kind of condition to use" Tag="kinds" Click="OnHelp" Margin="0,0,16,0" />
+                <Button Style="{StaticResource HelpLink}" Content="How conditions and groups work" Tag="conditions" Click="OnHelp" />
+            </WrapPanel>
+
+            <!-- What it's about, beyond what's picked -->
+            <Border DockPanel.Dock="Bottom" Style="{StaticResource Card}" Margin="0,12,0,0" Padding="14">
+                <StackPanel>
+                    <WrapPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,20,8" Visibility="{Binding HasComparison, Converter={StaticResource Shows}}">
+                            <TextBlock Text="{Binding CompareLabel}" VerticalAlignment="Center" Margin="0,0,10,0" />
+                            <ComboBox Width="140" ItemsSource="{Binding Ops}" SelectedValue="{Binding Op}" SelectedValuePath="Key" DisplayMemberPath="Words" />
+                            <TextBox Width="110" Margin="8,0,0,0" Text="{Binding Value, UpdateSourceTrigger=PropertyChanged}" c:Placeholder.Text="a number" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,20,8" Visibility="{Binding IsQuest, Converter={StaticResource Shows}}">
+                            <TextBlock Text="True when the quest" VerticalAlignment="Center" Margin="0,0,10,0" />
+                            <ComboBox Width="240" ItemsSource="{Binding QuestStates}" SelectedValue="{Binding State}" SelectedValuePath="Key" DisplayMemberPath="Words" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,20,8" Visibility="{Binding IsEntry, Converter={StaticResource Shows}}">
+                            <TextBlock Text="True when the entry" VerticalAlignment="Center" Margin="0,0,10,0" />
+                            <ComboBox Width="260" ItemsSource="{Binding EntryStates}" SelectedValue="{Binding State}" SelectedValuePath="Key" DisplayMemberPath="Words" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,20,8" Visibility="{Binding IsSection, Converter={StaticResource Shows}}">
+                            <TextBlock Text="Count it in" VerticalAlignment="Center" Margin="0,0,10,0" />
+                            <ComboBox Width="200" SelectedValue="{Binding Unit}" SelectedValuePath="Tag">
+                                <ComboBoxItem Content="percent of its entries" Tag="percent" />
+                                <ComboBoxItem Content="entries done" Tag="count" />
+                            </ComboBox>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,20,8" Visibility="{Binding IsItem, Converter={StaticResource Shows}}">
+                            <TextBlock Text="Count the ones in his" VerticalAlignment="Center" Margin="0,0,10,0" />
+                            <ComboBox Width="200" ItemsSource="{Binding Wheres}" SelectedValue="{Binding Where}" SelectedValuePath="Key" DisplayMemberPath="Words" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,20,8" Visibility="{Binding IsBlock, Converter={StaticResource Shows}}">
+                            <TextBlock Text="When it runs through" VerticalAlignment="Center" Margin="0,0,10,0" />
+                            <ComboBox Width="220" ItemsSource="{Binding Outputs}" SelectedItem="{Binding Output}" />
+                        </StackPanel>
+                    </WrapPanel>
+                    <StackPanel Visibility="{Binding CanType, Converter={StaticResource Shows}}" Margin="0,0,0,8">
+                        <TextBlock Text="{Binding TypeLabel}" Style="{StaticResource FieldLabel}" />
+                        <TextBox Text="{Binding Typed, UpdateSourceTrigger=PropertyChanged}" FontFamily="Consolas" c:Placeholder.Text="{Binding TypeHint}" />
+                    </StackPanel>
+                    <CheckBox Content="Show it as the achievement's progress bar" IsChecked="{Binding UseForProgress}"
+                              Visibility="{Binding HasComparison, Converter={StaticResource Shows}}" />
+                </StackPanel>
+            </Border>
+
+            <!-- The list to pick from -->
+            <StackPanel DockPanel.Dock="Top" Visibility="{Binding HasList, Converter={StaticResource Shows}}">
+                <TextBox x:Name="Search" Text="{Binding Query, UpdateSourceTrigger=PropertyChanged}" c:Placeholder.Text="{Binding SearchHint}" />
+                <TextBlock Text="{Binding CountLine}" Style="{StaticResource Hint}" Margin="0,6,0,8" />
+            </StackPanel>
+            <Grid>
+                <ListBox x:Name="Results" ItemsSource="{Binding Rows}" SelectedItem="{Binding Picked}" MouseDoubleClick="OnOk"
+                         Visibility="{Binding HasList, Converter={StaticResource Shows}}" VirtualizingPanel.IsVirtualizing="True"
+                         ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="0,3">
+                                <TextBlock Text="{Binding Title}" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" />
+                                <TextBlock Text="{Binding Sub}" FontSize="12" Foreground="{StaticResource Muted}" TextTrimming="CharacterEllipsis" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </DockPanel>
+    </DockPanel>
+</Window>
